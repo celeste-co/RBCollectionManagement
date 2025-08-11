@@ -321,10 +321,7 @@ class SearchWidget(QWidget):
         self.search_worker = None
         self._current_cards: List[PiltoverCard] = []
         self.init_ui()
-        
-        # Populate dropdowns and load all cards by default
-        self.populate_dropdowns()
-        self.perform_search()  # show entire library by default
+        # Defer data loading to avoid blocking startup; caller triggers after DB update
     
     def init_ui(self):
         """Initialize the user interface"""

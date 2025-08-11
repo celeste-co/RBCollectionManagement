@@ -58,10 +58,28 @@ class PiltoverCardDatabase:
         self.db_path = db_path
         self.init_database()
     
+    def _connect(self) -> sqlite3.Connection:
+        """Create a SQLite connection with sane defaults for concurrency."""
+        # Increase timeout to wait for writers, reduce lock contention at startup
+        conn = sqlite3.connect(self.db_path, timeout=10)
+        # Busy timeout as an extra safeguard (milliseconds)
+        try:
+            conn.execute("PRAGMA busy_timeout=10000")
+        except Exception:
+            pass
+        return conn
+    
     def init_database(self):
         """Initialize the database with required tables"""
-        with sqlite3.connect(self.db_path) as conn:
+        with self._connect() as conn:
             cursor = conn.cursor()
+            # Enable WAL so reads are not blocked by writes
+            try:
+                cursor.execute("PRAGMA journal_mode=WAL")
+                cursor.execute("PRAGMA synchronous=NORMAL")
+                cursor.execute("PRAGMA foreign_keys=ON")
+            except Exception:
+                pass
             
             # Create cards table
             cursor.execute("""
@@ -98,19 +116,22 @@ class PiltoverCardDatabase:
             
             # Create indexes for fast searching
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_name ON cards(name)")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_variant_number ON cards(variant_number)")
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_set_prefix ON cards(set_prefix)")
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_type ON cards(type)")
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_super ON cards(super)")
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_rarity ON cards(rarity)")
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_artist ON cards(artist)")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_energy ON cards(energy)")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_might ON cards(might)")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_power ON cards(power)")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_tags ON cards(tags)")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_colors ON cards(colors)")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_variant_number ON cards(variant_number)")
             
             conn.commit()
+    
+    def clear_database(self):
+        """Clear all data from the cards table"""
+        with self._connect() as conn:
+            cursor = conn.cursor()
+            cursor.execute("DELETE FROM cards")
+            conn.commit()
+            print(f"🗑️  Cleared all data from database: {self.db_path}")
     
     def import_from_sorted_json(self, json_file_path: str):
         """Import cards from the sorted Piltover Archive JSON file"""
@@ -121,7 +142,7 @@ class PiltoverCardDatabase:
             variants = data.get('variants', [])
             print(f"Importing {len(variants)} variants from Piltover Archive")
             
-            with sqlite3.connect(self.db_path) as conn:
+            with self._connect() as conn:
                 cursor = conn.cursor()
                 
                 imported_count = 0
@@ -284,7 +305,7 @@ class PiltoverCardDatabase:
         print(f"Search query: {query}")
         print(f"Search params: {params}")
         
-        with sqlite3.connect(self.db_path) as conn:
+        with self._connect() as conn:
             cursor = conn.cursor()
             cursor.execute(query, params)
             
@@ -324,7 +345,7 @@ class PiltoverCardDatabase:
     
     def get_card_by_variant_id(self, variant_id: str) -> Optional[PiltoverCard]:
         """Get a specific card variant by variant ID"""
-        with sqlite3.connect(self.db_path) as conn:
+        with self._connect() as conn:
             cursor = conn.cursor()
             cursor.execute("SELECT * FROM cards WHERE variant_id = ?", (variant_id,))
             row = cursor.fetchone()
@@ -361,7 +382,7 @@ class PiltoverCardDatabase:
     
     def get_card_by_variant_number(self, variant_number: str) -> Optional[PiltoverCard]:
         """Get a specific card variant by variant number (e.g., 'OGN-066')"""
-        with sqlite3.connect(self.db_path) as conn:
+        with self._connect() as conn:
             cursor = conn.cursor()
             cursor.execute("SELECT * FROM cards WHERE variant_number = ?", (variant_number,))
             row = cursor.fetchone()
@@ -421,7 +442,7 @@ class PiltoverCardDatabase:
     
     def get_collection_stats(self) -> Dict[str, Any]:
         """Get collection statistics"""
-        with sqlite3.connect(self.db_path) as conn:
+        with self._connect() as conn:
             cursor = conn.cursor()
             
             # Total variants owned
@@ -480,7 +501,7 @@ class PiltoverCardDatabase:
         if limit:
             query += f" LIMIT {limit}"
         
-        with sqlite3.connect(self.db_path) as conn:
+        with self._connect() as conn:
             cursor = conn.cursor()
             cursor.execute(query)
             
