@@ -17,7 +17,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-002",
@@ -37,7 +41,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-003",
@@ -56,7 +64,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-004",
@@ -73,7 +85,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-005",
@@ -90,7 +106,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-006",
@@ -109,7 +129,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-007",
@@ -126,7 +150,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-007a",
@@ -143,7 +171,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-008",
@@ -160,7 +191,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-009",
@@ -177,7 +212,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-010",
@@ -197,7 +236,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-011",
@@ -216,7 +259,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-012",
@@ -236,7 +283,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-013",
@@ -255,7 +306,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-014",
@@ -272,7 +327,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-015",
@@ -292,7 +351,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-016",
@@ -312,7 +375,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-017",
@@ -329,7 +396,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-018",
@@ -349,7 +420,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-019",
@@ -369,7 +444,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-020",
@@ -389,7 +468,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-021",
@@ -406,7 +489,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-022",
@@ -423,7 +510,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-023",
@@ -440,7 +531,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-024",
@@ -457,7 +552,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-025",
@@ -474,7 +573,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-026",
@@ -493,7 +595,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-027",
@@ -514,7 +619,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-027a",
@@ -535,7 +643,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-028",
@@ -555,7 +666,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-029",
@@ -572,7 +686,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-030",
@@ -592,7 +709,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-030a",
@@ -612,7 +732,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-031",
@@ -632,7 +755,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-032",
@@ -649,7 +775,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-033",
@@ -666,7 +795,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-034",
@@ -686,7 +818,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-035",
@@ -706,7 +841,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-036",
@@ -726,7 +864,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-037",
@@ -745,7 +886,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-038",
@@ -765,7 +909,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-039",
@@ -785,7 +932,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-039a",
@@ -805,7 +955,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-040",
@@ -822,7 +975,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-041",
@@ -842,7 +998,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-041a",
@@ -862,7 +1021,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-042",
@@ -879,7 +1041,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-042a",
@@ -896,7 +1062,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-043",
@@ -913,7 +1082,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-044",
@@ -932,7 +1105,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-045",
@@ -949,7 +1126,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-046",
@@ -966,7 +1147,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-047",
@@ -983,7 +1168,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-048",
@@ -1000,7 +1189,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-049",
@@ -1020,7 +1213,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-050",
@@ -1037,7 +1234,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-051",
@@ -1056,7 +1257,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-052",
@@ -1075,7 +1280,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-053",
@@ -1092,7 +1301,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-054",
@@ -1111,7 +1324,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-055",
@@ -1130,7 +1347,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-056",
@@ -1150,7 +1371,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-057",
@@ -1167,7 +1392,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-058",
@@ -1184,7 +1413,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-059",
@@ -1204,7 +1437,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-060",
@@ -1221,7 +1458,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-061",
@@ -1240,7 +1481,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-062",
@@ -1257,7 +1502,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-063",
@@ -1274,7 +1523,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-064",
@@ -1291,7 +1544,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-065",
@@ -1310,7 +1567,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-066",
@@ -1330,7 +1591,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-066a",
@@ -1350,7 +1614,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-067",
@@ -1371,7 +1638,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-068",
@@ -1391,7 +1661,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-069",
@@ -1408,7 +1681,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-070",
@@ -1427,7 +1703,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-071",
@@ -1444,7 +1723,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-072",
@@ -1461,7 +1743,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-073",
@@ -1481,7 +1766,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-074",
@@ -1501,7 +1789,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-075",
@@ -1521,7 +1812,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-076",
@@ -1541,7 +1835,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-076a",
@@ -1561,7 +1858,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-077",
@@ -1578,7 +1878,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-078",
@@ -1598,7 +1901,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-078a",
@@ -1618,7 +1924,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-079",
@@ -1638,7 +1947,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-079a",
@@ -1658,7 +1970,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-080",
@@ -1675,7 +1990,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-081",
@@ -1692,7 +2010,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-082",
@@ -1712,7 +2033,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-083",
@@ -1729,7 +2053,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-084",
@@ -1748,7 +2076,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-085",
@@ -1765,7 +2097,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-086",
@@ -1784,7 +2120,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-087",
@@ -1804,7 +2144,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-088",
@@ -1824,7 +2168,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-089",
@@ -1841,7 +2189,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-089a",
@@ -1858,7 +2210,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-090",
@@ -1875,7 +2230,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-091",
@@ -1894,7 +2253,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-092",
@@ -1914,7 +2277,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-093",
@@ -1931,7 +2298,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-094",
@@ -1948,7 +2319,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-095",
@@ -1965,7 +2340,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-096",
@@ -1984,7 +2363,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-097",
@@ -2004,7 +2387,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-098",
@@ -2021,7 +2408,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-099",
@@ -2038,7 +2429,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-100",
@@ -2057,7 +2452,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-101",
@@ -2074,7 +2473,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-102",
@@ -2091,7 +2494,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-103",
@@ -2110,7 +2517,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-104",
@@ -2127,7 +2538,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-105",
@@ -2144,7 +2559,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-106",
@@ -2163,7 +2582,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-107",
@@ -2183,7 +2606,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-108",
@@ -2200,7 +2626,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-109",
@@ -2220,7 +2649,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-110",
@@ -2240,7 +2672,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-111",
@@ -2261,7 +2696,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-112",
@@ -2281,7 +2719,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-112a",
@@ -2301,7 +2742,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-113",
@@ -2321,7 +2765,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-114",
@@ -2338,7 +2785,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-115",
@@ -2355,7 +2805,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-116",
@@ -2374,7 +2827,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-117",
@@ -2394,7 +2850,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-117a",
@@ -2414,7 +2873,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-118",
@@ -2434,7 +2896,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-119",
@@ -2454,7 +2919,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-119a",
@@ -2474,7 +2942,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-120",
@@ -2491,7 +2962,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-121",
@@ -2512,7 +2986,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-121a",
@@ -2533,7 +3010,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-122",
@@ -2550,7 +3030,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-123",
@@ -2567,7 +3050,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-124",
@@ -2584,7 +3070,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-125",
@@ -2603,7 +3093,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-126",
@@ -2620,7 +3114,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-126a",
@@ -2637,7 +3135,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-127",
@@ -2654,7 +3155,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-128",
@@ -2671,7 +3176,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-129",
@@ -2688,7 +3197,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-130",
@@ -2708,7 +3221,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-131",
@@ -2728,7 +3245,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-132",
@@ -2748,7 +3269,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-133",
@@ -2765,7 +3290,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-134",
@@ -2782,7 +3311,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-135",
@@ -2802,7 +3335,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-136",
@@ -2821,7 +3358,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-137",
@@ -2840,7 +3381,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-138",
@@ -2857,7 +3402,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-139",
@@ -2877,7 +3426,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-140",
@@ -2896,7 +3449,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-141",
@@ -2915,7 +3472,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-142",
@@ -2934,7 +3495,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-143",
@@ -2951,7 +3516,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-144",
@@ -2968,7 +3537,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-145",
@@ -2985,7 +3558,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-146",
@@ -3002,7 +3579,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-147",
@@ -3021,7 +3602,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-148",
@@ -3042,7 +3627,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-149",
@@ -3061,7 +3649,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-150",
@@ -3081,7 +3672,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-151",
@@ -3101,7 +3695,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-151a",
@@ -3121,7 +3718,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-152",
@@ -3138,7 +3738,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-153",
@@ -3155,7 +3758,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-154",
@@ -3172,7 +3778,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-155",
@@ -3192,7 +3801,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-156",
@@ -3209,7 +3821,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-157",
@@ -3229,7 +3844,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-158",
@@ -3249,7 +3867,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-158a",
@@ -3269,7 +3890,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-159",
@@ -3290,7 +3914,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-160",
@@ -3307,7 +3934,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-161",
@@ -3326,7 +3956,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-162",
@@ -3347,7 +3980,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-162a",
@@ -3368,7 +4004,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-163",
@@ -3385,7 +4024,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-164",
@@ -3405,7 +4047,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-164a",
@@ -3425,7 +4070,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-165",
@@ -3445,7 +4093,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-166",
@@ -3462,7 +4114,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-166a",
@@ -3479,7 +4135,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-167",
@@ -3498,7 +4157,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-168",
@@ -3515,7 +4178,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-169",
@@ -3532,7 +4199,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-170",
@@ -3549,7 +4220,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-171",
@@ -3568,7 +4243,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-172",
@@ -3585,7 +4264,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-173",
@@ -3602,7 +4285,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-174",
@@ -3621,7 +4308,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-175",
@@ -3641,7 +4332,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-176",
@@ -3661,7 +4356,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-177",
@@ -3680,7 +4379,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-178",
@@ -3697,7 +4400,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-179",
@@ -3714,7 +4421,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-180",
@@ -3731,7 +4442,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-181",
@@ -3748,7 +4463,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-182",
@@ -3765,7 +4484,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-183",
@@ -3782,7 +4505,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-184",
@@ -3799,7 +4526,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-185",
@@ -3818,7 +4549,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-186",
@@ -3835,7 +4570,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-187",
@@ -3852,7 +4591,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-188",
@@ -3871,7 +4614,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-189",
@@ -3891,7 +4638,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-190",
@@ -3911,7 +4661,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-191",
@@ -3931,7 +4684,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-192",
@@ -3951,7 +4707,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-193",
@@ -3972,7 +4731,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-193a",
@@ -3993,7 +4755,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-194",
@@ -4012,7 +4777,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-195",
@@ -4032,7 +4800,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-196",
@@ -4052,7 +4823,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-197",
@@ -4073,7 +4847,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-197a",
@@ -4094,7 +4871,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-198",
@@ -4111,7 +4891,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-199",
@@ -4130,7 +4913,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-200",
@@ -4150,7 +4936,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-201",
@@ -4167,7 +4956,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-202",
@@ -4187,7 +4979,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-202a",
@@ -4207,7 +5002,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-203",
@@ -4224,7 +5022,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-204",
@@ -4241,7 +5042,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-205",
@@ -4261,7 +5065,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-205a",
@@ -4281,7 +5088,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-206",
@@ -4298,7 +5108,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-207",
@@ -4315,7 +5129,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-208",
@@ -4334,7 +5152,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-209",
@@ -4351,7 +5173,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-210",
@@ -4370,7 +5196,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-211",
@@ -4389,7 +5219,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-212",
@@ -4406,7 +5240,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-213",
@@ -4423,7 +5261,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-214",
@@ -4440,7 +5282,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-214a",
@@ -4457,7 +5303,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-215",
@@ -4477,7 +5326,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-216",
@@ -4497,7 +5350,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-217",
@@ -4517,7 +5374,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-218",
@@ -4537,7 +5398,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-219",
@@ -4557,7 +5422,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-220",
@@ -4574,7 +5443,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-221",
@@ -4591,7 +5464,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-222",
@@ -4611,7 +5488,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-223",
@@ -4630,7 +5511,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-224",
@@ -4647,7 +5532,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-225",
@@ -4666,7 +5555,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-226",
@@ -4686,7 +5579,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-227",
@@ -4703,7 +5600,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-228",
@@ -4720,7 +5621,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-229",
@@ -4737,7 +5642,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-230",
@@ -4756,7 +5665,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-231",
@@ -4776,7 +5688,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-232",
@@ -4796,7 +5711,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-233",
@@ -4813,7 +5731,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-234",
@@ -4833,7 +5754,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-235",
@@ -4853,7 +5777,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-236",
@@ -4874,7 +5801,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-237",
@@ -4891,7 +5821,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-238",
@@ -4911,7 +5844,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-238a",
@@ -4931,7 +5867,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-239",
@@ -4950,7 +5889,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-240",
@@ -4970,7 +5912,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-240a",
@@ -4990,7 +5935,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-241",
@@ -5010,7 +5958,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-242",
@@ -5027,7 +5978,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-243",
@@ -5048,7 +6002,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-243a",
@@ -5069,7 +6026,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-244",
@@ -5086,7 +6046,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-245",
@@ -5103,7 +6066,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-246",
@@ -5123,7 +6089,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-246a",
@@ -5143,7 +6112,10 @@
         "rarity": "Legendary",
         "is_alt_art": true,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-247",
@@ -5163,7 +6135,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-248",
@@ -5183,7 +6158,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-249",
@@ -5203,7 +6181,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-250",
@@ -5223,7 +6204,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-251",
@@ -5243,7 +6227,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-252",
@@ -5263,7 +6250,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-253",
@@ -5283,7 +6273,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-254",
@@ -5303,7 +6296,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-255",
@@ -5323,7 +6319,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-256",
@@ -5343,7 +6342,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-257",
@@ -5363,7 +6365,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-258",
@@ -5383,7 +6388,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-259",
@@ -5403,7 +6411,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-260",
@@ -5423,7 +6434,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-261",
@@ -5443,7 +6457,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-262",
@@ -5463,7 +6480,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-263",
@@ -5483,7 +6503,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-264",
@@ -5503,7 +6526,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-265",
@@ -5523,7 +6549,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-266",
@@ -5543,7 +6572,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-267",
@@ -5563,7 +6595,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-268",
@@ -5583,7 +6618,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-269",
@@ -5603,7 +6641,10 @@
         "rarity": "Rare",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-270",
@@ -5623,7 +6664,10 @@
         "rarity": "Epic",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-271",
@@ -5640,7 +6684,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-272",
@@ -5657,7 +6705,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-273",
@@ -5674,7 +6726,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-274",
@@ -5691,7 +6747,11 @@
         "rarity": "Common",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-275",
@@ -5706,7 +6766,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-276",
@@ -5721,7 +6785,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-277",
@@ -5736,7 +6804,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-278",
@@ -5751,7 +6823,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-279",
@@ -5766,7 +6842,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-280",
@@ -5781,7 +6861,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-281",
@@ -5796,7 +6880,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-282",
@@ -5811,7 +6899,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-283",
@@ -5826,7 +6918,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-284",
@@ -5841,7 +6937,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-285",
@@ -5856,7 +6956,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-286",
@@ -5871,7 +6975,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-287",
@@ -5886,7 +6994,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-288",
@@ -5901,7 +7013,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-289",
@@ -5916,7 +7032,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-290",
@@ -5931,7 +7051,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-291",
@@ -5946,7 +7070,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-292",
@@ -5961,7 +7089,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-293",
@@ -5976,7 +7108,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-294",
@@ -5991,7 +7127,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-295",
@@ -6006,7 +7146,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-296",
@@ -6021,7 +7165,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-297",
@@ -6036,7 +7184,11 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-298",
@@ -6051,18 +7203,22 @@
         "rarity": "Uncommon",
         "is_alt_art": false,
         "is_overnumbered": false,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "non_foil",
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-299",
         "name": "Kai'sa, Daughter of the Void",
-        "domains": [    
+        "domains": [
             "Fury",
             "Mind"
         ],
         "super_type": "",
         "type": "Legend",
-        "tags": [   
+        "tags": [
             "Kai'sa"
         ],
         "energy_cost": 0,
@@ -6071,7 +7227,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-299*",
@@ -6091,7 +7250,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": true
+        "is_signed": true,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-300",
@@ -6111,7 +7273,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-300*",
@@ -6131,7 +7296,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": true
+        "is_signed": true,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-301",
@@ -6151,7 +7319,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-302",
@@ -6171,7 +7342,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-302*",
@@ -6191,7 +7365,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": true
+        "is_signed": true,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-303",
@@ -6211,7 +7388,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-303*",
@@ -6231,7 +7411,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": true
+        "is_signed": true,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-304",
@@ -6251,7 +7434,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-304*",
@@ -6271,7 +7457,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": true
+        "is_signed": true,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-305",
@@ -6291,7 +7480,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-305*",
@@ -6311,7 +7503,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": true
+        "is_signed": true,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-306",
@@ -6331,7 +7526,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-306*",
@@ -6351,7 +7549,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": true
+        "is_signed": true,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-307",
@@ -6371,7 +7572,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-307*",
@@ -6391,7 +7595,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": true
+        "is_signed": true,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-308",
@@ -6411,7 +7618,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-308*",
@@ -6431,7 +7641,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": true
+        "is_signed": true,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-309",
@@ -6451,7 +7664,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-309*",
@@ -6471,7 +7687,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": true
+        "is_signed": true,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-310",
@@ -6491,7 +7710,10 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": false
+        "is_signed": false,
+        "finishes": [
+            "foil"
+        ]
     },
     {
         "card_number": "OGN-310*",
@@ -6511,6 +7733,9 @@
         "rarity": "Legendary",
         "is_alt_art": false,
         "is_overnumbered": true,
-        "is_signed": true
+        "is_signed": true,
+        "finishes": [
+            "foil"
+        ]
     }
 ]
