@@ -87,10 +87,6 @@ Feel free to contribute improvements:
 3. Make your changes
 4. Submit a pull request
 
-## License
-
-[Add your license here]
-
 ## Issues and feedback
 
 Found a bug or have a feature request? Use the GitHub Issues page to let us know.
