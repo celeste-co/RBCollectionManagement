@@ -166,11 +166,20 @@ class CardDatabase:
         if domain:
             # Accept a single string or a list of domains
             if isinstance(domain, list) and len(domain) > 0:
-                like_clauses = []
-                for d in domain:
-                    like_clauses.append("domains LIKE ?")
+                # Require at least one selected domain AND no unselected domains
+                all_domains = ["Fury", "Calm", "Mind", "Body", "Order", "Chaos"]
+                selected = [d for d in domain if d in all_domains]
+                unselected = [d for d in all_domains if d not in selected]
+                if selected:
+                    like_any = []
+                    for d in selected:
+                        like_any.append("domains LIKE ?")
+                        params.append(f"%{d}%")
+                    query += " AND (" + " OR ".join(like_any) + ")"
+                # Exclude any domain not selected
+                for d in unselected:
+                    query += " AND domains NOT LIKE ?"
                     params.append(f"%{d}%")
-                query += " AND (" + " OR ".join(like_clauses) + ")"
             elif isinstance(domain, str):
                 query += " AND domains LIKE ?"
                 params.append(f"%{domain}%")
