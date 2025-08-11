@@ -25,6 +25,7 @@ class Card:
     is_alt_art: bool
     is_overnumbered: bool
     is_signed: bool
+    power_shorthand: Optional[str] = None
     
     # Collection-specific fields
     quantity: int = 0
@@ -59,6 +60,13 @@ class CardDatabase:
                     tags TEXT NOT NULL,
                     energy_cost INTEGER,
                     power_cost INTEGER,
+                    power_cost_f INTEGER DEFAULT 0,
+                    power_cost_c INTEGER DEFAULT 0,
+                    power_cost_m INTEGER DEFAULT 0,
+                    power_cost_b INTEGER DEFAULT 0,
+                    power_cost_o INTEGER DEFAULT 0,
+                    power_cost_h INTEGER DEFAULT 0,
+                    power_cost_any INTEGER DEFAULT 0,
                     might INTEGER,
                     rarity TEXT NOT NULL,
                     is_alt_art INTEGER DEFAULT 0,
@@ -79,6 +87,7 @@ class CardDatabase:
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_domains ON cards(domains)")
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_super_type ON cards(super_type)")
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_rarity ON cards(rarity)")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_power_cost ON cards(power_cost)")
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_type ON cards(card_type)")
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_tags ON cards(tags)")
             
@@ -117,18 +126,30 @@ class CardDatabase:
                     is_overnumbered=card_data.get('is_overnumbered', False),
                     is_signed=card_data.get('is_signed', False)
                 )
+
+                pcm = card_data.get('power_cost_map') or {}
+                pc_f = int(pcm.get('F', 0))
+                pc_c = int(pcm.get('C', 0))
+                pc_m = int(pcm.get('M', 0))
+                pc_b = int(pcm.get('B', 0))
+                pc_o = int(pcm.get('O', 0))
+                pc_h = int(pcm.get('H', 0))
+                pc_any = int(pcm.get('Any', 0))
                 
                 # Insert or update card
                 cursor.execute("""
                     INSERT OR REPLACE INTO cards (
                         id, name, set_name, domains, super_type, card_type, tags,
-                        energy_cost, power_cost, might, rarity, is_alt_art,
+                        energy_cost, power_cost,
+                        power_cost_f, power_cost_c, power_cost_m, power_cost_b, power_cost_o, power_cost_h, power_cost_any,
+                        might, rarity, is_alt_art,
                         is_overnumbered, is_signed, quantity, condition, acquisition_date,
                         personal_notes
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """, (
                     card.id, card.name, card.set_name, card.domains, card.super_type,
                     card.card_type, card.tags, card.energy_cost, card.power_cost,
+                    pc_f, pc_c, pc_m, pc_b, pc_o, pc_h, pc_any,
                     card.might, card.rarity, card.is_alt_art, card.is_overnumbered,
                     card.is_signed, card.quantity, card.condition, card.acquisition_date,
                     card.personal_notes
@@ -146,6 +167,15 @@ class CardDatabase:
                     card_type: Optional[str] = None,
                     min_cost: Optional[int] = None,
                     max_cost: Optional[int] = None,
+                    min_power_cost_total: Optional[int] = None,
+                    max_power_cost_total: Optional[int] = None,
+                    min_power_cost_f: Optional[int] = None,
+                    min_power_cost_c: Optional[int] = None,
+                    min_power_cost_m: Optional[int] = None,
+                    min_power_cost_b: Optional[int] = None,
+                    min_power_cost_o: Optional[int] = None,
+                    min_power_cost_h: Optional[int] = None,
+                    min_power_cost_any: Optional[int] = None,
                     min_power: Optional[int] = None,
                     max_power: Optional[int] = None,
                     tags: Optional[str] = None,
@@ -199,6 +229,29 @@ class CardDatabase:
         if max_cost is not None:
             query += " AND energy_cost <= ?"
             params.append(max_cost)
+
+        if min_power_cost_total is not None:
+            query += " AND power_cost >= ?"
+            params.append(min_power_cost_total)
+
+        if max_power_cost_total is not None:
+            query += " AND power_cost <= ?"
+            params.append(max_power_cost_total)
+
+        # Power cost per-domain filters
+        power_filters = [
+            ("power_cost_f", min_power_cost_f),
+            ("power_cost_c", min_power_cost_c),
+            ("power_cost_m", min_power_cost_m),
+            ("power_cost_b", min_power_cost_b),
+            ("power_cost_o", min_power_cost_o),
+            ("power_cost_h", min_power_cost_h),
+            ("power_cost_any", min_power_cost_any),
+        ]
+        for col, val in power_filters:
+            if val is not None and val > 0:
+                query += f" AND {col} >= ?"
+                params.append(val)
         
         if min_power is not None:
             query += " AND might >= ?"
@@ -224,13 +277,27 @@ class CardDatabase:
             
             cards = []
             for row in cursor.fetchall():
+                # Build power shorthand from per-domain columns
+                def build_power_short(f,c,m,b,o,h,a):
+                    parts = []
+                    if f: parts.append(f"{f}F")
+                    if c: parts.append(f"{c}C")
+                    if m: parts.append(f"{m}M")
+                    if b: parts.append(f"{b}B")
+                    if o: parts.append(f"{o}O")
+                    if h: parts.append(f"{h}H")
+                    if a: parts.append(f"{a}A")
+                    return "+".join(parts) if parts else None
+
+                pc_f, pc_c, pc_m, pc_b, pc_o, pc_h, pc_any = row[9], row[10], row[11], row[12], row[13], row[14], row[15]
                 card = Card(
                     id=row[0], name=row[1], set_name=row[2], domains=row[3],
                     super_type=row[4], card_type=row[5], tags=row[6],
-                    energy_cost=row[7], power_cost=row[8], might=row[9],
-                    rarity=row[10], is_alt_art=bool(row[11]), is_overnumbered=bool(row[12]),
-                    is_signed=bool(row[13]), quantity=row[14], condition=row[15],
-                    acquisition_date=row[16], personal_notes=row[17]
+                    energy_cost=row[7], power_cost=row[8], might=row[16],
+                    rarity=row[17], is_alt_art=bool(row[18]), is_overnumbered=bool(row[19]),
+                    is_signed=bool(row[20]), quantity=row[21], condition=row[22],
+                    acquisition_date=row[23], personal_notes=row[24],
+                    power_shorthand=build_power_short(pc_f, pc_c, pc_m, pc_b, pc_o, pc_h, pc_any)
                 )
                 cards.append(card)
             
@@ -245,13 +312,25 @@ class CardDatabase:
             row = cursor.fetchone()
             
             if row:
+                pc_f, pc_c, pc_m, pc_b, pc_o, pc_h, pc_any = row[9], row[10], row[11], row[12], row[13], row[14], row[15]
+                def build_power_short(f,c,m,b,o,h,a):
+                    parts = []
+                    if f: parts.append(f"{f}F")
+                    if c: parts.append(f"{c}C")
+                    if m: parts.append(f"{m}M")
+                    if b: parts.append(f"{b}B")
+                    if o: parts.append(f"{o}O")
+                    if h: parts.append(f"{h}H")
+                    if a: parts.append(f"{a}A")
+                    return "+".join(parts) if parts else None
                 return Card(
                     id=row[0], name=row[1], set_name=row[2], domains=row[3],
                     super_type=row[4], card_type=row[5], tags=row[6],
-                    energy_cost=row[7], power_cost=row[8], might=row[9],
-                    rarity=row[10], is_alt_art=bool(row[11]), is_overnumbered=bool(row[12]),
-                    is_signed=bool(row[13]), quantity=row[14], condition=row[15],
-                    acquisition_date=row[16], personal_notes=row[17]
+                    energy_cost=row[7], power_cost=row[8], might=row[16],
+                    rarity=row[17], is_alt_art=bool(row[18]), is_overnumbered=bool(row[19]),
+                    is_signed=bool(row[20]), quantity=row[21], condition=row[22],
+                    acquisition_date=row[23], personal_notes=row[24],
+                    power_shorthand=build_power_short(pc_f, pc_c, pc_m, pc_b, pc_o, pc_h, pc_any)
                 )
             return None
     
