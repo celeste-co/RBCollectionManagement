@@ -5,10 +5,12 @@ Search widget for finding cards based on multiple criteria
 from PyQt6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QGridLayout,
                              QLabel, QLineEdit, QComboBox, QSpinBox, QCheckBox,
                              QPushButton, QTableWidget, QTableWidgetItem,
-                             QHeaderView, QFrame, QGroupBox)
-from PyQt6.QtCore import Qt, pyqtSignal, QThread
-from PyQt6.QtGui import QFont, QPixmap
+                             QHeaderView, QFrame, QGroupBox, QToolTip)
+from PyQt6.QtCore import Qt, pyqtSignal, QThread, QEvent
+from PyQt6.QtGui import QFont
 from typing import List, Optional
+from pathlib import Path
+import os
 from src.models.card_database import CardDatabase, Card
 
 class SearchWorker(QThread):
@@ -26,7 +28,7 @@ class SearchWorker(QThread):
         self.results_ready.emit(results)
 
 class SearchWidget(QWidget):
-    """Advanced search widget with multiple criteria"""
+    """Advanced library (card browser) widget with filters"""
     
     card_selected = pyqtSignal(Card)
     
@@ -34,23 +36,25 @@ class SearchWidget(QWidget):
         super().__init__()
         self.database = database
         self.search_worker = None
+        self._current_cards: List[Card] = []
         self.init_ui()
         
-        # Get available values for dropdowns
+        # Populate dropdowns and load all cards by default
         self.populate_dropdowns()
+        self.perform_search()  # show entire library by default
     
     def init_ui(self):
         """Initialize the user interface"""
         layout = QVBoxLayout(self)
         
-        # Search criteria section
-        criteria_group = QGroupBox("Search Criteria")
+        # Filters section
+        criteria_group = QGroupBox("Filters")
         criteria_layout = QGridLayout(criteria_group)
         
         # Row 1: Name and Set
         criteria_layout.addWidget(QLabel("Card Name:"), 0, 0)
         self.name_input = QLineEdit()
-        self.name_input.setPlaceholderText("Enter card name...")
+        self.name_input.setPlaceholderText("Search by name...")
         criteria_layout.addWidget(self.name_input, 0, 1)
         
         criteria_layout.addWidget(QLabel("Set:"), 0, 2)
@@ -58,11 +62,16 @@ class SearchWidget(QWidget):
         self.set_combo.addItem("All Sets")
         criteria_layout.addWidget(self.set_combo, 0, 3)
         
-        # Row 2: Domain and Rarity
-        criteria_layout.addWidget(QLabel("Domain:"), 1, 0)
-        self.domain_combo = QComboBox()
-        self.domain_combo.addItem("All Domains")
-        criteria_layout.addWidget(self.domain_combo, 1, 1)
+        # Row 2: Domains (checkboxes) and Rarity
+        criteria_layout.addWidget(QLabel("Domains:"), 1, 0)
+        domains_box = QHBoxLayout()
+        self.domain_checks = []
+        for d in ["Fury", "Calm", "Mind", "Body", "Order", "Chaos"]:
+            cb = QCheckBox(d)
+            self.domain_checks.append(cb)
+            domains_box.addWidget(cb)
+        domains_box.addStretch()
+        criteria_layout.addLayout(domains_box, 1, 1)
         
         criteria_layout.addWidget(QLabel("Rarity:"), 1, 2)
         self.rarity_combo = QComboBox()
@@ -70,12 +79,12 @@ class SearchWidget(QWidget):
         criteria_layout.addWidget(self.rarity_combo, 1, 3)
         
         # Row 3: Card Type and Cost Range
-        criteria_layout.addWidget(QLabel("Card Type:"), 2, 0)
+        criteria_layout.addWidget(QLabel("Type:"), 2, 0)
         self.type_combo = QComboBox()
         self.type_combo.addItem("All Types")
         criteria_layout.addWidget(self.type_combo, 2, 1)
         
-        criteria_layout.addWidget(QLabel("Cost Range:"), 2, 2)
+        criteria_layout.addWidget(QLabel("Energy Cost:"), 2, 2)
         cost_layout = QHBoxLayout()
         self.min_cost_spin = QSpinBox()
         self.min_cost_spin.setRange(0, 20)
@@ -89,7 +98,7 @@ class SearchWidget(QWidget):
         criteria_layout.addLayout(cost_layout, 2, 3)
         
         # Row 4: Power Range and Tags
-        criteria_layout.addWidget(QLabel("Power Range:"), 3, 0)
+        criteria_layout.addWidget(QLabel("Might:"), 3, 0)
         power_layout = QHBoxLayout()
         self.min_power_spin = QSpinBox()
         self.min_power_spin.setRange(0, 20)
@@ -104,14 +113,14 @@ class SearchWidget(QWidget):
         
         criteria_layout.addWidget(QLabel("Tags:"), 3, 2)
         self.tags_input = QLineEdit()
-        self.tags_input.setPlaceholderText("Enter tags...")
+        self.tags_input.setPlaceholderText("e.g., Noxus, Dragon")
         criteria_layout.addWidget(self.tags_input, 3, 3)
         
         # Row 5: Options and Search Button
-        self.owned_only_check = QCheckBox("Show only owned cards")
+        self.owned_only_check = QCheckBox("Show only owned")
         criteria_layout.addWidget(self.owned_only_check, 4, 0, 1, 2)
         
-        search_button = QPushButton("Search")
+        search_button = QPushButton("Apply Filters")
         search_button.clicked.connect(self.perform_search)
         search_button.setStyleSheet("""
             QPushButton {
@@ -131,27 +140,30 @@ class SearchWidget(QWidget):
         layout.addWidget(criteria_group)
         
         # Results section
-        results_group = QGroupBox("Search Results")
+        results_group = QGroupBox("Library")
         results_layout = QVBoxLayout(results_group)
         
-        # Results table
+        # Results table (no inline images)
         self.results_table = QTableWidget()
+        self.results_table.setMouseTracking(True)
+        # Install event filter on viewport to get correct coordinates (exclude header)
+        self.results_table.viewport().setMouseTracking(True)
+        self.results_table.viewport().installEventFilter(self)
+        self.results_table.setEditTriggers(QTableWidget.EditTrigger.NoEditTriggers)
         self.results_table.setColumnCount(7)
         self.results_table.setHorizontalHeaderLabels([
-            "Image", "Name", "Set", "Domain", "Rarity", "Type", "Cost"
+            "ID", "Name", "Set", "Domain", "Rarity", "Type", "Energy"
         ])
         
         # Set table properties
         header = self.results_table.horizontalHeader()
-        header.setSectionResizeMode(0, QHeaderView.ResizeMode.Fixed)  # Image
+        header.setSectionResizeMode(0, QHeaderView.ResizeMode.ResizeToContents)  # ID
         header.setSectionResizeMode(1, QHeaderView.ResizeMode.Stretch)  # Name
         header.setSectionResizeMode(2, QHeaderView.ResizeMode.ResizeToContents)  # Set
         header.setSectionResizeMode(3, QHeaderView.ResizeMode.ResizeToContents)  # Domain
         header.setSectionResizeMode(4, QHeaderView.ResizeMode.ResizeToContents)  # Rarity
         header.setSectionResizeMode(5, QHeaderView.ResizeMode.ResizeToContents)  # Type
-        header.setSectionResizeMode(6, QHeaderView.ResizeMode.ResizeToContents)  # Cost
-        
-        self.results_table.setColumnWidth(0, 60)  # Image column width
+        header.setSectionResizeMode(6, QHeaderView.ResizeMode.ResizeToContents)  # Energy
         
         # Connect table selection
         self.results_table.itemSelectionChanged.connect(self.on_card_selected)
@@ -159,13 +171,52 @@ class SearchWidget(QWidget):
         results_layout.addWidget(self.results_table)
         
         # Status label
-        self.status_label = QLabel("Ready to search")
+        self.status_label = QLabel("Showing all cards")
         self.status_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.status_label.setStyleSheet("color: #666; font-style: italic;")
         results_layout.addWidget(self.status_label)
         
         layout.addWidget(results_group)
-    
+
+    def eventFilter(self, obj, event):
+        # Listen on the viewport for precise row/column mapping
+        if obj is self.results_table.viewport():
+            if event.type() == QEvent.Type.MouseMove:
+                index = self.results_table.indexAt(event.pos())
+                if index.isValid() and index.column() == 1:
+                    row = index.row()
+                    item = self.results_table.item(row, 1)  # name column stores the card
+                    if item is not None:
+                        card = item.data(Qt.ItemDataRole.UserRole)
+                        if card:
+                            uri = self._card_image_uri(card)
+                            if uri:
+                                QToolTip.showText(self.results_table.viewport().mapToGlobal(event.pos()), f"<img src='{uri}' width='240'>", self.results_table.viewport())
+                                return True
+                # Not on name column or invalid index → hide tooltip
+                QToolTip.hideText()
+            elif event.type() in (QEvent.Type.Leave,):
+                QToolTip.hideText()
+        return super().eventFilter(obj, event)
+
+    def _card_image_uri(self, card: Card) -> Optional[str]:
+        try:
+            base = Path(__file__).resolve().parents[2] / "card_img"
+            raw_id = (card.id or "").strip()
+            if not raw_id:
+                return None
+            # Folder by set prefix (e.g., OGN, OGS)
+            prefix = raw_id.split('-')[0]
+            # Map star-suffixed IDs to 's' images (e.g., OGN-300* -> OGN-300s.webp)
+            file_id = raw_id.replace('*', 's')
+            candidate = base / prefix / f"{file_id}.webp"
+            if not candidate.exists():
+                fallback = base / "Cardback.webp"
+                return fallback.as_uri() if fallback.exists() else None
+            return candidate.as_uri()
+        except Exception:
+            return None
+
     def populate_dropdowns(self):
         """Populate dropdown menus with available values"""
         try:
@@ -179,11 +230,7 @@ class SearchWidget(QWidget):
             for set_name in sets:
                 self.set_combo.addItem(set_name)
             
-            # Extract unique domains
-            domains = sorted(list(set(card.domains for card in all_cards)))
-            print(f"Unique domains: {domains}")
-            for domain in domains:
-                self.domain_combo.addItem(domain)
+            # Domains now fixed via checkboxes; no dropdown to populate
             
             # Extract unique rarities
             rarities = sorted(list(set(card.rarity for card in all_cards)))
@@ -206,20 +253,26 @@ class SearchWidget(QWidget):
         # Build search parameters
         search_params = {}
         
-        if self.name_input.text().strip():
-            search_params['name'] = self.name_input.text().strip()
+        name_text = self.name_input.text().strip()
+        if name_text:
+            search_params['name'] = name_text
         
-        if self.set_combo.currentText() != "All Sets":
-            search_params['set_name'] = self.set_combo.currentText()
+        set_text = self.set_combo.currentText()
+        if set_text and set_text != "All Sets":
+            search_params['set_name'] = set_text
         
-        if self.domain_combo.currentText() != "All Domains":
-            search_params['domain'] = self.domain_combo.currentText()
+        # Gather selected domains
+        selected_domains = [cb.text() for cb in self.domain_checks if cb.isChecked()]
+        if selected_domains:
+            search_params['domain'] = selected_domains
         
-        if self.rarity_combo.currentText() != "All Rarities":
-            search_params['rarity'] = self.rarity_combo.currentText()
+        rarity_text = self.rarity_combo.currentText()
+        if rarity_text and rarity_text != "All Rarities":
+            search_params['rarity'] = rarity_text
         
-        if self.type_combo.currentText() != "All Types":
-            search_params['card_type'] = self.type_combo.currentText()
+        type_text = self.type_combo.currentText()
+        if type_text and type_text != "All Types":
+            search_params['card_type'] = type_text
         
         if self.min_cost_spin.value() > 0:
             search_params['min_cost'] = self.min_cost_spin.value()
@@ -233,14 +286,15 @@ class SearchWidget(QWidget):
         if self.max_power_spin.value() > 0:
             search_params['max_power'] = self.max_power_spin.value()
         
-        if self.tags_input.text().strip():
-            search_params['tags'] = self.tags_input.text().strip()
+        tags_text = self.tags_input.text().strip()
+        if tags_text:
+            search_params['tags'] = tags_text
         
         if self.owned_only_check.isChecked():
             search_params['owned_only'] = True
         
         # Update status
-        self.status_label.setText("Searching...")
+        self.status_label.setText("Loading library...")
         
         # Execute search in background
         if self.search_worker and self.search_worker.isRunning():
@@ -253,33 +307,30 @@ class SearchWidget(QWidget):
     
     def display_results(self, cards: List[Card]):
         """Display search results in the table"""
+        self._current_cards = cards
         self.results_table.setRowCount(len(cards))
         
         for row, card in enumerate(cards):
-            # Image (placeholder for now)
-            image_label = QLabel()
-            image_label.setFixedSize(50, 70)
-            image_label.setStyleSheet("border: 1px solid #ccc; background: #f0f0f0;")
-            image_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
-            image_label.setText("IMG")
-            self.results_table.setCellWidget(row, 0, image_label)
-            
-            # Card data
-            self.results_table.setItem(row, 1, QTableWidgetItem(card.name))
+            # Card data (no inline image)
+            id_item = QTableWidgetItem(card.id)
+            id_item.setFlags(id_item.flags() & ~Qt.ItemFlag.ItemIsEditable)
+            self.results_table.setItem(row, 0, id_item)
+
+            name_item = QTableWidgetItem(card.name)
+            name_item.setData(Qt.ItemDataRole.UserRole, card)
+            name_item.setFlags(name_item.flags() & ~Qt.ItemFlag.ItemIsEditable)
+            self.results_table.setItem(row, 1, name_item)
+
             self.results_table.setItem(row, 2, QTableWidgetItem(card.set_name))
             self.results_table.setItem(row, 3, QTableWidgetItem(card.domains))
             self.results_table.setItem(row, 4, QTableWidgetItem(card.rarity))
             self.results_table.setItem(row, 5, QTableWidgetItem(card.card_type))
-            
-            cost_text = str(card.energy_cost) if card.energy_cost is not None else "-"
-            self.results_table.setItem(row, 6, QTableWidgetItem(cost_text))
-            
-            # Store card data in the name column for selection (since image column has a widget)
-            self.results_table.item(row, 1).setData(Qt.ItemDataRole.UserRole, card)
+            energy_text = str(card.energy_cost) if card.energy_cost is not None else "-"
+            self.results_table.setItem(row, 6, QTableWidgetItem(energy_text))
         
         # Update status
         if cards:
-            self.status_label.setText(f"Found {len(cards)} cards")
+            self.status_label.setText(f"Showing {len(cards)} cards")
         else:
             self.status_label.setText("No cards found")
     
@@ -287,7 +338,7 @@ class SearchWidget(QWidget):
         """Handle card selection from table"""
         current_row = self.results_table.currentRow()
         if current_row >= 0:
-            item = self.results_table.item(current_row, 1)  # Look in name column
+            item = self.results_table.item(current_row, 1)  # name column shifted by 1 due to ID
             if item:
                 card = item.data(Qt.ItemDataRole.UserRole)
                 if card:

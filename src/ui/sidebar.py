@@ -109,12 +109,12 @@ class Sidebar(QWidget):
         # Navigation buttons
         self.nav_buttons = []
         
-        # Search button
-        self.search_btn = SidebarButton("🔍 Search Cards")
+        # Library (formerly Search) button
+        self.search_btn = SidebarButton("📖 Library")
         self.search_btn.clicked.connect(lambda: self.on_tab_clicked(0))
         self.nav_buttons.append(self.search_btn)
-        self.button_texts.append("🔍 Search Cards")
-        self.button_icons.append("🔍")
+        self.button_texts.append("📖 Library")
+        self.button_icons.append("📖")
         layout.addWidget(self.search_btn)
         
         # Collection button

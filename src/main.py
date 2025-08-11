@@ -92,9 +92,10 @@ class MainWindow(QMainWindow):
                 "Card data has been successfully imported into the database!"
             )
             
-            # Refresh search widget dropdowns
+            # Refresh library (dropdowns + results)
             search_widget = self.content_area.get_search_widget()
             search_widget.populate_dropdowns()
+            search_widget.perform_search()
             
         except Exception as e:
             QMessageBox.critical(

@@ -30,13 +30,13 @@ class ContentArea(QWidget):
         layout.addWidget(self.stacked_widget)
         
         # Create different sections
-        self.create_search_section()
+        self.create_library_section()
         self.create_collection_section()
         self.create_statistics_section()
         self.create_settings_section()
     
-    def create_search_section(self):
-        """Create the search section"""
+    def create_library_section(self):
+        """Create the library (card browser) section"""
         self.search_widget = SearchWidget(self.database)
         self.stacked_widget.addWidget(self.search_widget)
     

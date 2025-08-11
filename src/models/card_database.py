@@ -141,7 +141,7 @@ class CardDatabase:
     def search_cards(self, 
                     name: Optional[str] = None,
                     set_name: Optional[str] = None,
-                    domain: Optional[str] = None,
+                    domain: Optional[object] = None,
                     rarity: Optional[str] = None,
                     card_type: Optional[str] = None,
                     min_cost: Optional[int] = None,
@@ -164,8 +164,16 @@ class CardDatabase:
             params.append(set_name)
         
         if domain:
-            query += " AND domains LIKE ?"
-            params.append(f"%{domain}%")
+            # Accept a single string or a list of domains
+            if isinstance(domain, list) and len(domain) > 0:
+                like_clauses = []
+                for d in domain:
+                    like_clauses.append("domains LIKE ?")
+                    params.append(f"%{d}%")
+                query += " AND (" + " OR ".join(like_clauses) + ")"
+            elif isinstance(domain, str):
+                query += " AND domains LIKE ?"
+                params.append(f"%{domain}%")
         
         if rarity:
             query += " AND rarity = ?"
