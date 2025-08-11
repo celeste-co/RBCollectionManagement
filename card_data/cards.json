@@ -3,7 +3,7 @@
     "source": "Piltover Archive",
     "totalVariants": 377,
     "lastUpdated": "2025-08-11",
-    "description": "Riftbound cards exported from database"
+    "description": "Riftbound cards sorted by variant number"
   },
   "variants": [
     {
@@ -389,8 +389,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-18T23:59:46.541Z",
+      "updatedAt": "2025-07-18T23:59:46.541Z",
       "variantId": "3c5ba123-7071-461b-8d1f-2e50def2e7a1",
       "variantNumber": "OGN-009",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-009.webp",
@@ -403,7 +403,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -555,8 +555,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T22:45:46.023Z",
+      "updatedAt": "2025-07-01T00:29:25.371Z",
       "variantId": "5124c1a4-1e3c-4781-b698-c55ac26b7c0a",
       "variantNumber": "OGN-013",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-013.webp",
@@ -569,7 +569,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-30"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -717,8 +717,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:02:27.551Z",
+      "updatedAt": "2025-07-19T00:38:11.939Z",
       "variantId": "33605b84-4954-4b4a-b944-1f7d4cf65b55",
       "variantNumber": "OGN-017",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-017.webp",
@@ -731,7 +731,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -759,8 +759,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:04:53.114Z",
+      "updatedAt": "2025-07-19T00:38:50.325Z",
       "variantId": "676a9634-f1aa-445c-9840-977876488d86",
       "variantNumber": "OGN-018",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-018.webp",
@@ -773,7 +773,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -801,8 +801,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:07:20.309Z",
+      "updatedAt": "2025-07-19T00:39:53.714Z",
       "variantId": "a90ed270-aa91-4005-9d0f-235967ac13cd",
       "variantNumber": "OGN-019",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-019.webp",
@@ -815,7 +815,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -882,8 +882,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:10:45.239Z",
+      "updatedAt": "2025-07-23T03:01:00.298Z",
       "variantId": "1568ca68-6d30-4f23-ac44-34ca277a991c",
       "variantNumber": "OGN-021",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-021.webp",
@@ -896,7 +896,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -921,8 +921,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:13:18.459Z",
+      "updatedAt": "2025-07-19T00:13:18.459Z",
       "variantId": "3464e790-36d9-477d-8de1-c0e6c416e6a6",
       "variantNumber": "OGN-022",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-022.webp",
@@ -935,7 +935,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -960,8 +960,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:15:39.063Z",
+      "updatedAt": "2025-07-19T00:15:39.063Z",
       "variantId": "a9b3cb30-439a-40f8-828d-b52fadacf2d1",
       "variantNumber": "OGN-023",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-023.webp",
@@ -974,7 +974,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -1038,8 +1038,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:18:03.883Z",
+      "updatedAt": "2025-07-19T00:42:20.201Z",
       "variantId": "e4edf79f-3788-45aa-bfe7-59e89a404210",
       "variantNumber": "OGN-025",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-025.webp",
@@ -1052,7 +1052,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -1079,8 +1079,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:20:32.085Z",
+      "updatedAt": "2025-07-19T00:20:32.085Z",
       "variantId": "cbc326e2-31e4-413c-98b0-293aeaa9f685",
       "variantNumber": "OGN-026",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-026.webp",
@@ -1093,7 +1093,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -1208,7 +1208,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-06-23T14:36:59.124Z",
       "variantId": "f1bc5330-9bd6-412e-887c-ef72f5bc4c89",
       "variantNumber": "OGN-028",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-028.webp",
@@ -1246,8 +1246,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-07T16:08:00.982Z",
+      "updatedAt": "2025-07-08T04:30:05.347Z",
       "variantId": "a53ba89f-abba-4beb-a147-743b7d9c80db",
       "variantNumber": "OGN-029",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-029.webp",
@@ -1260,7 +1260,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-07"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -1372,8 +1372,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:22:19.205Z",
+      "updatedAt": "2025-07-19T00:43:38.754Z",
       "variantId": "9bbe2054-a33d-4fe5-9ed9-5bfe42294d78",
       "variantNumber": "OGN-031",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-031.webp",
@@ -1386,7 +1386,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -1411,8 +1411,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:24:24.391Z",
+      "updatedAt": "2025-07-19T00:24:24.391Z",
       "variantId": "40209742-d8d5-4282-8c73-0fb176d793e4",
       "variantNumber": "OGN-032",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-032.webp",
@@ -1425,7 +1425,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -1450,8 +1450,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:26:17.513Z",
+      "updatedAt": "2025-07-19T00:26:17.513Z",
       "variantId": "709d42a6-dc10-4e59-9958-7f70e0a86f89",
       "variantNumber": "OGN-033",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-033.webp",
@@ -1464,7 +1464,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -1701,8 +1701,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:30:34.413Z",
+      "updatedAt": "2025-07-19T00:44:53.468Z",
       "variantId": "7ae6853e-3871-4b28-8fba-c9d7c0ad6cb3",
       "variantNumber": "OGN-039",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-039.webp",
@@ -1715,7 +1715,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -1743,8 +1743,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:30:34.413Z",
+      "updatedAt": "2025-07-19T00:44:53.468Z",
       "variantId": "38e5fee9-e191-4354-8c53-c5226bcf93d4",
       "variantNumber": "OGN-039a",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-039a.webp",
@@ -1757,7 +1757,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -2141,8 +2141,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-05T00:50:20.398Z",
+      "updatedAt": "2025-07-05T00:50:20.398Z",
       "variantId": "8bb9aee5-079d-4c97-89ab-52c875c69417",
       "variantNumber": "OGN-047",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-047.webp",
@@ -2155,7 +2155,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-04"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -2222,8 +2222,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-01T00:32:29.134Z",
+      "updatedAt": "2025-07-01T00:32:29.134Z",
       "variantId": "245b97ea-1d4c-48e6-8ac5-51185f3347b3",
       "variantNumber": "OGN-049",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-049.webp",
@@ -2236,7 +2236,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-30"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -2261,8 +2261,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-23T11:19:29.284Z",
+      "updatedAt": "2025-06-23T20:05:39.975Z",
       "variantId": "e3b2cbff-364c-4872-9f83-c5a584417bba",
       "variantNumber": "OGN-050",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-050.webp",
@@ -2275,7 +2275,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-23"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -2302,8 +2302,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:13:20.281Z",
+      "updatedAt": "2025-07-19T00:13:20.281Z",
       "variantId": "18ed8d1a-4fe0-4d06-92bd-943156c45213",
       "variantNumber": "OGN-051",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-051.webp",
@@ -2316,7 +2316,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -2343,8 +2343,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T22:42:34.148Z",
+      "updatedAt": "2025-07-01T00:34:03.922Z",
       "variantId": "93a6b4ab-ebc5-4857-822d-0365f2216e71",
       "variantNumber": "OGN-052",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-052.webp",
@@ -2357,7 +2357,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-30"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -2421,8 +2421,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:14:49.262Z",
+      "updatedAt": "2025-07-19T00:14:49.262Z",
       "variantId": "11383f4c-99fe-4c43-ab49-8cd48c329035",
       "variantNumber": "OGN-054",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-054.webp",
@@ -2435,7 +2435,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -2663,8 +2663,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:17:14.721Z",
+      "updatedAt": "2025-07-19T00:17:14.721Z",
       "variantId": "c5598d33-2ae9-4702-aa94-e06febd2b373",
       "variantNumber": "OGN-060",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-060.webp",
@@ -2677,7 +2677,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -2704,8 +2704,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-11T18:10:32.263Z",
+      "updatedAt": "2025-07-12T07:55:12.320Z",
       "variantId": "e1b9b494-3629-4f8c-9815-ceb3254773af",
       "variantNumber": "OGN-061",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-061.webp",
@@ -2718,7 +2718,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-11"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -2743,8 +2743,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:19:55.409Z",
+      "updatedAt": "2025-07-19T00:19:55.409Z",
       "variantId": "d36d5f87-ba0b-4fe8-b1fc-eb13831469a0",
       "variantNumber": "OGN-062",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-062.webp",
@@ -2757,7 +2757,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -2862,8 +2862,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:21:33.457Z",
+      "updatedAt": "2025-07-19T00:21:33.457Z",
       "variantId": "7966fe26-ae5a-4d4c-99d1-bcdb25645b0f",
       "variantNumber": "OGN-065",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-065.webp",
@@ -2876,7 +2876,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -2989,8 +2989,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:24:44.501Z",
+      "updatedAt": "2025-07-20T14:29:05.574Z",
       "variantId": "933a5c0c-45ab-47c0-b817-c8c331b8f4a0",
       "variantNumber": "OGN-067",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-067.webp",
@@ -3003,7 +3003,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -3070,8 +3070,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-23T11:21:19.729Z",
+      "updatedAt": "2025-06-23T20:05:49.549Z",
       "variantId": "3c19888c-6fdb-48ff-bc49-dda6f32bcb3b",
       "variantNumber": "OGN-069",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-069.webp",
@@ -3084,7 +3084,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-23"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -3111,8 +3111,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:26:44.818Z",
+      "updatedAt": "2025-07-19T00:26:44.818Z",
       "variantId": "327f0e43-fac5-4a11-afc9-f83ad5da15b8",
       "variantNumber": "OGN-070",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-070.webp",
@@ -3125,7 +3125,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -3150,8 +3150,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:28:50.487Z",
+      "updatedAt": "2025-07-19T00:28:50.487Z",
       "variantId": "3f0e7ba6-55db-4f92-bbfe-cb24582f1feb",
       "variantNumber": "OGN-071",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-071.webp",
@@ -3164,7 +3164,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -3189,8 +3189,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:30:20.341Z",
+      "updatedAt": "2025-07-19T00:30:20.341Z",
       "variantId": "ebc7df48-7931-4be8-a777-6df6312b9800",
       "variantNumber": "OGN-072",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-072.webp",
@@ -3203,7 +3203,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -3273,8 +3273,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-23T11:23:41.936Z",
+      "updatedAt": "2025-06-23T20:05:57.129Z",
       "variantId": "816ee18a-cef3-441b-89ba-c5b5b2d10799",
       "variantNumber": "OGN-074",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-074.webp",
@@ -3287,7 +3287,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-23"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -3315,8 +3315,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:32:30.945Z",
+      "updatedAt": "2025-07-19T00:32:30.945Z",
       "variantId": "776e9f69-55a4-4f10-a731-281eedcfe355",
       "variantNumber": "OGN-075",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-075.webp",
@@ -3329,7 +3329,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -3564,8 +3564,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-11T18:07:46.918Z",
+      "updatedAt": "2025-07-12T07:54:35.550Z",
       "variantId": "2d92be34-068a-4b41-8dc0-958789a5ed8d",
       "variantNumber": "OGN-079",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-079.webp",
@@ -3578,7 +3578,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-11"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -3606,8 +3606,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-11T18:07:46.918Z",
+      "updatedAt": "2025-07-12T07:54:35.550Z",
       "variantId": "869d001a-6c38-4562-a77f-139d97f97067",
       "variantNumber": "OGN-079a",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-079a.webp",
@@ -3620,7 +3620,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-11"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -3645,8 +3645,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:34:10.220Z",
+      "updatedAt": "2025-07-19T00:34:10.220Z",
       "variantId": "76620a0d-09ad-4da6-a480-e9a5753bfe6c",
       "variantNumber": "OGN-080",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-080.webp",
@@ -3659,7 +3659,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -3765,8 +3765,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-25T17:35:08.712Z",
+      "updatedAt": "2025-06-27T07:29:41.649Z",
       "variantId": "c4ffe608-f344-44e7-96a3-890c3de38e6e",
       "variantNumber": "OGN-083",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-083.webp",
@@ -3779,7 +3779,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-25"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -3845,8 +3845,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-01T00:40:07.279Z",
+      "updatedAt": "2025-07-01T00:40:07.279Z",
       "variantId": "7a993dbc-fa7a-40f9-b9f0-2fff54ed35b1",
       "variantNumber": "OGN-085",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-085.webp",
@@ -3859,7 +3859,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-30"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -3886,8 +3886,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:01:42.338Z",
+      "updatedAt": "2025-07-19T00:01:42.338Z",
       "variantId": "0ded57ba-5374-43b6-a602-899abf678c0e",
       "variantNumber": "OGN-086",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-086.webp",
@@ -3900,7 +3900,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -3928,8 +3928,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-01T00:41:15.872Z",
+      "updatedAt": "2025-07-01T00:41:15.872Z",
       "variantId": "4f52b823-8371-471a-8d15-820834be6284",
       "variantNumber": "OGN-087",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-087.webp",
@@ -3942,7 +3942,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-30"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -3970,8 +3970,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-01T00:45:52.057Z",
+      "updatedAt": "2025-07-01T00:45:52.057Z",
       "variantId": "e2849ff8-d604-4d23-a85b-365ed0b69e72",
       "variantNumber": "OGN-088",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-088.webp",
@@ -3984,7 +3984,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-30"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -4087,8 +4087,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:03:28.123Z",
+      "updatedAt": "2025-07-19T12:18:31.544Z",
       "variantId": "99a0573a-959d-4d05-b125-33b6ce75220c",
       "variantNumber": "OGN-090",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-090.webp",
@@ -4101,7 +4101,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -4128,8 +4128,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:05:03.886Z",
+      "updatedAt": "2025-07-19T00:05:03.886Z",
       "variantId": "b3a72e65-1fe5-42e6-9bf0-0eafbd4e6bdd",
       "variantNumber": "OGN-091",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-091.webp",
@@ -4142,7 +4142,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -4170,8 +4170,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:06:37.575Z",
+      "updatedAt": "2025-07-19T00:06:37.575Z",
       "variantId": "a1331c73-0a9e-4489-8814-75f58f8fab0f",
       "variantNumber": "OGN-092",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-092.webp",
@@ -4184,7 +4184,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -4209,8 +4209,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:09:04.629Z",
+      "updatedAt": "2025-07-19T00:09:04.629Z",
       "variantId": "2e9f733d-9da3-4934-9307-fd3069e6c0bd",
       "variantNumber": "OGN-093",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-093.webp",
@@ -4223,7 +4223,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -4409,8 +4409,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:10:42.316Z",
+      "updatedAt": "2025-07-19T00:10:42.316Z",
       "variantId": "ad3c01cc-acd3-45cb-a3c6-97dd04ae709e",
       "variantNumber": "OGN-098",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-098.webp",
@@ -4423,7 +4423,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -4490,7 +4490,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-07-03T10:28:46.934Z",
       "variantId": "b6131b23-c490-4869-a1f7-25957f05d5dd",
       "variantNumber": "OGN-100",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-100.webp",
@@ -4567,8 +4567,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-05T00:51:57.540Z",
+      "updatedAt": "2025-07-05T00:51:57.540Z",
       "variantId": "24e65fc4-ebc6-4a8a-96eb-656366b6f6f6",
       "variantNumber": "OGN-102",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-102.webp",
@@ -4581,7 +4581,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-04"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -4647,8 +4647,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:12:00.501Z",
+      "updatedAt": "2025-07-19T00:12:00.501Z",
       "variantId": "da0bf75e-411c-4d37-86b1-15ad52ab0028",
       "variantNumber": "OGN-104",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-104.webp",
@@ -4661,7 +4661,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -4686,8 +4686,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-01T00:47:33.633Z",
+      "updatedAt": "2025-07-01T00:47:33.633Z",
       "variantId": "bf96baae-9f22-451c-9ddd-a6801ddc9740",
       "variantNumber": "OGN-105",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-105.webp",
@@ -4700,7 +4700,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-30"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -4727,8 +4727,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:13:21.920Z",
+      "updatedAt": "2025-07-19T00:13:21.920Z",
       "variantId": "ef0ece54-7950-48d5-aea2-a06c7539699f",
       "variantNumber": "OGN-106",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-106.webp",
@@ -4741,7 +4741,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -4769,8 +4769,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-09T20:26:40.532Z",
+      "updatedAt": "2025-07-12T07:54:47.184Z",
       "variantId": "3ab64c2d-a286-45a1-86d1-8c9e788d47e5",
       "variantNumber": "OGN-107",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-107.webp",
@@ -4783,7 +4783,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-09"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -4808,8 +4808,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:14:43.921Z",
+      "updatedAt": "2025-07-19T00:14:43.921Z",
       "variantId": "d82dd367-a93f-49b0-8b39-fdb2d91db32f",
       "variantNumber": "OGN-108",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-108.webp",
@@ -4822,7 +4822,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -4850,8 +4850,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-07T20:27:16.700Z",
+      "updatedAt": "2025-07-14T18:43:39.117Z",
       "variantId": "356e4d17-b110-4a02-8251-bc108d6119ee",
       "variantNumber": "OGN-109",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-109.webp",
@@ -4864,7 +4864,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-07"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -5061,8 +5061,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-25T16:13:21.484Z",
+      "updatedAt": "2025-07-17T18:21:53.356Z",
       "variantId": "1235af64-63d6-43d8-9b7a-22e0b3d595c6",
       "variantNumber": "OGN-113",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-113.webp",
@@ -5075,7 +5075,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-25"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -5100,8 +5100,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-07T16:08:56.527Z",
+      "updatedAt": "2025-07-08T04:30:59.674Z",
       "variantId": "b44efc92-422f-44d3-88ea-f00893166be3",
       "variantNumber": "OGN-114",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-114.webp",
@@ -5114,7 +5114,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-07"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -5180,8 +5180,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:16:24.512Z",
+      "updatedAt": "2025-07-19T00:16:24.512Z",
       "variantId": "1eaf3a35-e7be-4449-a52d-8fb46d4c050d",
       "variantNumber": "OGN-116",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-116.webp",
@@ -5194,7 +5194,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -5222,8 +5222,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-25T13:39:53.954Z",
+      "updatedAt": "2025-06-27T07:28:53.208Z",
       "variantId": "2b839c0b-72c5-41cf-bf22-bde616f49ba1",
       "variantNumber": "OGN-117",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-117.webp",
@@ -5236,7 +5236,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-25"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -5264,8 +5264,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-25T13:39:53.954Z",
+      "updatedAt": "2025-06-27T07:28:53.208Z",
       "variantId": "f93273e8-2aa0-4db0-9c69-9d7e08f0e92b",
       "variantNumber": "OGN-117a",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-117a.webp",
@@ -5278,7 +5278,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-25"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -5362,7 +5362,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-21"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -5404,7 +5404,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-21"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -5430,7 +5430,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-07-09T03:39:14.548Z",
       "variantId": "4c210675-e76b-4602-ab38-4a4d5956531b",
       "variantNumber": "OGN-120",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-120.webp",
@@ -5472,8 +5472,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-25T17:58:21.449Z",
+      "updatedAt": "2025-06-28T12:05:22.424Z",
       "variantId": "ee13a7b4-7263-49d7-aaa7-6277ada4b2dc",
       "variantNumber": "OGN-121",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-121.webp",
@@ -5486,7 +5486,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-25"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -5515,8 +5515,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-25T17:58:21.449Z",
+      "updatedAt": "2025-06-28T12:05:22.424Z",
       "variantId": "a7925de8-a780-4f65-826a-a82c8ba34d5d",
       "variantNumber": "OGN-121a",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-121a.webp",
@@ -5529,7 +5529,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-25"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -5554,8 +5554,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:17:38.324Z",
+      "updatedAt": "2025-07-19T00:17:38.324Z",
       "variantId": "4583aa37-2396-4593-a87a-10dc6de8b835",
       "variantNumber": "OGN-122",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-122.webp",
@@ -5568,7 +5568,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -5790,8 +5790,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-01T00:56:00.483Z",
+      "updatedAt": "2025-07-01T00:56:00.483Z",
       "variantId": "724cafe1-decf-4d1e-98a5-b061b6aee2e5",
       "variantNumber": "OGN-127",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-127.webp",
@@ -5804,7 +5804,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-30"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -5868,8 +5868,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-01T00:57:11.496Z",
+      "updatedAt": "2025-07-01T00:57:11.496Z",
       "variantId": "558a82d0-96db-444e-9d53-950b5d113ca5",
       "variantNumber": "OGN-129",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-129.webp",
@@ -5882,7 +5882,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-30"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -5910,8 +5910,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-01T00:57:58.130Z",
+      "updatedAt": "2025-07-01T00:57:58.130Z",
       "variantId": "2028f55e-cb02-461e-b894-313191d33531",
       "variantNumber": "OGN-130",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-130.webp",
@@ -5924,7 +5924,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-30"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -5952,8 +5952,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-01T00:48:00.389Z",
+      "updatedAt": "2025-07-01T00:48:00.389Z",
       "variantId": "474c97fe-afd7-4588-b3a6-8b85e880e5c0",
       "variantNumber": "OGN-131",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-131.webp",
@@ -5966,7 +5966,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-01"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -6033,8 +6033,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-03T01:03:36.541Z",
+      "updatedAt": "2025-07-03T01:03:36.541Z",
       "variantId": "8f13ff30-ea74-4a8e-ac47-f40c836639cd",
       "variantNumber": "OGN-133",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-133.webp",
@@ -6047,7 +6047,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-02"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -6114,8 +6114,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:01:06.991Z",
+      "updatedAt": "2025-07-19T00:01:06.991Z",
       "variantId": "de5aeceb-0b9a-4767-a268-acc62037a0ba",
       "variantNumber": "OGN-135",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-135.webp",
@@ -6128,7 +6128,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -6155,8 +6155,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-28T02:51:00.024Z",
+      "updatedAt": "2025-06-28T06:57:29.093Z",
       "variantId": "c74dc2fe-a2ea-4f91-904d-3f2af9e46039",
       "variantNumber": "OGN-136",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-136.webp",
@@ -6169,7 +6169,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-27"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -6359,8 +6359,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:02:43.905Z",
+      "updatedAt": "2025-07-19T00:02:43.905Z",
       "variantId": "02adbcfb-73f2-43df-9a7f-b19a5cefb7d2",
       "variantNumber": "OGN-141",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-141.webp",
@@ -6373,7 +6373,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -6400,8 +6400,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-01T00:46:17.839Z",
+      "updatedAt": "2025-07-01T00:46:17.839Z",
       "variantId": "d546e159-c529-4985-b555-59a923346915",
       "variantNumber": "OGN-142",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-142.webp",
@@ -6414,7 +6414,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-01"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -6439,8 +6439,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:04:16.913Z",
+      "updatedAt": "2025-07-19T00:04:16.913Z",
       "variantId": "ba3365d6-3648-4663-bc6d-4499d18f644e",
       "variantNumber": "OGN-143",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-143.webp",
@@ -6453,7 +6453,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -6478,8 +6478,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:06:06.559Z",
+      "updatedAt": "2025-07-19T00:43:47.680Z",
       "variantId": "f04aef80-dfca-4fa2-9483-416cb6e90c63",
       "variantNumber": "OGN-144",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-144.webp",
@@ -6492,7 +6492,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -6517,8 +6517,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:07:39.398Z",
+      "updatedAt": "2025-07-19T00:07:39.398Z",
       "variantId": "0a48e34f-bd64-4994-a20d-2efe2acb9b68",
       "variantNumber": "OGN-145",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-145.webp",
@@ -6531,7 +6531,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -6556,8 +6556,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:09:24.158Z",
+      "updatedAt": "2025-07-19T00:09:24.158Z",
       "variantId": "5ea40995-0090-48d2-ae12-c93a087975c1",
       "variantNumber": "OGN-146",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-146.webp",
@@ -6570,7 +6570,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -6723,8 +6723,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-09T20:29:52.133Z",
+      "updatedAt": "2025-07-16T19:50:24.751Z",
       "variantId": "ea1af2ce-3105-43e8-af12-d1ce1a528c9c",
       "variantNumber": "OGN-150",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-150.webp",
@@ -6737,7 +6737,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-09"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -6765,8 +6765,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-16T07:09:55.091Z",
+      "updatedAt": "2025-07-16T07:09:55.091Z",
       "variantId": "4fdd6573-2cf7-4089-be05-e634ce03170c",
       "variantNumber": "OGN-151",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-151.webp",
@@ -6779,7 +6779,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-16"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -6807,8 +6807,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-16T07:09:55.091Z",
+      "updatedAt": "2025-07-16T07:09:55.091Z",
       "variantId": "6c84bd6a-3f8d-41a9-98ae-027099f1be51",
       "variantNumber": "OGN-151a",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-151a.webp",
@@ -6821,7 +6821,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-16"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -6885,8 +6885,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-03T01:01:46.335Z",
+      "updatedAt": "2025-07-03T01:01:46.335Z",
       "variantId": "7aa6cad0-4233-450e-8c26-99823620765e",
       "variantNumber": "OGN-153",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-153.webp",
@@ -6899,7 +6899,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-02"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -6924,8 +6924,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-23T19:44:36.339Z",
+      "updatedAt": "2025-06-26T06:08:51.738Z",
       "variantId": "bf4f2bbd-9d1a-42fd-92da-cf159b168a5e",
       "variantNumber": "OGN-154",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-154.webp",
@@ -6938,7 +6938,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-23"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -6966,8 +6966,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-28T02:48:15.975Z",
+      "updatedAt": "2025-06-28T06:57:55.801Z",
       "variantId": "847ac370-68b0-433e-a84f-1195692b264e",
       "variantNumber": "OGN-155",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-155.webp",
@@ -6980,7 +6980,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-27"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -7005,8 +7005,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:11:22.342Z",
+      "updatedAt": "2025-07-19T00:11:22.342Z",
       "variantId": "e9aa4b19-92d5-44e9-90e9-684705d6cd47",
       "variantNumber": "OGN-156",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-156.webp",
@@ -7019,7 +7019,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -7061,7 +7061,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-21"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -7213,8 +7213,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-03T01:00:07.419Z",
+      "updatedAt": "2025-07-03T01:00:07.419Z",
       "variantId": "6f315681-0fb6-4520-833f-0ba0d4c5554d",
       "variantNumber": "OGN-160",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-160.webp",
@@ -7227,7 +7227,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-02"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -7298,7 +7298,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-06-24T16:45:46.576Z",
       "variantId": "87a2341c-df59-4ee7-addd-529ec9ba9a25",
       "variantNumber": "OGN-162",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-162.webp",
@@ -7341,7 +7341,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-06-24T16:45:46.576Z",
       "variantId": "8f64f17a-491c-4b15-b771-e539723a102c",
       "variantNumber": "OGN-162a",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-162a.webp",
@@ -7421,8 +7421,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-11T20:35:22.180Z",
+      "updatedAt": "2025-07-12T07:54:05.949Z",
       "variantId": "2bdcd1f9-6e3e-4ccf-9f12-370c6bd93e3a",
       "variantNumber": "OGN-164",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-164.webp",
@@ -7435,7 +7435,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-11"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -7463,8 +7463,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-11T20:35:22.180Z",
+      "updatedAt": "2025-07-12T07:54:05.949Z",
       "variantId": "eff32a15-6752-4cb1-8cbc-d8f13da0eec1",
       "variantNumber": "OGN-164a",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-164a.webp",
@@ -7477,7 +7477,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-11"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -7624,8 +7624,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:00:49.060Z",
+      "updatedAt": "2025-07-19T00:41:54.810Z",
       "variantId": "078fc19c-8104-4d4d-b295-f55894b279a3",
       "variantNumber": "OGN-167",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-167.webp",
@@ -7638,7 +7638,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -7663,8 +7663,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-07T16:10:45.934Z",
+      "updatedAt": "2025-07-08T04:28:58.058Z",
       "variantId": "42ee5db1-f97c-4845-80e0-790a23d6f460",
       "variantNumber": "OGN-168",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-168.webp",
@@ -7677,7 +7677,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-07"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -7741,8 +7741,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-01T00:44:12.731Z",
+      "updatedAt": "2025-07-01T00:44:12.731Z",
       "variantId": "a3ed270d-ff98-45db-89a7-5b933f0fec61",
       "variantNumber": "OGN-170",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-170.webp",
@@ -7755,7 +7755,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-01"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -7782,8 +7782,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T22:47:27.417Z",
+      "updatedAt": "2025-07-01T00:42:17.019Z",
       "variantId": "1678ce33-9d7e-4a7a-a419-20a9e6f7f896",
       "variantNumber": "OGN-171",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-171.webp",
@@ -7796,7 +7796,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-30"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -7860,8 +7860,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:01:58.640Z",
+      "updatedAt": "2025-07-19T04:57:33.791Z",
       "variantId": "91389ca4-0187-451b-a61d-b866cf06f872",
       "variantNumber": "OGN-173",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-173.webp",
@@ -7874,7 +7874,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -7901,8 +7901,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-01T00:40:49.979Z",
+      "updatedAt": "2025-07-01T00:40:49.979Z",
       "variantId": "c2539365-f1e4-4f67-9f0c-7e25ffecd298",
       "variantNumber": "OGN-174",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-174.webp",
@@ -7915,7 +7915,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-01"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -7943,8 +7943,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:03:22.267Z",
+      "updatedAt": "2025-07-19T00:37:37.089Z",
       "variantId": "f7477f1a-1f98-4692-af2d-3e6eeb65c029",
       "variantNumber": "OGN-175",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-175.webp",
@@ -7957,7 +7957,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -7985,8 +7985,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-01T00:38:52.904Z",
+      "updatedAt": "2025-07-01T00:38:52.904Z",
       "variantId": "a391c1ad-5ac6-407d-8881-2e479edc5780",
       "variantNumber": "OGN-176",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-176.webp",
@@ -7999,7 +7999,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-01"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -8143,8 +8143,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:04:43.406Z",
+      "updatedAt": "2025-07-19T00:37:47.660Z",
       "variantId": "f42ac807-813e-4e31-b964-d8ffb4502df1",
       "variantNumber": "OGN-180",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-180.webp",
@@ -8157,7 +8157,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -8221,8 +8221,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:06:02.754Z",
+      "updatedAt": "2025-07-19T00:37:54.225Z",
       "variantId": "27740a06-6996-4378-8d23-20cdc331b15e",
       "variantNumber": "OGN-182",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-182.webp",
@@ -8235,7 +8235,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -8260,8 +8260,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:07:17.641Z",
+      "updatedAt": "2025-07-19T00:38:01.179Z",
       "variantId": "0d07d631-33bb-49d9-b901-bf3d9a51e043",
       "variantNumber": "OGN-183",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-183.webp",
@@ -8274,7 +8274,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -8299,15 +8299,15 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:09:31.648Z",
+      "updatedAt": "2025-07-19T00:38:10.182Z",
       "variantId": "0968dfdf-920a-4174-ae2b-d8ba2a878d3a",
       "variantNumber": "OGN-184",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-184.webp",
       "rarity": "Uncommon",
       "flavorText": "Without a ship, a pirate's just another common criminal.",
       "artist": "Six More Vodka",
-      "releaseDate": "2025-06-20",
+      "releaseDate": null,
       "variantType": "Standard",
       "set": {
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
@@ -8379,8 +8379,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:11:40.089Z",
+      "updatedAt": "2025-07-19T00:38:22.406Z",
       "variantId": "70cf70a7-1354-44b7-96d1-613d93d31c4e",
       "variantNumber": "OGN-186",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-186.webp",
@@ -8393,7 +8393,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -8457,8 +8457,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:13:03.136Z",
+      "updatedAt": "2025-07-19T00:38:30.359Z",
       "variantId": "aea0196c-f483-4bdb-bd12-8c701e04a323",
       "variantNumber": "OGN-188",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-188.webp",
@@ -8471,7 +8471,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -8541,8 +8541,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-23T21:18:27.258Z",
+      "updatedAt": "2025-06-26T06:09:07.831Z",
       "variantId": "d2f1832f-6308-4142-8e80-52d3ba9c7480",
       "variantNumber": "OGN-190",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-190.webp",
@@ -8555,7 +8555,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-23"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -8625,8 +8625,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-16T18:16:32.254Z",
+      "updatedAt": "2025-07-24T09:21:17.320Z",
       "variantId": "2afc87ee-f0f0-4a9f-8353-9dd1107235d6",
       "variantNumber": "OGN-192",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-192.webp",
@@ -8639,7 +8639,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-16"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -8752,8 +8752,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-25T16:14:48.884Z",
+      "updatedAt": "2025-06-27T07:30:57.632Z",
       "variantId": "c686800a-6f79-4a3f-8364-a562523c7796",
       "variantNumber": "OGN-194",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-194.webp",
@@ -8766,7 +8766,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-25"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -8794,8 +8794,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:15:00.205Z",
+      "updatedAt": "2025-07-19T09:31:08.064Z",
       "variantId": "d436258a-bc65-44da-a85f-cb56f9d385e7",
       "variantNumber": "OGN-195",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-195.webp",
@@ -8808,7 +8808,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -8833,8 +8833,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:16:06.709Z",
+      "updatedAt": "2025-07-19T00:38:47.682Z",
       "variantId": "cd3d636f-d634-43ea-b78c-22048ef9287f",
       "variantNumber": "OGN-196",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-196.webp",
@@ -8847,7 +8847,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -8958,8 +8958,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:17:56.478Z",
+      "updatedAt": "2025-07-19T00:38:53.997Z",
       "variantId": "07d487b8-e4fc-43b3-bdfc-e7253e6a8471",
       "variantNumber": "OGN-198",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-198.webp",
@@ -8972,7 +8972,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -8997,8 +8997,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:19:53.262Z",
+      "updatedAt": "2025-07-19T00:39:04.039Z",
       "variantId": "eca277e4-c3a6-473e-821c-22ed4a3d3651",
       "variantNumber": "OGN-199",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-199.webp",
@@ -9011,7 +9011,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -9039,8 +9039,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-04T09:12:49.725Z",
+      "updatedAt": "2025-07-08T07:24:16.315Z",
       "variantId": "c7aa21b6-8c99-43b2-9425-7dd34662c2f7",
       "variantNumber": "OGN-200",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-200.webp",
@@ -9053,7 +9053,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-04"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -9363,8 +9363,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-01T00:27:42.896Z",
+      "updatedAt": "2025-07-01T00:27:42.896Z",
       "variantId": "7df546c2-b0be-4723-9c90-462fdaad3df6",
       "variantNumber": "OGN-206",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-206.webp",
@@ -9377,7 +9377,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-01"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -9523,8 +9523,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T22:41:19.226Z",
+      "updatedAt": "2025-07-01T00:34:06.920Z",
       "variantId": "6862bfd7-df6e-4872-a77e-9009cc0044ca",
       "variantNumber": "OGN-210",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-210.webp",
@@ -9537,7 +9537,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-30"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -9603,8 +9603,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-28T02:46:18.199Z",
+      "updatedAt": "2025-06-28T06:58:28.236Z",
       "variantId": "a35f3edf-a686-4205-aa65-d70ddd78a4a8",
       "variantNumber": "OGN-212",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-212.webp",
@@ -9617,7 +9617,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-27"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -9762,8 +9762,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-01T00:24:09.971Z",
+      "updatedAt": "2025-07-01T00:24:09.971Z",
       "variantId": "3bcd5753-0e4e-4f55-b06f-019a70dc3473",
       "variantNumber": "OGN-215",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-215.webp",
@@ -9776,7 +9776,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-01"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -9930,8 +9930,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-01T00:21:58.052Z",
+      "updatedAt": "2025-07-01T00:21:58.052Z",
       "variantId": "2a429a98-c00b-4f09-afec-852b25baea72",
       "variantNumber": "OGN-219",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-219.webp",
@@ -9944,7 +9944,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-01"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -9969,8 +9969,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:36:34.416Z",
+      "updatedAt": "2025-07-19T00:36:34.416Z",
       "variantId": "8b5e0896-a366-4458-af47-304d232f2af9",
       "variantNumber": "OGN-220",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-220.webp",
@@ -9983,7 +9983,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -10008,8 +10008,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:34:45.327Z",
+      "updatedAt": "2025-07-19T00:36:56.175Z",
       "variantId": "f59098ea-51a9-4fa8-9539-ca98d902b485",
       "variantNumber": "OGN-221",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-221.webp",
@@ -10022,7 +10022,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -10050,8 +10050,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-01T00:17:32.212Z",
+      "updatedAt": "2025-07-01T00:17:32.212Z",
       "variantId": "afcf10af-a68e-4405-bb02-01b434b8c59b",
       "variantNumber": "OGN-222",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-222.webp",
@@ -10064,7 +10064,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-01"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -10091,8 +10091,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:33:23.919Z",
+      "updatedAt": "2025-07-19T00:37:07.286Z",
       "variantId": "d95679e2-4d08-4697-9d97-3719faef7542",
       "variantNumber": "OGN-223",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-223.webp",
@@ -10105,7 +10105,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -10130,8 +10130,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:31:47.143Z",
+      "updatedAt": "2025-07-19T00:37:14.344Z",
       "variantId": "0125dbd1-dca8-4a42-8677-5cc5aaf2ff5d",
       "variantNumber": "OGN-224",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-224.webp",
@@ -10144,7 +10144,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -10172,7 +10172,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-07-19T00:41:37.734Z",
       "variantId": "36ebb927-1c35-431a-9476-e3fce3ee2b0f",
       "variantNumber": "OGN-225",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-225.webp",
@@ -10213,8 +10213,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:30:32.808Z",
+      "updatedAt": "2025-07-20T16:55:03.977Z",
       "variantId": "ccb9fd2e-4712-4b1d-acbd-aa93a82c9bf5",
       "variantNumber": "OGN-226",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-226.webp",
@@ -10227,7 +10227,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -10252,8 +10252,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:28:50.743Z",
+      "updatedAt": "2025-07-19T00:37:31.331Z",
       "variantId": "bff5f929-26cc-4635-bf77-d41c49d51732",
       "variantNumber": "OGN-227",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-227.webp",
@@ -10266,7 +10266,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -10291,8 +10291,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:27:16.974Z",
+      "updatedAt": "2025-07-19T00:37:48.631Z",
       "variantId": "4960d6c5-be9b-4a81-b422-518fde2ab9b2",
       "variantNumber": "OGN-228",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-228.webp",
@@ -10305,7 +10305,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -10330,8 +10330,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:26:03.874Z",
+      "updatedAt": "2025-07-19T00:46:25.901Z",
       "variantId": "a09cdbaf-331f-4da3-b4ba-ce2d2be86a92",
       "variantNumber": "OGN-229",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-229.webp",
@@ -10344,7 +10344,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -10371,8 +10371,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-07T07:11:32.842Z",
+      "updatedAt": "2025-07-07T07:11:32.842Z",
       "variantId": "eb5379d2-428c-4b53-801d-2721ee0a0196",
       "variantNumber": "OGN-230",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-230.webp",
@@ -10385,7 +10385,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-07"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -10413,8 +10413,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-16T18:18:30.098Z",
+      "updatedAt": "2025-07-16T18:18:30.098Z",
       "variantId": "bc8e0b83-4d1c-43a0-889f-07e9bf00cf10",
       "variantNumber": "OGN-231",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-231.webp",
@@ -10427,7 +10427,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-16"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -10455,8 +10455,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-23T19:43:24.642Z",
+      "updatedAt": "2025-06-26T06:08:36.527Z",
       "variantId": "1fd35627-eecb-40db-b307-c9d5efaa176e",
       "variantNumber": "OGN-232",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-232.webp",
@@ -10469,7 +10469,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-23"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -10578,8 +10578,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-28T02:39:04.698Z",
+      "updatedAt": "2025-06-28T06:58:40.101Z",
       "variantId": "5a35a706-9d46-47e3-9ebb-2acf8ee3b027",
       "variantNumber": "OGN-235",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-235.webp",
@@ -10592,7 +10592,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-27"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -10621,8 +10621,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-15T01:35:14.334Z",
+      "updatedAt": "2025-07-18T11:52:13.476Z",
       "variantId": "57db8bfa-2537-4811-af21-9b1b955f274b",
       "variantNumber": "OGN-236",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-236.webp",
@@ -10635,7 +10635,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-14"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -10660,8 +10660,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:24:27.189Z",
+      "updatedAt": "2025-07-19T00:46:38.596Z",
       "variantId": "20ffa79a-5598-4784-bbcc-ade65087b122",
       "variantNumber": "OGN-237",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-237.webp",
@@ -10674,7 +10674,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -10950,8 +10950,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:22:41.528Z",
+      "updatedAt": "2025-07-19T00:38:16.492Z",
       "variantId": "e38b5fa3-df49-4b2f-8b34-048d929a0dec",
       "variantNumber": "OGN-242",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-242.webp",
@@ -10964,7 +10964,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-18"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -11075,8 +11075,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-09T20:45:22.970Z",
+      "updatedAt": "2025-07-12T07:53:44.027Z",
       "variantId": "02b45e08-a7db-4be0-aed4-639ebb1b0648",
       "variantNumber": "OGN-244",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-244.webp",
@@ -11089,7 +11089,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-09"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -11250,7 +11250,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:29:34.009Z",
       "variantId": "94c5511d-fcd6-463c-910f-c1b4f1f56ec3",
       "variantNumber": "OGN-247",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-247.webp",
@@ -11352,7 +11352,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:21:35.573Z",
       "variantId": "e842c4a3-dbee-40ef-a538-6f8bac332c4c",
       "variantNumber": "OGN-249",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-249.webp",
@@ -11454,7 +11454,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-06T20:06:22.611Z",
       "variantId": "b3d1f835-6233-4b84-b917-ee936fe68687",
       "variantNumber": "OGN-251",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-251.webp",
@@ -11556,7 +11556,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:30:00.403Z",
       "variantId": "6d0db797-4984-4eb9-bf69-4b5e16f5fb47",
       "variantNumber": "OGN-253",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-253.webp",
@@ -11658,7 +11658,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:19:39.290Z",
       "variantId": "19315379-beab-41f8-9cfd-3be42fe17faa",
       "variantNumber": "OGN-255",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-255.webp",
@@ -11760,7 +11760,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:26:18.017Z",
       "variantId": "1221bac0-5ae0-4dac-a192-608d80dd0a25",
       "variantNumber": "OGN-257",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-257.webp",
@@ -11862,7 +11862,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:25:06.870Z",
       "variantId": "8ccfc926-c01f-4219-9033-ffc9811e8d07",
       "variantNumber": "OGN-259",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-259.webp",
@@ -11964,7 +11964,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:27:16.720Z",
       "variantId": "c30ad370-8d43-4472-8563-4577ded82246",
       "variantNumber": "OGN-261",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-261.webp",
@@ -12066,7 +12066,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:28:21.673Z",
       "variantId": "7dedf11c-a998-48db-a609-e0683116231b",
       "variantNumber": "OGN-263",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-263.webp",
@@ -12168,7 +12168,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:31:21.978Z",
       "variantId": "b16ee995-4f0d-49ec-a67d-21a7640c033b",
       "variantNumber": "OGN-265",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-265.webp",
@@ -12270,7 +12270,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:40:09.950Z",
       "variantId": "adc14a56-d177-470a-87b2-49cf9b8ca07c",
       "variantNumber": "OGN-267",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-267.webp",
@@ -12372,7 +12372,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:39:58.556Z",
       "variantId": "e9114da6-cd16-4cf1-b260-ef026ed03487",
       "variantNumber": "OGN-269",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-269.webp",
@@ -12441,7 +12441,7 @@
     },
     {
       "id": "e8052742-53f4-4dfd-b7d1-80de196e1159",
-      "name": "Recruit v2",
+      "name": "Recruit",
       "type": "Unit",
       "super": "Token",
       "description": "",
@@ -12452,8 +12452,8 @@
         "Recruit"
       ],
       "cardColors": [],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:20:20.389Z",
+      "updatedAt": "2025-07-19T00:20:20.389Z",
       "variantId": "803d6701-f375-4b73-8371-d26833cca9a1",
       "variantNumber": "OGN-271",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-271.webp",
@@ -12466,12 +12466,12 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
       "id": "c9cd68ba-0421-4049-9364-7d4fde1abd58",
-      "name": "Recruit v3",
+      "name": "Recruit",
       "type": "Unit",
       "super": "Token",
       "description": "",
@@ -12482,8 +12482,8 @@
         "Recruit"
       ],
       "cardColors": [],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:21:18.998Z",
+      "updatedAt": "2025-07-19T00:21:18.998Z",
       "variantId": "abb9f3ec-4144-441b-92d5-005268e084fc",
       "variantNumber": "OGN-272",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-272.webp",
@@ -12496,7 +12496,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -12542,8 +12542,8 @@
         "Fae"
       ],
       "cardColors": [],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:22:18.614Z",
+      "updatedAt": "2025-07-19T00:22:18.614Z",
       "variantId": "4de2e483-9993-4d12-97ba-ee553f8c3bc0",
       "variantNumber": "OGN-274",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-274.webp",
@@ -12556,7 +12556,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -12682,8 +12682,8 @@
       "power": 0,
       "tags": [],
       "cardColors": [],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-01T00:14:27.995Z",
+      "updatedAt": "2025-07-01T00:14:27.995Z",
       "variantId": "e8dd7d36-3b00-428e-839e-b775ed4041b8",
       "variantNumber": "OGN-279",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-279.webp",
@@ -12696,7 +12696,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-01"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -12710,8 +12710,8 @@
       "power": 0,
       "tags": [],
       "cardColors": [],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:23:00.604Z",
+      "updatedAt": "2025-07-19T00:23:00.604Z",
       "variantId": "7ed8b0fd-c412-44ea-830f-696001900ef2",
       "variantNumber": "OGN-280",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-280.webp",
@@ -12724,7 +12724,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -12738,8 +12738,8 @@
       "power": 0,
       "tags": [],
       "cardColors": [],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:23:49.472Z",
+      "updatedAt": "2025-07-19T00:23:49.472Z",
       "variantId": "c3634fae-b5e0-47ab-b110-f591e45c9039",
       "variantNumber": "OGN-281",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-281.webp",
@@ -12752,7 +12752,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -12766,8 +12766,8 @@
       "power": 0,
       "tags": [],
       "cardColors": [],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:24:30.894Z",
+      "updatedAt": "2025-07-19T00:24:30.894Z",
       "variantId": "98630aad-2155-45b1-bc72-c5bd7c0dd4d6",
       "variantNumber": "OGN-282",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-282.webp",
@@ -12780,7 +12780,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -12794,8 +12794,8 @@
       "power": 0,
       "tags": [],
       "cardColors": [],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:25:19.428Z",
+      "updatedAt": "2025-07-19T00:25:19.428Z",
       "variantId": "ce7bb118-827a-4c02-ba4e-e69362839761",
       "variantNumber": "OGN-283",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-283.webp",
@@ -12808,7 +12808,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -12823,7 +12823,7 @@
       "tags": [],
       "cardColors": [],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-07-23T22:13:38.975Z",
       "variantId": "21517ba3-490a-4faa-9c42-370642703441",
       "variantNumber": "OGN-284",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-284.webp",
@@ -12851,7 +12851,7 @@
       "tags": [],
       "cardColors": [],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-07-01T00:32:14.082Z",
       "variantId": "d25bc5f3-7466-4e35-a17f-a44f81a7784f",
       "variantNumber": "OGN-285",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-285.webp",
@@ -12878,8 +12878,8 @@
       "power": 0,
       "tags": [],
       "cardColors": [],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T22:48:34.982Z",
+      "updatedAt": "2025-07-07T14:31:20.733Z",
       "variantId": "a4e6c916-0117-4719-af72-8ac27cb6ee4b",
       "variantNumber": "OGN-286",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-286.webp",
@@ -12892,7 +12892,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-30"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -12907,7 +12907,7 @@
       "tags": [],
       "cardColors": [],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-07-23T22:13:52.251Z",
       "variantId": "6b66f73a-89a6-47bb-a93d-7d012743d2ed",
       "variantNumber": "OGN-287",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-287.webp",
@@ -12934,8 +12934,8 @@
       "power": 0,
       "tags": [],
       "cardColors": [],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-01T00:11:22.038Z",
+      "updatedAt": "2025-07-01T00:11:22.038Z",
       "variantId": "511f5c85-5fb8-4e8d-8866-24c14e1fb4da",
       "variantNumber": "OGN-288",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-288.webp",
@@ -12948,7 +12948,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-01"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -12963,7 +12963,7 @@
       "tags": [],
       "cardColors": [],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-07-23T22:14:03.778Z",
       "variantId": "3aadac39-deb6-45b4-823a-e0b349ef185d",
       "variantNumber": "OGN-289",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-289.webp",
@@ -12991,7 +12991,7 @@
       "tags": [],
       "cardColors": [],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-07-23T22:14:22.150Z",
       "variantId": "ec49f884-8118-4d62-b8b0-3cff1a8111c6",
       "variantNumber": "OGN-290",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-290.webp",
@@ -13004,7 +13004,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-21"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -13018,8 +13018,8 @@
       "power": 0,
       "tags": [],
       "cardColors": [],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-28T02:41:53.195Z",
+      "updatedAt": "2025-06-28T06:58:14.030Z",
       "variantId": "a19d7700-dc0a-4880-8c53-7007699cbbab",
       "variantNumber": "OGN-291",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-291.webp",
@@ -13032,7 +13032,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-27"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -13046,8 +13046,8 @@
       "power": 0,
       "tags": [],
       "cardColors": [],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-09T20:40:15.820Z",
+      "updatedAt": "2025-07-12T07:55:00.820Z",
       "variantId": "6658e37b-ac88-4f54-a460-0b8f4a74fa08",
       "variantNumber": "OGN-292",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-292.webp",
@@ -13060,7 +13060,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-09"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -13075,7 +13075,7 @@
       "tags": [],
       "cardColors": [],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-07-23T22:14:34.112Z",
       "variantId": "56b3f249-8e87-4093-99f9-4641949cda50",
       "variantNumber": "OGN-293",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-293.webp",
@@ -13103,7 +13103,7 @@
       "tags": [],
       "cardColors": [],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-07-01T00:29:29.358Z",
       "variantId": "db9fee09-28a2-4ede-830b-5c2f5ece1ae9",
       "variantNumber": "OGN-294",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-294.webp",
@@ -13130,8 +13130,8 @@
       "power": 0,
       "tags": [],
       "cardColors": [],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:26:47.401Z",
+      "updatedAt": "2025-07-19T00:26:47.401Z",
       "variantId": "a4375af7-d845-4e38-a8c9-3e431af5d84f",
       "variantNumber": "OGN-295",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-295.webp",
@@ -13144,7 +13144,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -13159,7 +13159,7 @@
       "tags": [],
       "cardColors": [],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-07-23T22:14:45.456Z",
       "variantId": "f40b0e74-e322-4648-933f-5769df32c90c",
       "variantNumber": "OGN-296",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-296.webp",
@@ -13266,7 +13266,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:29:34.009Z",
       "variantId": "a413361e-30ab-4b49-956f-cd43065f0aca",
       "variantNumber": "OGN-299",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-299.webp",
@@ -13279,7 +13279,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-08-05"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -13317,7 +13317,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:29:34.009Z",
       "variantId": "2a7f9d42-8f2f-48e3-a281-d84488911fb2",
       "variantNumber": "OGN-299*",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-299s.webp",
@@ -13330,7 +13330,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-08-05"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -13368,7 +13368,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:21:35.573Z",
       "variantId": "06f58f52-de5e-4e08-8678-e37251502c90",
       "variantNumber": "OGN-300",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-300.webp",
@@ -13381,7 +13381,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-06-21"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -13419,7 +13419,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:21:35.573Z",
       "variantId": "f7f53005-0696-4a97-8566-be643649b312",
       "variantNumber": "OGN-300*",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-300s.webp",
@@ -13470,7 +13470,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-06T20:06:22.611Z",
       "variantId": "0607b3d8-3622-40d2-a3b4-c0e3243fb677",
       "variantNumber": "OGN-301",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-301.webp",
@@ -13483,7 +13483,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-08-05"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -13521,7 +13521,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-06T20:06:22.611Z",
       "variantId": "1936a4cc-d4c1-41bc-b215-78d4a9ea6e5f",
       "variantNumber": "OGN-301*",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-301s.webp",
@@ -13534,7 +13534,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-08-05"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -13572,7 +13572,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:30:00.403Z",
       "variantId": "2d3b0c34-b5ce-4fca-b011-a86b3aaa6c9e",
       "variantNumber": "OGN-302",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-302.webp",
@@ -13585,7 +13585,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-08-05"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -13623,7 +13623,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:30:00.403Z",
       "variantId": "775a9ff9-fb9f-4345-ad2e-2c81826252ef",
       "variantNumber": "OGN-302*",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-302s.webp",
@@ -13636,7 +13636,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-08-05"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -13674,7 +13674,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:19:39.290Z",
       "variantId": "8e0e14b4-80fa-4a57-b776-2c9ec6013622",
       "variantNumber": "OGN-303",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-303.webp",
@@ -13687,7 +13687,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-08-05"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -13725,7 +13725,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:19:39.290Z",
       "variantId": "15419d7e-589a-42d0-b947-7400367c41b2",
       "variantNumber": "OGN-303*",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-303s.webp",
@@ -13738,7 +13738,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-08-05"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -13776,7 +13776,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:26:18.017Z",
       "variantId": "ae030090-5b8b-4fb9-8fbd-219cd583937a",
       "variantNumber": "OGN-304",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-304.webp",
@@ -13789,7 +13789,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-08-05"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -13827,7 +13827,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:26:18.017Z",
       "variantId": "a85dfc69-bcdf-466a-a1a7-f0a95579101f",
       "variantNumber": "OGN-304*",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-304s.webp",
@@ -13840,7 +13840,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-08-05"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -13878,7 +13878,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:25:06.870Z",
       "variantId": "b8fb979a-0aba-4b29-99e6-f92d69544969",
       "variantNumber": "OGN-305",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-305.webp",
@@ -13929,7 +13929,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:25:06.870Z",
       "variantId": "11f7d7be-7465-41d8-b806-1d031a63c795",
       "variantNumber": "OGN-305*",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-305s.webp",
@@ -13980,7 +13980,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:27:16.720Z",
       "variantId": "e9757258-81e4-4400-8efb-15811e80318f",
       "variantNumber": "OGN-306",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-306.webp",
@@ -13993,7 +13993,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-08-05"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -14031,7 +14031,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:27:16.720Z",
       "variantId": "bf2f3615-fd26-40e2-a465-e81ac911bef1",
       "variantNumber": "OGN-306*",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-306s.webp",
@@ -14044,7 +14044,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-08-05"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -14082,7 +14082,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:28:21.673Z",
       "variantId": "879d775e-acb5-4212-b1a2-a8d2bacea010",
       "variantNumber": "OGN-307",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-307.webp",
@@ -14095,7 +14095,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-08-05"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -14133,7 +14133,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:28:21.673Z",
       "variantId": "a9819248-b7c2-4957-825e-de1c129f8533",
       "variantNumber": "OGN-307*",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-307s.webp",
@@ -14146,7 +14146,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-08-05"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -14184,7 +14184,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:31:21.978Z",
       "variantId": "127e85fd-ecd1-4151-9edd-d19527b003ce",
       "variantNumber": "OGN-308",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-308.webp",
@@ -14197,7 +14197,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-08-05"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -14235,7 +14235,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:31:21.978Z",
       "variantId": "12dcb783-6356-4436-96e8-acc4a5b35ff9",
       "variantNumber": "OGN-308*",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-308s.webp",
@@ -14248,7 +14248,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-08-05"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -14286,7 +14286,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:40:09.950Z",
       "variantId": "6fab85cc-868f-4ad9-93cd-c0b5e73271d1",
       "variantNumber": "OGN-309",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-309.webp",
@@ -14299,7 +14299,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-08-05"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -14337,7 +14337,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:40:09.950Z",
       "variantId": "fee98548-8b37-4c34-a0e1-8033c2fe25c3",
       "variantNumber": "OGN-309*",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-309s.webp",
@@ -14350,7 +14350,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-08-05"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -14388,7 +14388,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:39:58.556Z",
       "variantId": "cdcfe9e0-4472-43f6-9f8e-7d10e3fc093c",
       "variantNumber": "OGN-310",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-310.webp",
@@ -14401,7 +14401,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-08-05"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -14439,7 +14439,7 @@
         }
       ],
       "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "updatedAt": "2025-08-05T14:39:58.556Z",
       "variantId": "c9972fb2-3a76-44cc-8064-042395ab6559",
       "variantNumber": "OGN-310*",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-310s.webp",
@@ -14452,7 +14452,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-08-05"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -14466,8 +14466,8 @@
       "power": 0,
       "tags": [],
       "cardColors": [],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-07-19T00:28:35.179Z",
+      "updatedAt": "2025-07-19T00:37:10.857Z",
       "variantId": "467b2c2f-d7a0-4b58-97bd-98bc18c7acea",
       "variantNumber": "OGN-999",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-XXX.webp",
@@ -14480,7 +14480,7 @@
         "id": "8a39088c-a337-4d83-b890-39de84bc65ac",
         "name": "Origin",
         "prefix": "OGN",
-        "releaseDate": "2025-07-19"
+        "releaseDate": "2025-06-20"
       }
     },
     {
@@ -14508,8 +14508,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T04:01:41.479Z",
+      "updatedAt": "2025-07-01T02:11:09.833Z",
       "variantId": "8f9f64ff-fe0f-43ea-9392-a42c873b44d3",
       "variantNumber": "OGS-001",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-001.webp",
@@ -14547,8 +14547,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T04:04:05.153Z",
+      "updatedAt": "2025-07-01T01:33:06.468Z",
       "variantId": "d079de72-f551-48e1-ac67-82b743014102",
       "variantNumber": "OGS-002",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-002.webp",
@@ -14586,8 +14586,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T04:05:22.502Z",
+      "updatedAt": "2025-07-01T01:34:51.967Z",
       "variantId": "e05bc77b-2cf3-4aa4-b229-6be0d5501feb",
       "variantNumber": "OGS-003",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-003.webp",
@@ -14628,8 +14628,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T05:11:25.674Z",
+      "updatedAt": "2025-07-02T11:56:48.555Z",
       "variantId": "b0700cad-e590-448f-92d5-ca6477f57627",
       "variantNumber": "OGS-004",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-004.webp",
@@ -14670,8 +14670,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T05:14:52.958Z",
+      "updatedAt": "2025-07-01T01:37:51.305Z",
       "variantId": "01150b6a-760a-4e8e-936e-d7b7d640dd0d",
       "variantNumber": "OGS-005",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-005.webp",
@@ -14712,8 +14712,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T05:17:14.933Z",
+      "updatedAt": "2025-07-01T01:38:54.434Z",
       "variantId": "6b1e9cb6-c720-4b94-b841-9245c500707a",
       "variantNumber": "OGS-006",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-006.webp",
@@ -14755,8 +14755,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T05:20:24.745Z",
+      "updatedAt": "2025-07-01T01:40:40.721Z",
       "variantId": "b9c6ea9b-c9e9-4ab6-ac62-b4e73a8ab1f0",
       "variantNumber": "OGS-007",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-007.webp",
@@ -14794,8 +14794,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T05:22:33.936Z",
+      "updatedAt": "2025-07-01T01:46:02.710Z",
       "variantId": "40235c70-9015-46a4-b1f5-174d53c54b41",
       "variantNumber": "OGS-008",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-008.webp",
@@ -14836,8 +14836,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T05:24:16.074Z",
+      "updatedAt": "2025-07-01T01:47:06.418Z",
       "variantId": "4c645a45-90c4-45b9-8347-4444bc6539ba",
       "variantNumber": "OGS-009",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-009.webp",
@@ -14878,8 +14878,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T04:07:34.801Z",
+      "updatedAt": "2025-07-01T01:48:01.968Z",
       "variantId": "c5cf213f-f860-495b-8b94-2d6d207ea3c2",
       "variantNumber": "OGS-010",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-010.webp",
@@ -14917,8 +14917,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T05:26:28.305Z",
+      "updatedAt": "2025-07-01T01:49:31.889Z",
       "variantId": "0cd819d5-a03f-45d2-9e65-aec8ddae735e",
       "variantNumber": "OGS-011",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-011.webp",
@@ -14956,8 +14956,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T05:28:05.092Z",
+      "updatedAt": "2025-07-01T01:50:26.761Z",
       "variantId": "2f48a05e-d49c-443c-b349-d88e7015a9c2",
       "variantNumber": "OGS-012",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-012.webp",
@@ -14999,8 +14999,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T05:29:25.278Z",
+      "updatedAt": "2025-07-01T01:51:18.644Z",
       "variantId": "ed67de72-9698-4269-858a-ea2f9c9dab6c",
       "variantNumber": "OGS-013",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-013.webp",
@@ -15041,8 +15041,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T05:32:58.424Z",
+      "updatedAt": "2025-07-01T01:52:17.245Z",
       "variantId": "3079f215-d755-43c5-99f7-f32f5b2647a8",
       "variantNumber": "OGS-014",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-014.webp",
@@ -15080,8 +15080,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T05:35:08.461Z",
+      "updatedAt": "2025-07-01T01:54:22.034Z",
       "variantId": "a9eb1ce2-5704-4adc-a328-b35bdd4abfb0",
       "variantNumber": "OGS-015",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-015.webp",
@@ -15122,8 +15122,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T05:36:06.880Z",
+      "updatedAt": "2025-07-01T01:55:24.166Z",
       "variantId": "f3fa9f85-3df9-4507-ae59-b14185ee817f",
       "variantNumber": "OGS-016",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-016.webp",
@@ -15173,8 +15173,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T04:14:53.533Z",
+      "updatedAt": "2025-07-01T01:56:23.975Z",
       "variantId": "a0809675-489f-4fa3-bf4d-e5161172bf2a",
       "variantNumber": "OGS-017",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-017.webp",
@@ -15224,8 +15224,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T04:20:23.847Z",
+      "updatedAt": "2025-07-01T02:01:25.155Z",
       "variantId": "c5fb0bd9-b9de-45eb-88e4-a8935309c9f8",
       "variantNumber": "OGS-018",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-018.webp",
@@ -15275,8 +15275,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T05:37:30.548Z",
+      "updatedAt": "2025-07-01T02:24:57.498Z",
       "variantId": "6073c0e3-8aac-4d0d-842a-a16882910696",
       "variantNumber": "OGS-019",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-019.webp",
@@ -15326,8 +15326,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T05:39:14.365Z",
+      "updatedAt": "2025-07-01T02:23:19.766Z",
       "variantId": "b2d9cb0a-9ee7-4f4e-8877-fb92c20df344",
       "variantNumber": "OGS-020",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-020.webp",
@@ -15377,8 +15377,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T05:40:31.529Z",
+      "updatedAt": "2025-07-01T02:07:22.090Z",
       "variantId": "009fb214-0cbf-4e2c-969c-38397f1d1f1b",
       "variantNumber": "OGS-021",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-021.webp",
@@ -15428,8 +15428,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T05:41:41.654Z",
+      "updatedAt": "2025-07-01T02:07:52.496Z",
       "variantId": "cc5fc6b5-7315-4776-a12d-532fde4e4cb1",
       "variantNumber": "OGS-022",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-022.webp",
@@ -15479,8 +15479,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T05:42:57.481Z",
+      "updatedAt": "2025-07-01T02:08:39.536Z",
       "variantId": "47127ea9-1933-4619-85d6-779b10e358b3",
       "variantNumber": "OGS-023",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-023.webp",
@@ -15530,8 +15530,8 @@
           }
         }
       ],
-      "createdAt": "2025-06-21T18:27:21.701Z",
-      "updatedAt": "2025-06-21T18:27:21.701Z",
+      "createdAt": "2025-06-30T05:44:46.679Z",
+      "updatedAt": "2025-07-01T02:09:41.523Z",
       "variantId": "31233355-de44-47a1-b025-d9db637e8817",
       "variantNumber": "OGS-024",
       "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-024.webp",
