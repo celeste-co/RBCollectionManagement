@@ -1,600 +1,665 @@
 [
-    {
-        "card_number": "OGS-001",
-        "name": "Annie, Fiery",
-        "domains": [
-            "Fury"
-        ],
-        "super_type": "Champion",
-        "type": "Unit",
-        "tags": [
-            "Annie",
-            "Noxus"
-        ],
-        "energy_cost": 5,
-        "power_cost": 1,
-        "might": 4,
-        "rarity": "Epic",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "foil"
-        ],
-        "power_cost_map": {
-            "F": 1
-        }
+  {
+    "card_number": "OGS-001",
+    "name": "Annie, Fiery",
+    "domains": [
+      "Fury"
+    ],
+    "super_type": "Champion",
+    "type": "Unit",
+    "tags": [
+      "Annie",
+      "Noxus"
+    ],
+    "energy_cost": 5,
+    "power_cost": 1,
+    "might": 4,
+    "rarity": "Epic",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "foil"
+    ],
+    "power_cost_map": {
+      "F": 1
     },
-    {
-        "card_number": "OGS-002",
-        "name": "Firestorm",
-        "domains": [
-            "Fury"
-        ],
-        "super_type": "",
-        "type": "Spell",
-        "tags": [],
-        "energy_cost": 6,
-        "power_cost": 1,
-        "might": 0,
-        "rarity": "Uncommon",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "non_foil",
-            "foil"
-        ],
-        "power_cost_map": {
-            "F": 1
-        }
+    "description": "Your spells and abilities deal 1 Bonus Damage. (Each instance of damage they deal is increased by 1.)",
+    "flavor_text": "\"I never play with matches.\"",
+    "artist": "Polar Engine Studio"
+  },
+  {
+    "card_number": "OGS-002",
+    "name": "Firestorm",
+    "domains": [
+      "Fury"
+    ],
+    "super_type": "",
+    "type": "Spell",
+    "tags": [],
+    "energy_cost": 6,
+    "power_cost": 1,
+    "might": 0,
+    "rarity": "Uncommon",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "non_foil",
+      "foil"
+    ],
+    "power_cost_map": {
+      "F": 1
     },
-    {
-        "card_number": "OGS-003",
-        "name": "Incinerate",
-        "domains": [
-            "Fury"
-        ],
-        "super_type": "",
-        "type": "Spell",
-        "tags": [
-            "*"
-        ],
-        "energy_cost": 2,
-        "power_cost": 0,
-        "might": 0,
-        "rarity": "Common",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "non_foil",
-            "foil"
-        ],
-        "power_cost_map": {}
+    "description": "Deal 3 to all enemy units at a battlefield.",
+    "flavor_text": "\"Eeny, meeny, miny, burn!\"\n-Annie",
+    "artist": "Kudos Productions"
+  },
+  {
+    "card_number": "OGS-003",
+    "name": "Incinerate",
+    "domains": [
+      "Fury"
+    ],
+    "super_type": "",
+    "type": "Spell",
+    "tags": [
+      "*"
+    ],
+    "energy_cost": 2,
+    "power_cost": 0,
+    "might": 0,
+    "rarity": "Common",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "non_foil",
+      "foil"
+    ],
+    "power_cost_map": {},
+    "description": "[ACTION] (play on your turn or in showdowns.) \nDeal 2 to a unit at a battlefield.",
+    "flavor_text": "\"You smell like burning!\"\n-Annie",
+    "artist": "Kudos Productions"
+  },
+  {
+    "card_number": "OGS-004",
+    "name": "Master Yi, Meditative",
+    "domains": [
+      "Calm"
+    ],
+    "super_type": "Champion",
+    "type": "Unit",
+    "tags": [
+      "Master yi",
+      "Ionia"
+    ],
+    "energy_cost": 5,
+    "power_cost": 1,
+    "might": 4,
+    "rarity": "Rare",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "foil"
+    ],
+    "power_cost_map": {
+      "C": 1
     },
-    {
-        "card_number": "OGS-004",
-        "name": "Master Yi, Meditative",
-        "domains": [
-            "Calm"
-        ],
-        "super_type": "Champion",
-        "type": "Unit",
-        "tags": [
-            "Master yi",
-            "Ionia"
-        ],
-        "energy_cost": 5,
-        "power_cost": 1,
-        "might": 4,
-        "rarity": "Rare",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "foil"
-        ],
-        "power_cost_map": {
-            "C": 1
-        }
+    "description": "While you have 8+ runes, I have +4 [Might].",
+    "flavor_text": "\"Anger gives motivation without purpose.\"",
+    "artist": "Kudos Productions"
+  },
+  {
+    "card_number": "OGS-005",
+    "name": "Zephyr Sage",
+    "domains": [
+      "Calm"
+    ],
+    "super_type": "",
+    "type": "Unit",
+    "tags": [
+      "Ionia",
+      "Bird"
+    ],
+    "energy_cost": 6,
+    "power_cost": 1,
+    "might": 6,
+    "rarity": "Uncommon",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "non_foil",
+      "foil"
+    ],
+    "power_cost_map": {
+      "C": 1
     },
-    {
-        "card_number": "OGS-005",
-        "name": "Zephyr Sage",
-        "domains": [
-            "Calm"
-        ],
-        "super_type": "",
-        "type": "Unit",
-        "tags": [
-            "Ionia",
-            "Bird"
-        ],
-        "energy_cost": 6,
-        "power_cost": 1,
-        "might": 6,
-        "rarity": "Uncommon",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "non_foil",
-            "foil"
-        ],
-        "power_cost_map": {
-            "C": 1
-        }
+    "description": "[SHIELD] (+1 [Might] while I'm a defender.)",
+    "flavor_text": "\"A true master is an eternal student.\"\n-Master Yi",
+    "artist": "Kudos Productions"
+  },
+  {
+    "card_number": "OGS-006",
+    "name": "Lux, Illuminated",
+    "domains": [
+      "Mind"
+    ],
+    "super_type": "Champion",
+    "type": "Unit",
+    "tags": [
+      "Lux",
+      "Demacia"
+    ],
+    "energy_cost": 6,
+    "power_cost": 1,
+    "might": 5,
+    "rarity": "Rare",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "foil"
+    ],
+    "power_cost_map": {
+      "M": 1
     },
-    {
-        "card_number": "OGS-006",
-        "name": "Lux, Illuminated",
-        "domains": [
-            "Mind"
-        ],
-        "super_type": "Champion",
-        "type": "Unit",
-        "tags": [
-            "Lux",
-            "Demacia"
-        ],
-        "energy_cost": 6,
-        "power_cost": 1,
-        "might": 5,
-        "rarity": "Rare",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "foil"
-        ],
-        "power_cost_map": {
-            "M": 1
-        }
+    "description": "When you play a spell that costs [5] or more, give me +3 [Might] this turn.",
+    "flavor_text": "\"No more holding back!\"",
+    "artist": "Six More Vodka"
+  },
+  {
+    "card_number": "OGS-007",
+    "name": "Garen, Rugged",
+    "domains": [
+      "Body"
+    ],
+    "super_type": "Champion",
+    "type": "Unit",
+    "tags": [
+      "Garen",
+      "Demacia",
+      "Elite"
+    ],
+    "energy_cost": 6,
+    "power_cost": 1,
+    "might": 5,
+    "rarity": "Rare",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "foil"
+    ],
+    "power_cost_map": {
+      "B": 1
     },
-    {
-        "card_number": "OGS-007",
-        "name": "Garen, Rugged",
-        "domains": [
-            "Body"
-        ],
-        "super_type": "Champion",
-        "type": "Unit",
-        "tags": [
-            "Garen",
-            "Demacia",
-            "Elite"
-        ],
-        "energy_cost": 6,
-        "power_cost": 1,
-        "might": 5,
-        "rarity": "Rare",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "foil"
-        ],
-        "power_cost_map": {
-            "B": 1
-        }
+    "description": "[Assault 2], [Shield 2] (+2 [Might] while I'm an attacker or defender.)",
+    "flavor_text": "\"Fear is the first of many foes.\"",
+    "artist": "Six More Vodka"
+  },
+  {
+    "card_number": "OGS-008",
+    "name": "Gentlemen's Duel",
+    "domains": [
+      "Body"
+    ],
+    "super_type": "",
+    "type": "Spell",
+    "tags": [],
+    "energy_cost": 6,
+    "power_cost": 1,
+    "might": 0,
+    "rarity": "Common",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "non_foil",
+      "foil"
+    ],
+    "power_cost_map": {
+      "B": 1
     },
-    {
-        "card_number": "OGS-008",
-        "name": "Gentlemen's Duel",
-        "domains": [
-            "Body"
-        ],
-        "super_type": "",
-        "type": "Spell",
-        "tags": [],
-        "energy_cost": 6,
-        "power_cost": 1,
-        "might": 0,
-        "rarity": "Common",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "non_foil",
-            "foil"
-        ],
-        "power_cost_map": {
-            "B": 1
-        }
+    "description": "[Action] (Play on your turn or in showdowns.)\nGive a friendly unit +3 [Might] this turn. Then, choose an enemy unit. They deal damage equal to their Mights to each other.",
+    "flavor_text": "A proper and formal way to kill your enemies.",
+    "artist": "Kudos Productions"
+  },
+  {
+    "card_number": "OGS-009",
+    "name": "Master Yi, Honed",
+    "domains": [
+      "Body"
+    ],
+    "super_type": "Champion",
+    "type": "Unit",
+    "tags": [
+      "Master yi",
+      "Ionia"
+    ],
+    "energy_cost": 7,
+    "power_cost": 1,
+    "might": 6,
+    "rarity": "Epic",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "foil"
+    ],
+    "power_cost_map": {
+      "B": 1
     },
-    {
-        "card_number": "OGS-009",
-        "name": "Master Yi, Honed",
-        "domains": [
-            "Body"
-        ],
-        "super_type": "Champion",
-        "type": "Unit",
-        "tags": [
-            "Master yi",
-            "Ionia"
-        ],
-        "energy_cost": 7,
-        "power_cost": 1,
-        "might": 6,
-        "rarity": "Epic",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "foil"
-        ],
-        "power_cost_map": {
-            "B": 1
-        }
+    "description": "[GANKING] (I can move from battlefield to battlefield.)\nI enter ready.",
+    "flavor_text": "\"The focused mind can pierce through stone.\"",
+    "artist": "Kudos Productions"
+  },
+  {
+    "card_number": "OGS-010",
+    "name": "Annie, Stubborn",
+    "domains": [
+      "Chaos"
+    ],
+    "super_type": "Champion",
+    "type": "Unit",
+    "tags": [
+      "Annie",
+      "Noxus"
+    ],
+    "energy_cost": 4,
+    "power_cost": 1,
+    "might": 3,
+    "rarity": "Rare",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "foil"
+    ],
+    "power_cost_map": {
+      "H": 1
     },
-    {
-        "card_number": "OGS-010",
-        "name": "Annie, Stubborn",
-        "domains": [
-            "Chaos"
-        ],
-        "super_type": "Champion",
-        "type": "Unit",
-        "tags": [
-            "Annie",
-            "Noxus"
-        ],
-        "energy_cost": 4,
-        "power_cost": 1,
-        "might": 3,
-        "rarity": "Rare",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "foil"
-        ],
-        "power_cost_map": {
-            "H": 1
-        }
+    "description": "When you play me, return a spell from your trash to your hand.",
+    "flavor_text": "\"I want a turn!\"",
+    "artist": "League Splash Team"
+  },
+  {
+    "card_number": "OGS-011",
+    "name": "Flash",
+    "domains": [
+      "Chaos"
+    ],
+    "super_type": "",
+    "type": "Spell",
+    "tags": [],
+    "energy_cost": 2,
+    "power_cost": 0,
+    "might": 0,
+    "rarity": "Uncommon",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "non_foil",
+      "foil"
+    ],
+    "power_cost_map": {},
+    "description": "[REACTION] (Play at any time, even before spells and abilities resolve.)\nMove up to 2 friendly units to base.",
+    "flavor_text": "It's not running away. It's strategic positioning.",
+    "artist": "Sugar Free"
+  },
+  {
+    "card_number": "OGS-012",
+    "name": "Blast of Power",
+    "domains": [
+      "Order"
+    ],
+    "super_type": "",
+    "type": "Spell",
+    "tags": [],
+    "energy_cost": 6,
+    "power_cost": 1,
+    "might": 0,
+    "rarity": "Uncommon",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "non_foil",
+      "foil"
+    ],
+    "power_cost_map": {
+      "O": 1
     },
-    {
-        "card_number": "OGS-011",
-        "name": "Flash",
-        "domains": [
-            "Chaos"
-        ],
-        "super_type": "",
-        "type": "Spell",
-        "tags": [],
-        "energy_cost": 2,
-        "power_cost": 0,
-        "might": 0,
-        "rarity": "Uncommon",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "non_foil",
-            "foil"
-        ],
-        "power_cost_map": {}
+    "description": "[ACTION] (Play on your turn or in showdowns.)\nKill a unit at a battlefield.",
+    "flavor_text": "\"Illuminate the enemy!\"\n-Lux",
+    "artist": "Kudos Productions"
+  },
+  {
+    "card_number": "OGS-013",
+    "name": "Garen, Commander",
+    "domains": [
+      "Order"
+    ],
+    "super_type": "Champion",
+    "type": "Unit",
+    "tags": [
+      "Garen",
+      "Demacia",
+      "Elite"
+    ],
+    "energy_cost": 6,
+    "power_cost": 1,
+    "might": 5,
+    "rarity": "Epic",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "foil"
+    ],
+    "power_cost_map": {
+      "O": 1
     },
-    {
-        "card_number": "OGS-012",
-        "name": "Blast of Power",
-        "domains": [
-            "Order"
-        ],
-        "super_type": "",
-        "type": "Spell",
-        "tags": [],
-        "energy_cost": 6,
-        "power_cost": 1,
-        "might": 0,
-        "rarity": "Uncommon",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "non_foil",
-            "foil"
-        ],
-        "power_cost_map": {
-            "O": 1
-        }
+    "description": "Other friendly units have +1 [Might] here.",
+    "flavor_text": "\"For Demacia!\"",
+    "artist": "Six More Vodka"
+  },
+  {
+    "card_number": "OGS-014",
+    "name": "Lux, Crownguard",
+    "domains": [
+      "Order"
+    ],
+    "super_type": "Champion",
+    "type": "Unit",
+    "tags": [
+      "Lux",
+      "Demacia"
+    ],
+    "energy_cost": 4,
+    "power_cost": 0,
+    "might": 2,
+    "rarity": "Epic",
+    "is_alt_art": true,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "foil"
+    ],
+    "power_cost_map": {},
+    "description": "[Tap]: [REACTION] - [ADD] [2] Use only to play spells. (Abilities that add resources can't be reacted to.)",
+    "flavor_text": "\"I've been hiding my light long enough.\"",
+    "artist": "Envar Studio"
+  },
+  {
+    "card_number": "OGS-015",
+    "name": "Recruit the Vanguard",
+    "domains": [
+      "Order"
+    ],
+    "super_type": "",
+    "type": "Spell",
+    "tags": [],
+    "energy_cost": 6,
+    "power_cost": 0,
+    "might": 0,
+    "rarity": "Uncommon",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "non_foil",
+      "foil"
+    ],
+    "power_cost_map": {},
+    "description": "[ACTION] (Play on your turn or in showdowns.)\nPlay four 1 [Might] Recruit unit tokens. (They can be played to your base or to battlefields you control.)",
+    "flavor_text": "\"My heart and sword always for Demacia.\"\n-Garen",
+    "artist": "Kudos Productions"
+  },
+  {
+    "card_number": "OGS-016",
+    "name": "Vanguard Attendant",
+    "domains": [
+      "Order"
+    ],
+    "super_type": "",
+    "type": "Unit",
+    "tags": [
+      "Demacia",
+      "Elite"
+    ],
+    "energy_cost": 6,
+    "power_cost": 1,
+    "might": 5,
+    "rarity": "Common",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "non_foil",
+      "foil"
+    ],
+    "power_cost_map": {
+      "O": 1
     },
-    {
-        "card_number": "OGS-013",
-        "name": "Garen, Commander",
-        "domains": [
-            "Order"
-        ],
-        "super_type": "Champion",
-        "type": "Unit",
-        "tags": [
-            "Garen",
-            "Demacia",
-            "Elite"
-        ],
-        "energy_cost": 6,
-        "power_cost": 1,
-        "might": 5,
-        "rarity": "Epic",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "foil"
-        ],
-        "power_cost_map": {
-            "O": 1
-        }
+    "description": "I enter ready.",
+    "flavor_text": "Even the Vanguard needs a first line of defense.",
+    "artist": "Six More Vodka"
+  },
+  {
+    "card_number": "OGS-017",
+    "name": "Annie, Dark Child",
+    "domains": [
+      "Fury",
+      "Chaos"
+    ],
+    "super_type": "",
+    "type": "Legend",
+    "tags": [
+      "Annie"
+    ],
+    "energy_cost": 0,
+    "power_cost": 0,
+    "might": 0,
+    "rarity": "Rare",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "foil"
+    ],
+    "power_cost_map": {},
+    "description": "At the end of your turn, ready 2 runes.",
+    "artist": "Six More Vodka"
+  },
+  {
+    "card_number": "OGS-018",
+    "name": "Tibbers",
+    "domains": [
+      "Fury",
+      "Chaos"
+    ],
+    "super_type": "Signature",
+    "type": "Unit",
+    "tags": [
+      "Annie"
+    ],
+    "energy_cost": 8,
+    "power_cost": 2,
+    "might": 7,
+    "rarity": "Epic",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "foil"
+    ],
+    "power_cost_map": {
+      "Any": 2
     },
-    {
-        "card_number": "OGS-014",
-        "name": "Lux, Crownguard",
-        "domains": [
-            "Order"
-        ],
-        "super_type": "Champion",
-        "type": "Unit",
-        "tags": [
-            "Lux",
-            "Demacia"
-        ],
-        "energy_cost": 4,
-        "power_cost": 0,
-        "might": 2,
-        "rarity": "Epic",
-        "is_alt_art": true,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "foil"
-        ],
-        "power_cost_map": {}
+    "description": "When you play me, deal 3 damage to all units at battlefields.",
+    "flavor_text": "\"Bear hug!\"\n-Annie",
+    "artist": "Polar Engine Studio"
+  },
+  {
+    "card_number": "OGS-019",
+    "name": "Master Yi, Wuju Bladesman",
+    "domains": [
+      "Calm",
+      "Body"
+    ],
+    "super_type": "",
+    "type": "Legend",
+    "tags": [
+      "Master yi"
+    ],
+    "energy_cost": 0,
+    "power_cost": 0,
+    "might": 0,
+    "rarity": "Rare",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "foil"
+    ],
+    "power_cost_map": {},
+    "description": "While a friendly unit defends alone, it gets +2 [Might].",
+    "artist": "Grafit Studio/Quy Ho"
+  },
+  {
+    "card_number": "OGS-020",
+    "name": "Highlander",
+    "domains": [
+      "Calm",
+      "Body"
+    ],
+    "super_type": "Signature",
+    "type": "Spell",
+    "tags": [
+      "Master yi"
+    ],
+    "energy_cost": 4,
+    "power_cost": 0,
+    "might": 0,
+    "rarity": "Epic",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "foil"
+    ],
+    "power_cost_map": {},
+    "description": "[REACTION] (Play any time, even before spells and abilities resolve.)\nChoose a friendly unit. The next time it dies this turn, recall it exhausted instead (Send it to base. This isn't a move.)",
+    "artist": "Kudos Productions"
+  },
+  {
+    "card_number": "OGS-021",
+    "name": "Lux, Lady of Luminosity",
+    "domains": [
+      "Mind",
+      "Order"
+    ],
+    "super_type": "",
+    "type": "Legend",
+    "tags": [
+      "Lux"
+    ],
+    "energy_cost": 0,
+    "power_cost": 0,
+    "might": 0,
+    "rarity": "Rare",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "foil"
+    ],
+    "power_cost_map": {},
+    "description": "When you play a spell that costs [5] or more, draw a 1.",
+    "artist": "Grafit Studio/Maki Planas Mata"
+  },
+  {
+    "card_number": "OGS-022",
+    "name": "Final Spark",
+    "domains": [
+      "Mind",
+      "Order"
+    ],
+    "super_type": "Signature",
+    "type": "Spell",
+    "tags": [
+      "Lux"
+    ],
+    "energy_cost": 8,
+    "power_cost": 0,
+    "might": 0,
+    "rarity": "Epic",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "foil"
+    ],
+    "power_cost_map": {},
+    "description": "[ACTION] (Play on your turn or in showdowns.)\nDeal 8 to a unit.",
+    "artist": "Kudos Productions"
+  },
+  {
+    "card_number": "OGS-023",
+    "name": "Garen, Might of Demacia",
+    "domains": [
+      "Body",
+      "Order"
+    ],
+    "super_type": "",
+    "type": "Legend",
+    "tags": [
+      "Garen"
+    ],
+    "energy_cost": 0,
+    "power_cost": 0,
+    "might": 0,
+    "rarity": "Rare",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "foil"
+    ],
+    "power_cost_map": {},
+    "description": "When you conquer, if you have 4+ units at that battlefield, draw 2.",
+    "artist": "Six More Vodka"
+  },
+  {
+    "card_number": "OGS-024",
+    "name": "Decisive Strike",
+    "domains": [
+      "Body",
+      "Order"
+    ],
+    "super_type": "Signature",
+    "type": "Spell",
+    "tags": [
+      "Garen"
+    ],
+    "energy_cost": 5,
+    "power_cost": 1,
+    "might": 0,
+    "rarity": "Epic",
+    "is_alt_art": false,
+    "is_overnumbered": false,
+    "is_signed": false,
+    "finishes": [
+      "foil"
+    ],
+    "power_cost_map": {
+      "Any": 1
     },
-    {
-        "card_number": "OGS-015",
-        "name": "Recruit the Vanguard",
-        "domains": [
-            "Order"
-        ],
-        "super_type": "",
-        "type": "Spell",
-        "tags": [],
-        "energy_cost": 6,
-        "power_cost": 0,
-        "might": 0,
-        "rarity": "Uncommon",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "non_foil",
-            "foil"
-        ],
-        "power_cost_map": {}
-    },
-    {
-        "card_number": "OGS-016",
-        "name": "Vanguard Attendant",
-        "domains": [
-            "Order"
-        ],
-        "super_type": "",
-        "type": "Unit",
-        "tags": [
-            "Demacia",
-            "Elite"
-        ],
-        "energy_cost": 6,
-        "power_cost": 1,
-        "might": 5,
-        "rarity": "Common",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "non_foil",
-            "foil"
-        ],
-        "power_cost_map": {
-            "O": 1
-        }
-    },
-    {
-        "card_number": "OGS-017",
-        "name": "Annie, Dark Child",
-        "domains": [
-            "Fury",
-            "Chaos"
-        ],
-        "super_type": "",
-        "type": "Legend",
-        "tags": [
-            "Annie"
-        ],
-        "energy_cost": 0,
-        "power_cost": 0,
-        "might": 0,
-        "rarity": "Rare",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "foil"
-        ],
-        "power_cost_map": {}
-    },
-    {
-        "card_number": "OGS-018",
-        "name": "Tibbers",
-        "domains": [
-            "Fury",
-            "Chaos"
-        ],
-        "super_type": "Signature",
-        "type": "Unit",
-        "tags": [
-            "Annie"
-        ],
-        "energy_cost": 8,
-        "power_cost": 2,
-        "might": 7,
-        "rarity": "Epic",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "foil"
-        ],
-        "power_cost_map": {
-            "Any": 2
-        }
-    },
-    {
-        "card_number": "OGS-019",
-        "name": "Master Yi, Wuju Bladesman",
-        "domains": [
-            "Calm",
-            "Body"
-        ],
-        "super_type": "",
-        "type": "Legend",
-        "tags": [
-            "Master yi"
-        ],
-        "energy_cost": 0,
-        "power_cost": 0,
-        "might": 0,
-        "rarity": "Rare",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "foil"
-        ],
-        "power_cost_map": {}
-    },
-    {
-        "card_number": "OGS-020",
-        "name": "Highlander",
-        "domains": [
-            "Calm",
-            "Body"
-        ],
-        "super_type": "Signature",
-        "type": "Spell",
-        "tags": [
-            "Master yi"
-        ],
-        "energy_cost": 4,
-        "power_cost": 0,
-        "might": 0,
-        "rarity": "Epic",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "foil"
-        ],
-        "power_cost_map": {}
-    },
-    {
-        "card_number": "OGS-021",
-        "name": "Lux, Lady of Luminosity",
-        "domains": [
-            "Mind",
-            "Order"
-        ],
-        "super_type": "",
-        "type": "Legend",
-        "tags": [
-            "Lux"
-        ],
-        "energy_cost": 0,
-        "power_cost": 0,
-        "might": 0,
-        "rarity": "Rare",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "foil"
-        ],
-        "power_cost_map": {}
-    },
-    {
-        "card_number": "OGS-022",
-        "name": "Final Spark",
-        "domains": [
-            "Mind",
-            "Order"
-        ],
-        "super_type": "Signature",
-        "type": "Spell",
-        "tags": [
-            "Lux"
-        ],
-        "energy_cost": 8,
-        "power_cost": 0,
-        "might": 0,
-        "rarity": "Epic",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "foil"
-        ],
-        "power_cost_map": {}
-    },
-    {
-        "card_number": "OGS-023",
-        "name": "Garen, Might of Demacia",
-        "domains": [
-            "Body",
-            "Order"
-        ],
-        "super_type": "",
-        "type": "Legend",
-        "tags": [
-            "Garen"
-        ],
-        "energy_cost": 0,
-        "power_cost": 0,
-        "might": 0,
-        "rarity": "Rare",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "foil"
-        ],
-        "power_cost_map": {}
-    },
-    {
-        "card_number": "OGS-024",
-        "name": "Decisive Strike",
-        "domains": [
-            "Body",
-            "Order"
-        ],
-        "super_type": "Signature",
-        "type": "Spell",
-        "tags": [
-            "Garen"
-        ],
-        "energy_cost": 5,
-        "power_cost": 1,
-        "might": 0,
-        "rarity": "Epic",
-        "is_alt_art": false,
-        "is_overnumbered": false,
-        "is_signed": false,
-        "finishes": [
-            "foil"
-        ],
-        "power_cost_map": {
-            "Any": 1
-        }
-    }
+    "description": "[ACTION] (Play on your turn or in showdowns.)\nGive friendly units +2 [Might] this turn.",
+    "artist": "Kudos Productions"
+  }
 ]
