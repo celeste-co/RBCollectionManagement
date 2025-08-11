@@ -6,16 +6,16 @@ Main application entry point
 
 import sys
 import os
-from PyQt6.QtWidgets import (QApplication, QMainWindow, QVBoxLayout, QWidget, 
-                             QLabel, QTabWidget, QMessageBox)
+from PyQt6.QtWidgets import (QApplication, QMainWindow, QHBoxLayout, QWidget, 
+                             QMessageBox)
 from PyQt6.QtCore import Qt
-from PyQt6.QtGui import QFont, QIcon
 
 # Add src directory to Python path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 
 from src.models.card_database import CardDatabase
-from src.ui.search_widget import SearchWidget
+from src.ui.sidebar import Sidebar
+from src.ui.content_area import ContentArea
 from src.utils.data_importer import DataImporter
 
 class MainWindow(QMainWindow):
@@ -24,7 +24,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Riftbound TCG Collection Management")
-        self.setGeometry(100, 100, 1400, 900)
+        self.setGeometry(100, 100, 1600, 900)
         
         # Initialize database
         self.database = CardDatabase()
@@ -34,37 +34,24 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(central_widget)
         
         # Create main layout
-        layout = QVBoxLayout(central_widget)
+        layout = QHBoxLayout(central_widget)
+        layout.setContentsMargins(0, 0, 0, 0)
+        layout.setSpacing(0)
         
-        # Header
-        header_label = QLabel("Riftbound TCG Collection Management")
-        header_label.setFont(QFont("Arial", 18, QFont.Weight.Bold))
-        header_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        header_label.setStyleSheet("color: #0078d4; margin: 10px;")
-        layout.addWidget(header_label)
+        # Create sidebar
+        self.sidebar = Sidebar()
+        layout.addWidget(self.sidebar)
         
-        # Tab widget for different sections
-        self.tab_widget = QTabWidget()
-        layout.addWidget(self.tab_widget)
+        # Create content area
+        self.content_area = ContentArea(self.database)
+        layout.addWidget(self.content_area)
         
-        # Search tab
-        self.search_widget = SearchWidget(self.database)
-        self.tab_widget.addTab(self.search_widget, "🔍 Search Cards")
-        
-        # Collection tab (placeholder)
-        collection_widget = QWidget()
-        collection_layout = QVBoxLayout(collection_widget)
-        collection_layout.addWidget(QLabel("Collection Management - Coming Soon!"))
-        self.tab_widget.addTab(collection_widget, "📚 Collection")
-        
-        # Stats tab (placeholder)
-        stats_widget = QWidget()
-        stats_layout = QVBoxLayout(stats_widget)
-        stats_layout.addWidget(QLabel("Collection Statistics - Coming Soon!"))
-        self.tab_widget.addTab(stats_widget, "📊 Statistics")
+        # Connect sidebar signals
+        self.sidebar.tab_changed.connect(self.content_area.switch_to_tab)
         
         # Connect search widget signals
-        self.search_widget.card_selected.connect(self.on_card_selected)
+        search_widget = self.content_area.get_search_widget()
+        search_widget.card_selected.connect(self.on_card_selected)
         
         # Check if database needs initial import
         self.check_database_import()
@@ -106,7 +93,8 @@ class MainWindow(QMainWindow):
             )
             
             # Refresh search widget dropdowns
-            self.search_widget.populate_dropdowns()
+            search_widget = self.content_area.get_search_widget()
+            search_widget.populate_dropdowns()
             
         except Exception as e:
             QMessageBox.critical(
