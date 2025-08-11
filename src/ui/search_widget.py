@@ -333,59 +333,95 @@ class SearchWidget(QWidget):
         # Filters section
         criteria_group = QGroupBox("Filters")
         
-        # Create two-column layout: left for filters, right for sliders
-        criteria_layout = QHBoxLayout(criteria_group)
+        # Create a grid layout for the filters section
+        criteria_layout = QGridLayout(criteria_group)
         
         # Left column: All filters
-        left_column = QVBoxLayout()
-        
-        # Row 1: Name and Set
-        name_set_layout = QHBoxLayout()
-        name_set_layout.addWidget(QLabel("Card Name:"))
+        # Row 0: Name and Set
+        criteria_layout.addWidget(QLabel("Card Name:"), 0, 0)
         self.name_input = QLineEdit()
         self.name_input.setPlaceholderText("Search by name...")
-        name_set_layout.addWidget(self.name_input)
-        name_set_layout.addWidget(QLabel("Set:"))
+        criteria_layout.addWidget(self.name_input, 0, 1)
+        criteria_layout.addWidget(QLabel("Set:"), 0, 2)
         self.set_combo = QComboBox()
         self.set_combo.addItem("All Sets")
-        name_set_layout.addWidget(self.set_combo)
-        left_column.addLayout(name_set_layout)
+        criteria_layout.addWidget(self.set_combo, 0, 3)
         
-        # Row 2: Domains (checkboxes)
-        left_column.addWidget(QLabel("Domains:"))
-        domains_box = QHBoxLayout()
+        # Row 1: Domains (checkboxes) - horizontal layout
+        criteria_layout.addWidget(QLabel("Domains:"), 1, 0)
+        domains_layout = QHBoxLayout()
         self.domain_checks = []
         for d in ["Fury", "Calm", "Mind", "Body", "Order", "Chaos"]:
             cb = QCheckBox(d)
             self.domain_checks.append(cb)
-            domains_box.addWidget(cb)
-        domains_box.addStretch()
-        left_column.addLayout(domains_box)
+            domains_layout.addWidget(cb)
+        domains_layout.addStretch()
+        criteria_layout.addLayout(domains_layout, 1, 1, 1, 3)
         
-        # Row 3: Rarity and Type
-        rarity_type_layout = QHBoxLayout()
-        rarity_type_layout.addWidget(QLabel("Rarity:"))
+        # Row 2: Rarity and Type
+        criteria_layout.addWidget(QLabel("Rarity:"), 2, 0)
         self.rarity_combo = QComboBox()
         self.rarity_combo.addItem("All Rarities")
-        rarity_type_layout.addWidget(self.rarity_combo)
-        rarity_type_layout.addWidget(QLabel("Type:"))
+        criteria_layout.addWidget(self.rarity_combo, 2, 1)
+        criteria_layout.addWidget(QLabel("Type:"), 2, 2)
         self.type_combo = QComboBox()
         self.type_combo.addItem("All Types")
-        rarity_type_layout.addWidget(self.type_combo)
-        left_column.addLayout(rarity_type_layout)
+        criteria_layout.addWidget(self.type_combo, 2, 3)
         
-        # Row 4: Tags
-        left_column.addWidget(QLabel("Tags:"))
+        # Row 3: Tags - horizontal layout
+        criteria_layout.addWidget(QLabel("Tags:"), 3, 0)
         self.tags_input = QLineEdit()
         self.tags_input.setPlaceholderText("e.g., Noxus, Dragon")
-        left_column.addWidget(self.tags_input)
+        criteria_layout.addWidget(self.tags_input, 3, 1, 1, 3)
         
-        # Row 5: Options and Search Button
-        options_layout = QHBoxLayout()
+        # Row 4: Options only - moved to bottom left
         self.owned_only_check = QCheckBox("Show only owned")
-        options_layout.addWidget(self.owned_only_check)
-        options_layout.addStretch()
+        criteria_layout.addWidget(self.owned_only_check, 5, 0)  # Bottom left position
         
+        # Right column: Only the three sliders
+        # Row 0: Might slider
+        criteria_layout.addWidget(QLabel("Might:"), 0, 4)
+        might_layout = QHBoxLayout()
+        self.might_slider = RangeSliderWidget(0, 10)
+        self.might_label = QLabel("0 - 10")
+        self.might_label.setFixedWidth(60)
+        def on_might_changed(v):
+            lo, hi = v
+            self.might_label.setText(f"{lo} - {hi}")
+        self.might_slider.valueChanged.connect(on_might_changed)
+        might_layout.addWidget(self.might_slider)
+        might_layout.addWidget(self.might_label)
+        criteria_layout.addLayout(might_layout, 0, 5)
+
+        # Row 1: Energy slider
+        criteria_layout.addWidget(QLabel("Energy:"), 1, 4)
+        energy_layout = QHBoxLayout()
+        self.energy_slider = RangeSliderWidget(0, 12)
+        self.energy_label = QLabel("0 - 12")
+        self.energy_label.setFixedWidth(60)
+        def on_energy_changed(v):
+            lo, hi = v
+            self.energy_label.setText(f"{lo} - {hi}")
+        self.energy_slider.valueChanged.connect(on_energy_changed)
+        energy_layout.addWidget(self.energy_slider)
+        energy_layout.addWidget(self.energy_label)
+        criteria_layout.addLayout(energy_layout, 1, 5)
+
+        # Row 2: Power slider
+        criteria_layout.addWidget(QLabel("Power:"), 2, 4)
+        power_layout = QHBoxLayout()
+        self.power_total_slider = RangeSliderWidget(0, 4)
+        self.power_label = QLabel("0 - 4")
+        self.power_label.setFixedWidth(60)
+        def on_power_changed(v):
+            lo, hi = v
+            self.power_label.setText(f"{lo} - {hi}")
+        self.power_total_slider.valueChanged.connect(on_power_changed)
+        power_layout.addWidget(self.power_total_slider)
+        power_layout.addWidget(self.power_label)
+        criteria_layout.addLayout(power_layout, 2, 5)
+        
+        # Row 5: Apply Filters button at the bottom right
         search_button = QPushButton("Apply Filters")
         search_button.clicked.connect(self.perform_search)
         search_button.setStyleSheet("""
@@ -401,58 +437,15 @@ class SearchWidget(QWidget):
                 background-color: #106ebe;
             }
         """)
-        options_layout.addWidget(search_button)
-        left_column.addLayout(options_layout)
+        criteria_layout.addWidget(search_button, 5, 5)  # Bottom right position
         
-        # Right column: Only the three sliders
-        right_column = QVBoxLayout()
-        right_column.addWidget(QLabel("Range Filters"))
-        
-        # Might slider
-        might_layout = QHBoxLayout()
-        might_layout.addWidget(QLabel("Might:"))
-        self.might_slider = RangeSliderWidget(0, 10)
-        self.might_label = QLabel("0 - 10")
-        self.might_label.setFixedWidth(60)
-        def on_might_changed(v):
-            lo, hi = v
-            self.might_label.setText(f"{lo} - {hi}")
-        self.might_slider.valueChanged.connect(on_might_changed)
-        might_layout.addWidget(self.might_slider)
-        might_layout.addWidget(self.might_label)
-        right_column.addLayout(might_layout)
-
-        # Energy slider
-        energy_layout = QHBoxLayout()
-        energy_layout.addWidget(QLabel("Energy:"))
-        self.energy_slider = RangeSliderWidget(0, 12)
-        self.energy_label = QLabel("0 - 12")
-        self.energy_label.setFixedWidth(60)
-        def on_energy_changed(v):
-            lo, hi = v
-            self.energy_label.setText(f"{lo} - {hi}")
-        self.energy_slider.valueChanged.connect(on_energy_changed)
-        energy_layout.addWidget(self.energy_slider)
-        energy_layout.addWidget(self.energy_label)
-        right_column.addLayout(energy_layout)
-
-        # Power slider
-        power_layout = QHBoxLayout()
-        power_layout.addWidget(QLabel("Power:"))
-        self.power_total_slider = RangeSliderWidget(0, 4)
-        self.power_label = QLabel("0 - 4")
-        self.power_label.setFixedWidth(60)
-        def on_power_changed(v):
-            lo, hi = v
-            self.power_label.setText(f"{lo} - {hi}")
-        self.power_total_slider.valueChanged.connect(on_power_changed)
-        power_layout.addWidget(self.power_total_slider)
-        power_layout.addWidget(self.power_label)
-        right_column.addLayout(power_layout)
-        
-        # Add both columns to the main criteria layout with equal sizing
-        criteria_layout.addLayout(left_column, 1)  # stretch factor 1
-        criteria_layout.addLayout(right_column, 1)  # stretch factor 1
+        # Set column stretch to make slider column wider (like it was before)
+        criteria_layout.setColumnStretch(0, 0)  # Labels - no stretch
+        criteria_layout.setColumnStretch(1, 1)  # Input fields - some stretch
+        criteria_layout.setColumnStretch(2, 0)  # Labels - no stretch
+        criteria_layout.setColumnStretch(3, 1)  # Input fields - some stretch
+        criteria_layout.setColumnStretch(4, 0)  # Slider labels - no stretch
+        criteria_layout.setColumnStretch(5, 2)  # Sliders - more stretch (wider column)
         
         layout.addWidget(criteria_group)
         
