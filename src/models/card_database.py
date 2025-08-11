@@ -45,10 +45,7 @@ class CardDatabase:
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
             
-            # Drop existing table if it exists to recreate with new schema
-            cursor.execute("DROP TABLE IF EXISTS cards")
-            
-            # Create cards table
+            # Create cards table (only if it doesn't exist)
             cursor.execute("""
                 CREATE TABLE IF NOT EXISTS cards (
                     id TEXT PRIMARY KEY,
@@ -164,6 +161,7 @@ class CardDatabase:
                     set_name: Optional[str] = None,
                     domain: Optional[object] = None,
                     rarity: Optional[str] = None,
+                    super_type: Optional[str] = None,
                     card_type: Optional[str] = None,
                     min_cost: Optional[int] = None,
                     max_cost: Optional[int] = None,
@@ -217,6 +215,10 @@ class CardDatabase:
         if rarity:
             query += " AND rarity = ?"
             params.append(rarity)
+        
+        if super_type:
+            query += " AND super_type = ?"
+            params.append(super_type)
         
         if card_type:
             query += " AND card_type = ?"

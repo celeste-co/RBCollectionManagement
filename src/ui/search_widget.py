@@ -358,15 +358,23 @@ class SearchWidget(QWidget):
         domains_layout.addStretch()
         criteria_layout.addLayout(domains_layout, 1, 1, 1, 3)
         
-        # Row 2: Rarity and Type
-        criteria_layout.addWidget(QLabel("Rarity:"), 2, 0)
+        # Row 2: Rarity, Supertype, and Type (horizontal layout in left column)
         self.rarity_combo = QComboBox()
         self.rarity_combo.addItem("All Rarities")
-        criteria_layout.addWidget(self.rarity_combo, 2, 1)
-        criteria_layout.addWidget(QLabel("Type:"), 2, 2)
+        self.supertype_combo = QComboBox()
+        self.supertype_combo.addItem("All Supertypes")
         self.type_combo = QComboBox()
         self.type_combo.addItem("All Types")
-        criteria_layout.addWidget(self.type_combo, 2, 3)
+        # Create horizontal layout for the three filters
+        filters_layout = QHBoxLayout()
+        filters_layout.addWidget(QLabel("Rarity:"))
+        filters_layout.addWidget(self.rarity_combo)
+        filters_layout.addWidget(QLabel("Supertype:"))
+        filters_layout.addWidget(self.supertype_combo)
+        filters_layout.addWidget(QLabel("Type:"))
+        filters_layout.addWidget(self.type_combo)
+        filters_layout.addStretch()
+        criteria_layout.addLayout(filters_layout, 2, 0, 1, 4)
         
         # Row 3: Tags - horizontal layout
         criteria_layout.addWidget(QLabel("Tags:"), 3, 0)
@@ -376,7 +384,7 @@ class SearchWidget(QWidget):
         
         # Row 4: Options only - moved to bottom left
         self.owned_only_check = QCheckBox("Show only owned")
-        criteria_layout.addWidget(self.owned_only_check, 5, 0)  # Bottom left position
+        criteria_layout.addWidget(self.owned_only_check, 4, 0)  # Bottom left position
         
         # Right column: Only the three sliders
         # Row 0: Might slider
@@ -437,7 +445,7 @@ class SearchWidget(QWidget):
                 background-color: #106ebe;
             }
         """)
-        criteria_layout.addWidget(search_button, 5, 5)  # Bottom right position
+        criteria_layout.addWidget(search_button, 4, 5)  # Bottom right position
         
         # Set column stretch to make slider column wider (like it was before)
         criteria_layout.setColumnStretch(0, 0)  # Labels - no stretch
@@ -549,6 +557,12 @@ class SearchWidget(QWidget):
             for rarity in rarities:
                 self.rarity_combo.addItem(rarity)
             
+            # Extract unique supertypes (filter out empty strings)
+            supertypes = sorted(list(set(card.super_type for card in all_cards if card.super_type and card.super_type.strip())))
+            print(f"Unique supertypes: {supertypes}")
+            for supertype in supertypes:
+                self.supertype_combo.addItem(supertype)
+            
             # Extract unique card types
             types = sorted(list(set(card.card_type for card in all_cards)))
             print(f"Unique card types: {types}")
@@ -580,6 +594,10 @@ class SearchWidget(QWidget):
         rarity_text = self.rarity_combo.currentText()
         if rarity_text and rarity_text != "All Rarities":
             search_params['rarity'] = rarity_text
+        
+        supertype_text = self.supertype_combo.currentText()
+        if supertype_text and supertype_text != "All Supertypes":
+            search_params['super_type'] = supertype_text
         
         type_text = self.type_combo.currentText()
         if type_text and type_text != "All Types":
