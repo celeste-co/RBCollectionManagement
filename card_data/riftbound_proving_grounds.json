@@ -20,7 +20,10 @@
         "is_signed": false,
         "finishes": [
             "foil"
-        ]
+        ],
+        "power_cost_map": {
+            "F": 1
+        }
     },
     {
         "card_number": "OGS-002",
@@ -41,7 +44,10 @@
         "finishes": [
             "non_foil",
             "foil"
-        ]
+        ],
+        "power_cost_map": {
+            "F": 1
+        }
     },
     {
         "card_number": "OGS-003",
@@ -64,7 +70,8 @@
         "finishes": [
             "non_foil",
             "foil"
-        ]
+        ],
+        "power_cost_map": {}
     },
     {
         "card_number": "OGS-004",
@@ -87,7 +94,10 @@
         "is_signed": false,
         "finishes": [
             "foil"
-        ]
+        ],
+        "power_cost_map": {
+            "C": 1
+        }
     },
     {
         "card_number": "OGS-005",
@@ -111,7 +121,10 @@
         "finishes": [
             "non_foil",
             "foil"
-        ]
+        ],
+        "power_cost_map": {
+            "C": 1
+        }
     },
     {
         "card_number": "OGS-006",
@@ -134,7 +147,10 @@
         "is_signed": false,
         "finishes": [
             "foil"
-        ]
+        ],
+        "power_cost_map": {
+            "M": 1
+        }
     },
     {
         "card_number": "OGS-007",
@@ -158,7 +174,10 @@
         "is_signed": false,
         "finishes": [
             "foil"
-        ]
+        ],
+        "power_cost_map": {
+            "B": 1
+        }
     },
     {
         "card_number": "OGS-008",
@@ -179,7 +198,10 @@
         "finishes": [
             "non_foil",
             "foil"
-        ]
+        ],
+        "power_cost_map": {
+            "B": 1
+        }
     },
     {
         "card_number": "OGS-009",
@@ -202,7 +224,10 @@
         "is_signed": false,
         "finishes": [
             "foil"
-        ]
+        ],
+        "power_cost_map": {
+            "B": 1
+        }
     },
     {
         "card_number": "OGS-010",
@@ -225,7 +250,10 @@
         "is_signed": false,
         "finishes": [
             "foil"
-        ]
+        ],
+        "power_cost_map": {
+            "H": 1
+        }
     },
     {
         "card_number": "OGS-011",
@@ -246,7 +274,8 @@
         "finishes": [
             "non_foil",
             "foil"
-        ]
+        ],
+        "power_cost_map": {}
     },
     {
         "card_number": "OGS-012",
@@ -267,7 +296,10 @@
         "finishes": [
             "non_foil",
             "foil"
-        ]
+        ],
+        "power_cost_map": {
+            "O": 1
+        }
     },
     {
         "card_number": "OGS-013",
@@ -291,7 +323,10 @@
         "is_signed": false,
         "finishes": [
             "foil"
-        ]
+        ],
+        "power_cost_map": {
+            "O": 1
+        }
     },
     {
         "card_number": "OGS-014",
@@ -314,7 +349,8 @@
         "is_signed": false,
         "finishes": [
             "foil"
-        ]
+        ],
+        "power_cost_map": {}
     },
     {
         "card_number": "OGS-015",
@@ -335,7 +371,8 @@
         "finishes": [
             "non_foil",
             "foil"
-        ]
+        ],
+        "power_cost_map": {}
     },
     {
         "card_number": "OGS-016",
@@ -359,7 +396,10 @@
         "finishes": [
             "non_foil",
             "foil"
-        ]
+        ],
+        "power_cost_map": {
+            "O": 1
+        }
     },
     {
         "card_number": "OGS-017",
@@ -382,7 +422,8 @@
         "is_signed": false,
         "finishes": [
             "foil"
-        ]
+        ],
+        "power_cost_map": {}
     },
     {
         "card_number": "OGS-018",
@@ -405,7 +446,10 @@
         "is_signed": false,
         "finishes": [
             "foil"
-        ]
+        ],
+        "power_cost_map": {
+            "Any": 2
+        }
     },
     {
         "card_number": "OGS-019",
@@ -428,7 +472,8 @@
         "is_signed": false,
         "finishes": [
             "foil"
-        ]
+        ],
+        "power_cost_map": {}
     },
     {
         "card_number": "OGS-020",
@@ -451,7 +496,8 @@
         "is_signed": false,
         "finishes": [
             "foil"
-        ]
+        ],
+        "power_cost_map": {}
     },
     {
         "card_number": "OGS-021",
@@ -474,7 +520,8 @@
         "is_signed": false,
         "finishes": [
             "foil"
-        ]
+        ],
+        "power_cost_map": {}
     },
     {
         "card_number": "OGS-022",
@@ -497,7 +544,8 @@
         "is_signed": false,
         "finishes": [
             "foil"
-        ]
+        ],
+        "power_cost_map": {}
     },
     {
         "card_number": "OGS-023",
@@ -520,7 +568,8 @@
         "is_signed": false,
         "finishes": [
             "foil"
-        ]
+        ],
+        "power_cost_map": {}
     },
     {
         "card_number": "OGS-024",
@@ -543,6 +592,9 @@
         "is_signed": false,
         "finishes": [
             "foil"
-        ]
+        ],
+        "power_cost_map": {
+            "Any": 1
+        }
     }
 ]
