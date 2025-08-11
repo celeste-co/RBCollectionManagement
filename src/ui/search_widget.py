@@ -320,6 +320,7 @@ class SearchWidget(QWidget):
         self.database = database
         self.search_worker = None
         self._current_cards: List[PiltoverCard] = []
+        self._image_uri_cache: dict[str, Optional[str]] = {}
         self.init_ui()
         # Defer data loading to avoid blocking startup; caller triggers after DB update
     
@@ -517,10 +518,15 @@ class SearchWidget(QWidget):
 
     def _card_image_uri(self, card: PiltoverCard) -> Optional[str]:
         try:
+            cache_key = card.variant_number.strip() if hasattr(card, 'variant_number') else None
+            if cache_key and cache_key in self._image_uri_cache:
+                return self._image_uri_cache[cache_key]
             base = Path(__file__).resolve().parents[2] / "card_img"
             raw_id = card.variant_number.strip()
             
             if not raw_id:
+                if cache_key:
+                    self._image_uri_cache[cache_key] = None
                 return None
                 
             # Folder by set prefix (e.g., OGN, OGS)
@@ -530,58 +536,37 @@ class SearchWidget(QWidget):
             candidate = base / prefix / f"{file_id}.webp"
             if not candidate.exists():
                 fallback = base / "Cardback.webp"
-                return fallback.as_uri() if fallback.exists() else None
-            return candidate.as_uri()
+                uri = fallback.as_uri() if fallback.exists() else None
+                if cache_key:
+                    self._image_uri_cache[cache_key] = uri
+                return uri
+            uri = candidate.as_uri()
+            if cache_key:
+                self._image_uri_cache[cache_key] = uri
+            return uri
         except Exception:
             return None
 
     def populate_dropdowns(self):
         """Populate dropdown menus with available values"""
         try:
-            # Get all cards to extract unique values
-            all_cards = self.database.search_cards()
-            print(f"Found {len(all_cards)} total cards for dropdown population")
-            
-            # Extract unique sets
-            sets = set()
-            for card in all_cards:
-                sets.add(card.set_name)
-            
-            sets = sorted(list(sets))
-            print(f"Unique sets: {sets}")
+            # Use DB distinct queries
+            sets = self.database.get_distinct_set_names()
             for set_name in sets:
                 self.set_combo.addItem(set_name)
-            
-            # Domains now fixed via checkboxes; no dropdown to populate
-            
-            # Extract unique rarities
-            rarities = set()
-            for card in all_cards:
-                rarities.add(card.rarity)
-            
-            rarities = sorted(list(rarities))
-            print(f"Unique rarities: {rarities}")
+
+            # Rarities sorted by custom order (Common -> Legendary)
+            rarities = self.database.get_distinct_rarities()
+            order = {"Common": 0, "Uncommon": 1, "Rare": 2, "Epic": 3, "Legendary": 4}
+            rarities.sort(key=lambda r: order.get(r, 999))
             for rarity in rarities:
                 self.rarity_combo.addItem(rarity)
-            
-            # Extract unique supertypes (filter out empty strings)
-            supertypes = set()
-            for card in all_cards:
-                if card.super and card.super.strip():
-                    supertypes.add(card.super)
-            
-            supertypes = sorted(list(supertypes))
-            print(f"Unique supertypes: {supertypes}")
+
+            supertypes = self.database.get_distinct_supertypes()
             for supertype in supertypes:
                 self.supertype_combo.addItem(supertype)
-            
-            # Extract unique card types
-            types = set()
-            for card in all_cards:
-                types.add(card.type)
-            
-            types = sorted(list(types))
-            print(f"Unique card types: {types}")
+
+            types = self.database.get_distinct_types()
             for card_type in types:
                 self.type_combo.addItem(card_type)
                 

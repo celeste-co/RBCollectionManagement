@@ -1,6 +1,6 @@
 import json
 import requests
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Any
 import time
 import urllib.parse
 
@@ -16,12 +16,13 @@ class PiltoverArchiveAPIScraper:
         self.api_endpoint = "/api/trpc/cards.search"
         self.session = requests.Session()
         
-        # Set headers to exactly match what the browser sends
+        # Set headers similar to browser, but let requests handle encoding
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0',
             'Accept': '*/*',
             'Accept-Language': 'en-US,en;q=0.5',
-            'Accept-Encoding': 'gzip, deflate, br, zstd',
+            # Let requests negotiate encoding it supports
+            'Accept-Encoding': 'gzip, deflate',
             'Content-Type': 'application/json',
             'Referer': 'https://piltoverarchive.com/cards',
             'Origin': 'https://piltoverarchive.com',
@@ -88,6 +89,15 @@ class PiltoverArchiveAPIScraper:
             
             # Parse the response - it's a stream of JSON objects
             cards = self._parse_api_response(response.text)
+
+            # Fallback: if nothing parsed, try without batch wrapper endpoint shape
+            if not cards:
+                try:
+                    # Some deployments might return a single JSON object; try parsing as JSON then unwrap
+                    obj = response.json()
+                    cards = self._parse_api_response_obj(obj)
+                except Exception:
+                    pass
             print(f"Successfully fetched {len(cards)} cards!")
             return cards
             
@@ -111,45 +121,58 @@ class PiltoverArchiveAPIScraper:
         """
         cards = []
         
-        # Split by lines and parse each JSON object
-        lines = response_text.strip().split('\n')
-        
-        for i, line in enumerate(lines):
-            if not line.strip():
+        # Split by lines and parse each JSONL object (tRPC streams JSON lines)
+        for line in response_text.splitlines():
+            line = line.strip()
+            if not line:
                 continue
-                
             try:
                 data = json.loads(line)
-                
-                # Look for the main data array (usually in the last JSON object)
-                if 'json' in data and isinstance(data['json'], list) and len(data['json']) > 2:
-                    # The third element (index 2) contains the actual card data
-                    card_data = data['json'][2]
-                    
-                    if isinstance(card_data, list) and len(card_data) > 0:
-                        # Extract cards from the nested structure
-                        for item in card_data:
-                            if isinstance(item, dict) and 'id' in item:
-                                cards.append(item)
-                            elif isinstance(item, list):
-                                # Handle nested lists
-                                for subitem in item:
-                                    if isinstance(subitem, dict) and 'id' in subitem:
-                                        cards.append(subitem)
-                                    elif isinstance(subitem, list):
-                                        # Handle deeper nesting
-                                        for deepitem in subitem:
-                                            if isinstance(deepitem, dict) and 'id' in deepitem:
-                                                cards.append(deepitem)
-                        
-                        # Only break if we actually found cards
-                        if cards:
-                            break
-                        
             except json.JSONDecodeError:
                 continue
+
+            # tRPC shape: {"result":{"data":{"json":[2,0,[[cards]]]}}}
+            json_payload = None
+            if isinstance(data, dict):
+                if 'result' in data and isinstance(data['result'], dict):
+                    json_payload = (
+                        data.get('result', {})
+                            .get('data', {})
+                            .get('json')
+                    )
+                elif 'json' in data:
+                    json_payload = data.get('json')
+
+            if isinstance(json_payload, list) and len(json_payload) > 2:
+                card_data = json_payload[2]
+                # card_data is typically [[cards]] -> list nesting levels
+                cards.extend(self._flatten_cards(card_data))
+
+        return cards
+
+    def _parse_api_response_obj(self, obj: Dict) -> List[Dict]:
+        cards: List[Dict] = []
+        try:
+            json_payload = obj.get('result', {}).get('data', {}).get('json')
+            if isinstance(json_payload, list) and len(json_payload) > 2:
+                cards = self._flatten_cards(json_payload[2])
+        except Exception:
+            pass
         
         return cards
+
+    def _flatten_cards(self, nested: Any) -> List[Dict]:
+        """Extract card dicts from nested list structures produced by tRPC."""
+        out: List[Dict] = []
+        def walk(node):
+            if isinstance(node, dict):
+                if 'id' in node and 'name' in node:
+                    out.append(node)
+            elif isinstance(node, list):
+                for x in node:
+                    walk(x)
+        walk(nested)
+        return out
     
     def get_cards_by_set(self, set_prefix: str) -> List[Dict]:
         """

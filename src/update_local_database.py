@@ -8,6 +8,7 @@ import json
 import os
 from pathlib import Path
 from src.models.piltover_card_database import PiltoverCardDatabase
+import hashlib
 
 
 class LocalDatabaseUpdater:
@@ -39,6 +40,13 @@ class LocalDatabaseUpdater:
                 print("❌ No variants found in cards.json")
                 return False
             
+            # Skip if content hash matches last imported
+            content_hash = hashlib.md5(json.dumps(data, sort_keys=True).encode()).hexdigest()
+            last_hash = self.database.get_metadata('cards_json_hash')
+            if last_hash == content_hash:
+                print("✅ Local database is already up to date (hash match). Skipping import.")
+                return True
+
             # Clear existing database and import fresh data
             print("🗑️  Clearing existing database...")
             self.database.clear_database()
@@ -48,6 +56,7 @@ class LocalDatabaseUpdater:
             
             if success:
                 print("✅ Database updated successfully!")
+                self.database.set_metadata('cards_json_hash', content_hash)
                 return True
             else:
                 print("❌ Failed to import variants")

@@ -15,6 +15,7 @@ import json
 import hashlib
 from pathlib import Path
 from typing import Dict, List, Any, Optional
+from datetime import datetime
 
 # Add the src directory to the path so we can import our modules
 current_file = Path(__file__).resolve()
@@ -23,6 +24,20 @@ sys.path.insert(0, str(src_dir))
 
 from scraping.piltover_scraper import PiltoverArchiveAPIScraper
 from models.piltover_card_database import PiltoverCardDatabase
+
+# Ensure printing won't crash on Windows consoles lacking UTF-8 for emojis
+import builtins as _builtins
+def _safe_print(*args, **kwargs):
+    try:
+        return _builtins.print(*args, **kwargs)
+    except UnicodeEncodeError:
+        enc = getattr(sys.stdout, 'encoding', 'ascii') or 'ascii'
+        cleaned_args = []
+        for a in args:
+            s = str(a)
+            cleaned_args.append(s.encode(enc, errors='ignore').decode(enc, errors='ignore'))
+        return _builtins.print(*cleaned_args, **{k: v for k, v in kwargs.items() if k != 'file'})
+print = _safe_print
 
 
 class DatabaseUpdater:
@@ -42,9 +57,15 @@ class DatabaseUpdater:
         try:
             cards = self.scraper.get_all_cards()
             print(f"✅ Successfully downloaded {len(cards)} cards")
+            if not cards:
+                print("❌ No cards were returned by the API. Aborting update to protect existing data.")
+                return False
             
             # Save to temporary file
-            self.scraper.save_cards_to_file(cards, self.temp_cards_file)
+            success_save = self.scraper.save_cards_to_file(cards, self.temp_cards_file)
+            if not success_save:
+                print("❌ Failed to save temporary API data. Aborting.")
+                return False
             print(f"💾 Temporary data saved to: {self.temp_cards_file}")
             
             return True
@@ -67,6 +88,19 @@ class DatabaseUpdater:
             success = temp_reorganizer.reorganize()
             if success:
                 print("✅ Temporary data reorganized successfully")
+                # Validate that the reorganized file contains variants
+                temp_sorted_file = os.path.join(self.card_data_dir, "temp_cards_sorted.json")
+                try:
+                    with open(temp_sorted_file, 'r', encoding='utf-8') as f:
+                        fresh_data = json.load(f)
+                    variants = fresh_data.get('variants', [])
+                    print(f"📊 Reorganized variant count: {len(variants)}")
+                    if len(variants) == 0:
+                        print("❌ Reorganized data contains 0 variants. Aborting to avoid wiping current data.")
+                        return False
+                except Exception as ve:
+                    print(f"❌ Could not validate reorganized data: {ve}")
+                    return False
                 return True
             else:
                 print("❌ Failed to reorganize temporary data")
@@ -115,6 +149,25 @@ class DatabaseUpdater:
         try:
             # Move fresh data to current location
             temp_sorted_file = os.path.join(self.card_data_dir, "temp_cards_sorted.json")
+            # Final validation check before replacing current JSON
+            with open(temp_sorted_file, 'r', encoding='utf-8') as f:
+                fresh_data = json.load(f)
+            variants = fresh_data.get('variants', [])
+            if len(variants) == 0:
+                print("❌ Fresh data has 0 variants. Aborting update to prevent data loss.")
+                return False
+
+            # Backup current file before replacing
+            if os.path.exists(self.current_cards_file):
+                ts = datetime.now().strftime('%Y%m%d-%H%M%S')
+                backup_path = os.path.join(self.card_data_dir, f"cards.backup.{ts}.json")
+                try:
+                    with open(self.current_cards_file, 'r', encoding='utf-8') as src, \
+                         open(backup_path, 'w', encoding='utf-8') as dst:
+                        dst.write(src.read())
+                    print(f"🛟 Backup created: {backup_path}")
+                except Exception as be:
+                    print(f"⚠️  Failed to create backup: {be}")
             os.replace(temp_sorted_file, self.current_cards_file)
             print("✅ Fresh data moved to current location")
             
@@ -200,7 +253,13 @@ class TempDataReorganizer:
                 data = json.load(f)
             
             # Extract the actual card data from the nested structure
-            cards = data['json'][2][0][0]
+            cards = data.get('json', [None, None, []])
+            # Defensive parsing for expected nested array structure
+            try:
+                cards = cards[2][0][0]
+            except Exception:
+                # If structure is unexpected, treat as empty list to fail fast
+                cards = []
             
             # Extract variants
             all_variants = []
@@ -274,6 +333,7 @@ class TempDataReorganizer:
             
             with open(self.output_file, 'w', encoding='utf-8') as f:
                 json.dump(output_data, f, indent=2, ensure_ascii=False)
+            print(f"📤 Wrote reorganized data with {len(sorted_variants)} variants")
             
             return True
             

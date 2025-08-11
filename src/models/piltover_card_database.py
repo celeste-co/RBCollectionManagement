@@ -69,6 +69,16 @@ class PiltoverCardDatabase:
             pass
         return conn
     
+    def _connect_ro(self) -> sqlite3.Connection:
+        """Create a read-only SQLite connection for queries to reduce contention."""
+        uri = f"file:{self.db_path}?mode=ro&cache=shared"
+        conn = sqlite3.connect(uri, uri=True, timeout=2)
+        try:
+            conn.execute("PRAGMA busy_timeout=2000")
+        except Exception:
+            pass
+        return conn
+    
     def init_database(self):
         """Initialize the database with required tables"""
         with self._connect() as conn:
@@ -81,6 +91,16 @@ class PiltoverCardDatabase:
             except Exception:
                 pass
             
+            # Create metadata table for storing small key/value settings (e.g., last import hash)
+            cursor.execute(
+                """
+                CREATE TABLE IF NOT EXISTS meta (
+                    key TEXT PRIMARY KEY,
+                    value TEXT NOT NULL
+                )
+                """
+            )
+
             # Create cards table
             cursor.execute("""
                 CREATE TABLE IF NOT EXISTS cards (
@@ -113,6 +133,20 @@ class PiltoverCardDatabase:
                     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
                 )
             """)
+
+            # Ensure new columns for efficient variant ordering exist
+            cursor.execute("PRAGMA table_info(cards)")
+            existing_cols = {row[1] for row in cursor.fetchall()}
+            if 'variant_order_num' not in existing_cols:
+                try:
+                    cursor.execute("ALTER TABLE cards ADD COLUMN variant_order_num INTEGER DEFAULT 0")
+                except Exception:
+                    pass
+            if 'variant_order_suffix' not in existing_cols:
+                try:
+                    cursor.execute("ALTER TABLE cards ADD COLUMN variant_order_suffix TEXT DEFAULT ''")
+                except Exception:
+                    pass
             
             # Create indexes for fast searching
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_name ON cards(name)")
@@ -122,6 +156,10 @@ class PiltoverCardDatabase:
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_rarity ON cards(rarity)")
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_artist ON cards(artist)")
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_variant_number ON cards(variant_number)")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_energy ON cards(energy)")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_might ON cards(might)")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_power ON cards(power)")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_variant_order ON cards(set_prefix, variant_order_num, variant_order_suffix)")
             
             conn.commit()
     
@@ -145,7 +183,16 @@ class PiltoverCardDatabase:
             with self._connect() as conn:
                 cursor = conn.cursor()
                 
-                imported_count = 0
+                rows = []
+                def parse_variant_order(vn: str) -> tuple:
+                    try:
+                        num_part = vn.split('-')[1]
+                    except Exception:
+                        return (0, '')
+                    digits = ''.join(ch for ch in num_part if ch.isdigit())
+                    suffix = ''.join(ch for ch in num_part if not ch.isdigit())
+                    return (int(digits) if digits else 0, suffix)
+
                 for variant in variants:
                     # Validate required fields
                     if not variant.get('variantId') or not variant.get('variantNumber'):
@@ -159,16 +206,9 @@ class PiltoverCardDatabase:
                     # Handle potentially null fields
                     release_date = variant.get('releaseDate') or variant.get('set', {}).get('releaseDate')
                     artist = variant.get('artist') or 'Unknown Artist'
+                    order_num, order_suffix = parse_variant_order(variant['variantNumber'])
                     
-                    # Insert or update variant
-                    cursor.execute("""
-                        INSERT OR REPLACE INTO cards (
-                            id, name, type, super, description, energy, might, power, tags,
-                            variant_id, variant_number, image_url, rarity, flavor_text, artist,
-                            release_date, variant_type, set_id, set_name, set_prefix, colors,
-                            quantity, condition, acquisition_date, personal_notes
-                        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                    """, (
+                    rows.append((
                         variant['id'],
                         variant['name'],
                         variant['type'],
@@ -190,14 +230,32 @@ class PiltoverCardDatabase:
                         variant['set']['name'],
                         variant['set']['prefix'],
                         colors_json,
-                        0,  # Default quantity
-                        'NM',  # Default condition
-                        None,  # No acquisition date initially
-                        None   # No personal notes initially
+                        0,
+                        'NM',
+                        None,
+                        None,
+                        order_num,
+                        order_suffix
                     ))
-                    imported_count += 1
-                
-                print(f"Successfully imported {imported_count} variants")
+
+                cursor.executemany(
+                    """
+                    INSERT OR REPLACE INTO cards (
+                        id, name, type, super, description, energy, might, power, tags,
+                        variant_id, variant_number, image_url, rarity, flavor_text, artist,
+                        release_date, variant_type, set_id, set_name, set_prefix, colors,
+                        quantity, condition, acquisition_date, personal_notes,
+                        variant_order_num, variant_order_suffix
+                    ) VALUES (
+                        ?, ?, ?, ?, ?, ?, ?, ?, ?,
+                        ?, ?, ?, ?, ?, ?,
+                        ?, ?, ?, ?, ?, ?,
+                        ?, ?, ?, ?, ?, ?
+                    )
+                    """,
+                    rows
+                )
+                print(f"Successfully imported {len(rows)} variants")
                 conn.commit()
                 
         except Exception as e:
@@ -299,13 +357,13 @@ class PiltoverCardDatabase:
         if owned_only:
             query += " AND quantity > 0"
         
-        # Order by variant number for consistent results
-        query += " ORDER BY set_prefix, CAST(SUBSTR(variant_number, 5) AS INTEGER)"
+        # Order by precomputed variant order for consistent results
+        query += " ORDER BY set_prefix, variant_order_num, variant_order_suffix"
         
         print(f"Search query: {query}")
         print(f"Search params: {params}")
         
-        with self._connect() as conn:
+        with self._connect_ro() as conn:
             cursor = conn.cursor()
             cursor.execute(query, params)
             
@@ -345,7 +403,7 @@ class PiltoverCardDatabase:
     
     def get_card_by_variant_id(self, variant_id: str) -> Optional[PiltoverCard]:
         """Get a specific card variant by variant ID"""
-        with self._connect() as conn:
+        with self._connect_ro() as conn:
             cursor = conn.cursor()
             cursor.execute("SELECT * FROM cards WHERE variant_id = ?", (variant_id,))
             row = cursor.fetchone()
@@ -382,7 +440,7 @@ class PiltoverCardDatabase:
     
     def get_card_by_variant_number(self, variant_number: str) -> Optional[PiltoverCard]:
         """Get a specific card variant by variant number (e.g., 'OGN-066')"""
-        with self._connect() as conn:
+        with self._connect_ro() as conn:
             cursor = conn.cursor()
             cursor.execute("SELECT * FROM cards WHERE variant_number = ?", (variant_number,))
             row = cursor.fetchone()
@@ -435,14 +493,14 @@ class PiltoverCardDatabase:
         params.append(variant_id)
         query = f"UPDATE cards SET {', '.join(updates)}, updated_at = CURRENT_TIMESTAMP WHERE variant_id = ?"
         
-        with sqlite3.connect(self.db_path) as conn:
+        with self._connect() as conn:
             cursor = conn.cursor()
             cursor.execute(query, params)
             conn.commit()
     
     def get_collection_stats(self) -> Dict[str, Any]:
         """Get collection statistics"""
-        with self._connect() as conn:
+        with self._connect_ro() as conn:
             cursor = conn.cursor()
             
             # Total variants owned
@@ -497,11 +555,11 @@ class PiltoverCardDatabase:
     
     def get_all_variants(self, limit: Optional[int] = None) -> List[PiltoverCard]:
         """Get all variants, optionally limited"""
-        query = "SELECT * FROM cards ORDER BY set_prefix, CAST(SUBSTR(variant_number, 5) AS INTEGER)"
+        query = "SELECT * FROM cards ORDER BY set_prefix, variant_order_num, variant_order_suffix"
         if limit:
             query += f" LIMIT {limit}"
         
-        with self._connect() as conn:
+        with self._connect_ro() as conn:
             cursor = conn.cursor()
             cursor.execute(query)
             
@@ -537,3 +595,42 @@ class PiltoverCardDatabase:
                 cards.append(card)
             
             return cards
+
+    # Metadata helpers
+    def get_metadata(self, key: str) -> Optional[str]:
+        with self._connect_ro() as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT value FROM meta WHERE key = ?", (key,))
+            row = cursor.fetchone()
+            return row[0] if row else None
+
+    def set_metadata(self, key: str, value: str) -> None:
+        with self._connect() as conn:
+            cursor = conn.cursor()
+            cursor.execute("INSERT OR REPLACE INTO meta(key, value) VALUES (?, ?)", (key, value))
+            conn.commit()
+
+    # Distinct queries for UI dropdowns
+    def get_distinct_set_names(self) -> List[str]:
+        with self._connect_ro() as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT DISTINCT set_name FROM cards ORDER BY set_name")
+            return [row[0] for row in cursor.fetchall()]
+
+    def get_distinct_rarities(self) -> List[str]:
+        with self._connect_ro() as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT DISTINCT rarity FROM cards ORDER BY rarity")
+            return [row[0] for row in cursor.fetchall()]
+
+    def get_distinct_supertypes(self) -> List[str]:
+        with self._connect_ro() as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT DISTINCT super FROM cards WHERE TRIM(COALESCE(super, '')) <> '' ORDER BY super")
+            return [row[0] for row in cursor.fetchall()]
+
+    def get_distinct_types(self) -> List[str]:
+        with self._connect_ro() as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT DISTINCT type FROM cards ORDER BY type")
+            return [row[0] for row in cursor.fetchall()]
