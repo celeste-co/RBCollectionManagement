@@ -1,33 +1,33 @@
 #!/usr/bin/env python3
 """
-Riftbound TCG Collection Management
-Main application entry point
+Riftbound TCG Collection Management - Piltover Archive Edition
+Main application entry point using the new Piltover Archive database
 """
 
 import sys
 import os
 from PyQt6.QtWidgets import (QApplication, QMainWindow, QHBoxLayout, QWidget, 
-                             QMessageBox)
+                             QMessageBox, QVBoxLayout, QPushButton, QLabel)
 from PyQt6.QtCore import Qt
 
 # Add src directory to Python path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 
-from src.models.card_database import CardDatabase
+from src.models.piltover_card_database import PiltoverCardDatabase
 from src.ui.sidebar import Sidebar
 from src.ui.content_area import ContentArea
-from src.utils.data_importer import DataImporter
 
-class MainWindow(QMainWindow):
-    """Main application window"""
+
+class PiltoverMainWindow(QMainWindow):
+    """Main application window using Piltover Archive database"""
     
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Riftbound TCG Collection Management")
+        self.setWindowTitle("Riftbound TCG Collection Management - Piltover Archive")
         self.setGeometry(100, 100, 1600, 900)
         
-        # Initialize database
-        self.database = CardDatabase()
+        # Initialize Piltover database
+        self.database = PiltoverCardDatabase()
         
         # Set up the central widget
         central_widget = QWidget()
@@ -57,57 +57,75 @@ class MainWindow(QMainWindow):
         self.check_database_import()
     
     def check_database_import(self):
-        """Check if database needs initial import from JSON files"""
+        """Check if database needs initial import from Piltover Archive"""
         try:
             # Try to get some cards from database
-            cards = self.database.search_cards()
+            cards = self.database.get_all_variants(limit=5)
             
             if not cards:
                 # Database is empty, offer to import
                 reply = QMessageBox.question(
                     self,
                     "Database Empty",
-                    "No cards found in database. Would you like to import from JSON files?",
+                    "No cards found in Piltover Archive database. Would you like to import from the sorted JSON file?",
                     QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
                     QMessageBox.StandardButton.Yes
                 )
                 
                 if reply == QMessageBox.StandardButton.Yes:
-                    self.import_initial_data()
+                    self.import_piltover_data()
             else:
-                print(f"Database already contains {len(cards)} cards")
+                print(f"Piltover database already contains {len(cards)} cards")
                 
         except Exception as e:
             print(f"Error checking database: {str(e)}")
     
-    def import_initial_data(self):
-        """Import initial card data from JSON files"""
+    def import_piltover_data(self):
+        """Import Piltover Archive data from sorted JSON file"""
         try:
-            importer = DataImporter(self.database)
-            importer.import_all_sets()
+            # Import from the sorted JSON file
+            sorted_json_path = os.path.join(os.path.dirname(__file__), '..', 'card_data', 'cards.json')
             
-            QMessageBox.information(
-                self,
-                "Import Complete",
-                "Card data has been successfully imported into the database!"
-            )
+            if not os.path.exists(sorted_json_path):
+                QMessageBox.warning(
+                    self,
+                    "File Not Found",
+                    f"Sorted JSON file not found: {sorted_json_path}\n\nPlease run the reorganize_piltover_data.py script first."
+                )
+                return
             
-            # Refresh library (dropdowns + results)
-            search_widget = self.content_area.get_search_widget()
-            search_widget.populate_dropdowns()
-            search_widget.perform_search()
+            success = self.database.import_from_sorted_json(sorted_json_path)
             
+            if success:
+                QMessageBox.information(
+                    self,
+                    "Import Complete",
+                    "Piltover Archive card data has been successfully imported into the database!"
+                )
+                
+                # Refresh library (dropdowns + results)
+                search_widget = self.content_area.get_search_widget()
+                search_widget.populate_dropdowns()
+                search_widget.perform_search()
+            else:
+                QMessageBox.critical(
+                    self,
+                    "Import Failed",
+                    "Failed to import card data. Please check the console for error messages."
+                )
+                
         except Exception as e:
             QMessageBox.critical(
                 self,
                 "Import Error",
-                f"Error importing card data: {str(e)}"
+                f"An error occurred during import: {str(e)}"
             )
     
     def on_card_selected(self, card):
         """Handle card selection from search results"""
-        print(f"Selected card: {card.name} ({card.set_name})")
-        # TODO: Show card details dialog or update collection info
+        # This will need to be updated to work with PiltoverCard objects
+        print(f"Card selected: {card.name if hasattr(card, 'name') else card}")
+
 
 def main():
     """Main application entry point"""
@@ -115,15 +133,15 @@ def main():
     
     # Set application properties
     app.setApplicationName("Riftbound TCG Collection Management")
-    app.setApplicationVersion("1.0.0")
-    app.setOrganizationName("celeste-co")
+    app.setApplicationVersion("2.0 - Piltover Archive Edition")
     
     # Create and show main window
-    window = MainWindow()
+    window = PiltoverMainWindow()
     window.show()
     
     # Start event loop
     sys.exit(app.exec())
+
 
 if __name__ == "__main__":
     main()

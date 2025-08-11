@@ -199,6 +199,33 @@ class PiltoverArchiveAPIScraper:
             result['artist'] = variant.get('artist', '')
         
         return result
+    
+    def save_cards_to_file(self, cards: List[Dict], filepath: str) -> bool:
+        """
+        Save cards data to a JSON file.
+        
+        Args:
+            cards: List of card dictionaries
+            filepath: Path to save the file
+            
+        Returns:
+            True if successful, False otherwise
+        """
+        try:
+            # Create the same structure as the original API response
+            data = {
+                "json": [2, 0, [[cards]]]
+            }
+            
+            with open(filepath, 'w', encoding='utf-8') as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+            
+            print(f"✅ Saved {len(cards)} cards to {filepath}")
+            return True
+            
+        except Exception as e:
+            print(f"❌ Error saving cards to file: {e}")
+            return False
 
 
 def main():

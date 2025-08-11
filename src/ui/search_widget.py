@@ -11,7 +11,7 @@ from PyQt6.QtGui import QFont, QPainter, QColor, QPen, QBrush, QMouseEvent
 from typing import List, Optional
 from pathlib import Path
 import os
-from src.models.card_database import CardDatabase, Card
+from src.models.piltover_card_database import PiltoverCardDatabase, PiltoverCard
 
 class RangeSliderWidget(QWidget):
     """Custom range slider widget that looks like one slider with two handles"""
@@ -300,7 +300,7 @@ class SearchWorker(QThread):
     """Background worker for search operations"""
     results_ready = pyqtSignal(list)
     
-    def __init__(self, database: CardDatabase, search_params: dict):
+    def __init__(self, database: PiltoverCardDatabase, search_params: dict):
         super().__init__()
         self.database = database
         self.search_params = search_params
@@ -313,13 +313,13 @@ class SearchWorker(QThread):
 class SearchWidget(QWidget):
     """Advanced library (card browser) widget with filters"""
     
-    card_selected = pyqtSignal(Card)
+    card_selected = pyqtSignal(PiltoverCard)
     
-    def __init__(self, database: CardDatabase):
+    def __init__(self, database: PiltoverCardDatabase):
         super().__init__()
         self.database = database
         self.search_worker = None
-        self._current_cards: List[Card] = []
+        self._current_cards: List[PiltoverCard] = []
         self.init_ui()
         
         # Populate dropdowns and load all cards by default
@@ -518,12 +518,14 @@ class SearchWidget(QWidget):
                 QToolTip.hideText()
         return super().eventFilter(obj, event)
 
-    def _card_image_uri(self, card: Card) -> Optional[str]:
+    def _card_image_uri(self, card: PiltoverCard) -> Optional[str]:
         try:
             base = Path(__file__).resolve().parents[2] / "card_img"
-            raw_id = (card.id or "").strip()
+            raw_id = card.variant_number.strip()
+            
             if not raw_id:
                 return None
+                
             # Folder by set prefix (e.g., OGN, OGS)
             prefix = raw_id.split('-')[0]
             # Map star-suffixed IDs to 's' images (e.g., OGN-300* -> OGN-300s.webp)
@@ -544,7 +546,11 @@ class SearchWidget(QWidget):
             print(f"Found {len(all_cards)} total cards for dropdown population")
             
             # Extract unique sets
-            sets = sorted(list(set(card.set_name for card in all_cards)))
+            sets = set()
+            for card in all_cards:
+                sets.add(card.set_name)
+            
+            sets = sorted(list(sets))
             print(f"Unique sets: {sets}")
             for set_name in sets:
                 self.set_combo.addItem(set_name)
@@ -552,19 +558,32 @@ class SearchWidget(QWidget):
             # Domains now fixed via checkboxes; no dropdown to populate
             
             # Extract unique rarities
-            rarities = sorted(list(set(card.rarity for card in all_cards)))
+            rarities = set()
+            for card in all_cards:
+                rarities.add(card.rarity)
+            
+            rarities = sorted(list(rarities))
             print(f"Unique rarities: {rarities}")
             for rarity in rarities:
                 self.rarity_combo.addItem(rarity)
             
             # Extract unique supertypes (filter out empty strings)
-            supertypes = sorted(list(set(card.super_type for card in all_cards if card.super_type and card.super_type.strip())))
+            supertypes = set()
+            for card in all_cards:
+                if card.super and card.super.strip():
+                    supertypes.add(card.super)
+            
+            supertypes = sorted(list(supertypes))
             print(f"Unique supertypes: {supertypes}")
             for supertype in supertypes:
                 self.supertype_combo.addItem(supertype)
             
             # Extract unique card types
-            types = sorted(list(set(card.card_type for card in all_cards)))
+            types = set()
+            for card in all_cards:
+                types.add(card.type)
+            
+            types = sorted(list(types))
             print(f"Unique card types: {types}")
             for card_type in types:
                 self.type_combo.addItem(card_type)
@@ -584,12 +603,18 @@ class SearchWidget(QWidget):
         
         set_text = self.set_combo.currentText()
         if set_text and set_text != "All Sets":
-            search_params['set_name'] = set_text
+            # Map set names to set prefixes for Piltover database
+            if set_text == "Origin":
+                search_params['set_prefix'] = "OGN"
+            elif set_text == "Proving Grounds":
+                search_params['set_prefix'] = "OGS"
+            else:
+                search_params['set_name'] = set_text
         
         # Gather selected domains
         selected_domains = [cb.text() for cb in self.domain_checks if cb.isChecked()]
         if selected_domains:
-            search_params['domain'] = selected_domains
+            search_params['colors'] = selected_domains
         
         rarity_text = self.rarity_combo.currentText()
         if rarity_text and rarity_text != "All Rarities":
@@ -605,21 +630,21 @@ class SearchWidget(QWidget):
         
         emin, emax = self.energy_slider.getValue()
         if emin > 0:
-            search_params['min_cost'] = emin
+            search_params['min_energy'] = emin
         if emax < 20:
-            search_params['max_cost'] = emax
+            search_params['max_energy'] = emax
         
         mmin, mmax = self.might_slider.getValue()
         if mmin > 0:
-            search_params['min_power'] = mmin
+            search_params['min_might'] = mmin
         if mmax < 20:
-            search_params['max_power'] = mmax
+            search_params['max_might'] = mmax
 
         pmin, pmax = self.power_total_slider.getValue()
         if pmin > 0:
-            search_params['min_power_cost_total'] = pmin
+            search_params['min_power'] = pmin
         if pmax < 10:
-            search_params['max_power_cost_total'] = pmax
+            search_params['max_power'] = pmax
         
         tags_text = self.tags_input.text().strip()
         if tags_text:
@@ -640,29 +665,49 @@ class SearchWidget(QWidget):
         self.search_worker.results_ready.connect(self.display_results)
         self.search_worker.start()
     
-    def display_results(self, cards: List[Card]):
+    def display_results(self, cards: List[PiltoverCard]):
         """Display search results in the table"""
         self._current_cards = cards
         self.results_table.setRowCount(len(cards))
         
         for row, card in enumerate(cards):
-            # Card data (no inline image)
-            id_item = QTableWidgetItem(card.id)
+            # Set up the ID item
+            id_item = QTableWidgetItem(card.variant_number)
             id_item.setFlags(id_item.flags() & ~Qt.ItemFlag.ItemIsEditable)
             self.results_table.setItem(row, 0, id_item)
 
+            # Set up the name item
             name_item = QTableWidgetItem(card.name)
             name_item.setData(Qt.ItemDataRole.UserRole, card)
             name_item.setFlags(name_item.flags() & ~Qt.ItemFlag.ItemIsEditable)
             self.results_table.setItem(row, 1, name_item)
 
+            # Set other items
             self.results_table.setItem(row, 2, QTableWidgetItem(card.set_name))
-            self.results_table.setItem(row, 3, QTableWidgetItem(card.domains))
+            
+            # Handle colors - they might be stored as cardColors or colors
+            domains = '-'
+            if hasattr(card, 'colors') and card.colors:
+                if isinstance(card.colors, list) and len(card.colors) > 0:
+                    if isinstance(card.colors[0], dict):
+                        # Handle the cardColors structure from JSON
+                        if 'color' in card.colors[0]:
+                            # New structure: cardColors with nested color objects
+                            domains = ', '.join([color.get('color', {}).get('name', 'Unknown') for color in card.colors])
+                        else:
+                            # Direct color names
+                            domains = ', '.join([color.get('name', str(color)) for color in card.colors])
+                    else:
+                        # Simple string list
+                        domains = ', '.join(card.colors)
+            
+            self.results_table.setItem(row, 3, QTableWidgetItem(domains))
             self.results_table.setItem(row, 4, QTableWidgetItem(card.rarity))
-            self.results_table.setItem(row, 5, QTableWidgetItem(card.card_type))
-            energy_text = str(card.energy_cost) if card.energy_cost is not None else "-"
+            self.results_table.setItem(row, 5, QTableWidgetItem(card.type))
+            energy_text = str(card.energy) if card.energy is not None else "-"
             self.results_table.setItem(row, 6, QTableWidgetItem(energy_text))
-            self.results_table.setItem(row, 7, QTableWidgetItem(card.power_shorthand or "-"))
+            power_text = str(card.power) if card.power is not None else "-"
+            self.results_table.setItem(row, 7, QTableWidgetItem(power_text))
         
         # Update status
         if cards:
