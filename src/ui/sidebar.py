@@ -125,9 +125,17 @@ class Sidebar(QWidget):
         self.button_icons.append("📚")
         layout.addWidget(self.collection_btn)
         
+        # Quiz button
+        self.quiz_btn = SidebarButton("🧠 Quiz")
+        self.quiz_btn.clicked.connect(lambda: self.on_tab_clicked(2))
+        self.nav_buttons.append(self.quiz_btn)
+        self.button_texts.append("🧠 Quiz")
+        self.button_icons.append("🧠")
+        layout.addWidget(self.quiz_btn)
+        
         # Statistics button
         self.stats_btn = SidebarButton("📊 Statistics")
-        self.stats_btn.clicked.connect(lambda: self.on_tab_clicked(2))
+        self.stats_btn.clicked.connect(lambda: self.on_tab_clicked(3))
         self.nav_buttons.append(self.stats_btn)
         self.button_texts.append("📊 Statistics")
         self.button_icons.append("📊")
@@ -135,7 +143,7 @@ class Sidebar(QWidget):
         
         # Settings button
         self.settings_btn = SidebarButton("⚙️ Settings")
-        self.settings_btn.clicked.connect(lambda: self.on_tab_clicked(3))
+        self.settings_btn.clicked.connect(lambda: self.on_tab_clicked(4))
         self.nav_buttons.append(self.settings_btn)
         self.button_texts.append("⚙️ Settings")
         self.button_icons.append("⚙️")

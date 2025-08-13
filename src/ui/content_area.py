@@ -9,6 +9,7 @@ from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QFont
 
 from src.ui.search_widget import SearchWidget
+from src.ui.quiz_widget import QuizWidget
 
 
 class ContentArea(QWidget):
@@ -32,6 +33,7 @@ class ContentArea(QWidget):
         # Create different sections
         self.create_library_section()
         self.create_collection_section()
+        self.create_quiz_section()
         self.create_statistics_section()
         self.create_settings_section()
     
@@ -80,6 +82,11 @@ class ContentArea(QWidget):
         
         collection_layout.addStretch()
         self.stacked_widget.addWidget(collection_widget)
+    
+    def create_quiz_section(self):
+        """Create the quiz section"""
+        self.quiz_widget = QuizWidget(self.database)
+        self.stacked_widget.addWidget(self.quiz_widget)
     
     def create_statistics_section(self):
         """Create the statistics section"""

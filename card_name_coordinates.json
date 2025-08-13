@@ -1,0 +1,5916 @@
+{
+  "OGN-004_classic": {
+    "image_path": "card_img\\OGN\\OGN-004.webp",
+    "image_name": "OGN-004",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 790,
+        "width": 890,
+        "height": 122
+      }
+    ],
+    "timestamp": "2025-08-13T23:29:43.743850"
+  },
+  "OGN-298_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-298.webp",
+    "image_name": "OGN-298",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 678,
+        "y": 445,
+        "width": 128,
+        "height": 935
+      }
+    ],
+    "timestamp": "2025-08-13T23:46:16.574793"
+  },
+  "OGN-001_classic": {
+    "image_path": "card_img\\OGN\\OGN-001.webp",
+    "image_name": "OGN-001",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 71,
+        "y": 799,
+        "width": 889,
+        "height": 115
+      }
+    ],
+    "timestamp": "2025-08-13T23:28:59.884823"
+  },
+  "OGN_classic": {
+    "image_path": "card_img\\OGN\\OGN.webp",
+    "image_name": "OGN",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 66,
+        "y": 65,
+        "width": 720,
+        "height": 115
+      }
+    ],
+    "timestamp": "2025-08-13T23:28:44.665600"
+  },
+  "OGN-002_classic": {
+    "image_path": "card_img\\OGN\\OGN-002.webp",
+    "image_name": "OGN-002",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 66,
+        "y": 795,
+        "width": 899,
+        "height": 116
+      }
+    ],
+    "timestamp": "2025-08-13T23:29:02.294691"
+  },
+  "OGN-003_classic": {
+    "image_path": "card_img\\OGN\\OGN-003.webp",
+    "image_name": "OGN-003",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 72,
+        "y": 790,
+        "width": 890,
+        "height": 121
+      }
+    ],
+    "timestamp": "2025-08-13T23:29:09.001119"
+  },
+  "OGN-005_classic": {
+    "image_path": "card_img\\OGN\\OGN-005.webp",
+    "image_name": "OGN-005",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 60,
+        "y": 795,
+        "width": 899,
+        "height": 115
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:00.696685"
+  },
+  "OGN-006_classic": {
+    "image_path": "card_img\\OGN\\OGN-006.webp",
+    "image_name": "OGN-006",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 63,
+        "y": 793,
+        "width": 901,
+        "height": 119
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:03.285838"
+  },
+  "OGN-007_classic": {
+    "image_path": "card_img\\OGN\\OGN-007.webp",
+    "image_name": "OGN-007",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 81,
+        "y": 965,
+        "width": 859,
+        "height": 119
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:06.080673"
+  },
+  "OGN-007a_classic": {
+    "image_path": "card_img\\OGN\\OGN-007a.webp",
+    "image_name": "OGN-007a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 94,
+        "y": 970,
+        "width": 893,
+        "height": 130
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:09.102532"
+  },
+  "OGN-008_classic": {
+    "image_path": "card_img\\OGN\\OGN-008.webp",
+    "image_name": "OGN-008",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 799,
+        "width": 898,
+        "height": 112
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:11.334897"
+  },
+  "OGN-009_classic": {
+    "image_path": "card_img\\OGN\\OGN-009.webp",
+    "image_name": "OGN-009",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 71,
+        "y": 795,
+        "width": 884,
+        "height": 114
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:13.470545"
+  },
+  "OGN-010_classic": {
+    "image_path": "card_img\\OGN\\OGN-010.webp",
+    "image_name": "OGN-010",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 796,
+        "width": 893,
+        "height": 114
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:15.485781"
+  },
+  "OGN-011_classic": {
+    "image_path": "card_img\\OGN\\OGN-011.webp",
+    "image_name": "OGN-011",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 799,
+        "width": 892,
+        "height": 108
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:17.804181"
+  },
+  "OGN-012_classic": {
+    "image_path": "card_img\\OGN\\OGN-012.webp",
+    "image_name": "OGN-012",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 72,
+        "y": 792,
+        "width": 889,
+        "height": 114
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:20.196525"
+  },
+  "OGN-013_classic": {
+    "image_path": "card_img\\OGN\\OGN-013.webp",
+    "image_name": "OGN-013",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 71,
+        "y": 793,
+        "width": 890,
+        "height": 119
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:22.400848"
+  },
+  "OGN-014_classic": {
+    "image_path": "card_img\\OGN\\OGN-014.webp",
+    "image_name": "OGN-014",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 63,
+        "y": 795,
+        "width": 899,
+        "height": 121
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:24.540345"
+  },
+  "OGN-015_classic": {
+    "image_path": "card_img\\OGN\\OGN-015.webp",
+    "image_name": "OGN-015",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 69,
+        "y": 790,
+        "width": 887,
+        "height": 130
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:26.982469"
+  },
+  "OGN-016_classic": {
+    "image_path": "card_img\\OGN\\OGN-016.webp",
+    "image_name": "OGN-016",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 62,
+        "y": 793,
+        "width": 899,
+        "height": 116
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:29.434776"
+  },
+  "OGN-017_classic": {
+    "image_path": "card_img\\OGN\\OGN-017.webp",
+    "image_name": "OGN-017",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 795,
+        "width": 899,
+        "height": 116
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:31.388321"
+  },
+  "OGN-018_classic": {
+    "image_path": "card_img\\OGN\\OGN-018.webp",
+    "image_name": "OGN-018",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 69,
+        "y": 796,
+        "width": 892,
+        "height": 115
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:33.815688"
+  },
+  "OGN-019_classic": {
+    "image_path": "card_img\\OGN\\OGN-019.webp",
+    "image_name": "OGN-019",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 62,
+        "y": 795,
+        "width": 904,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:36.536391"
+  },
+  "OGN-020_classic": {
+    "image_path": "card_img\\OGN\\OGN-020.webp",
+    "image_name": "OGN-020",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 71,
+        "y": 793,
+        "width": 890,
+        "height": 122
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:38.841795"
+  },
+  "OGN-021_classic": {
+    "image_path": "card_img\\OGN\\OGN-021.webp",
+    "image_name": "OGN-021",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 62,
+        "y": 798,
+        "width": 902,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:41.103547"
+  },
+  "OGN-022_classic": {
+    "image_path": "card_img\\OGN\\OGN-022.webp",
+    "image_name": "OGN-022",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 68,
+        "y": 798,
+        "width": 893,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:43.159288"
+  },
+  "OGN-023_classic": {
+    "image_path": "card_img\\OGN\\OGN-023.webp",
+    "image_name": "OGN-023",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 69,
+        "y": 789,
+        "width": 895,
+        "height": 122
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:45.263185"
+  },
+  "OGN-024_classic": {
+    "image_path": "card_img\\OGN\\OGN-024.webp",
+    "image_name": "OGN-024",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 59,
+        "y": 792,
+        "width": 902,
+        "height": 127
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:47.790554"
+  },
+  "OGN-025_classic": {
+    "image_path": "card_img\\OGN\\OGN-025.webp",
+    "image_name": "OGN-025",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 66,
+        "y": 801,
+        "width": 918,
+        "height": 115
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:49.795646"
+  },
+  "OGN-026_classic": {
+    "image_path": "card_img\\OGN\\OGN-026.webp",
+    "image_name": "OGN-026",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 68,
+        "y": 799,
+        "width": 899,
+        "height": 115
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:52.210147"
+  },
+  "OGN-027_classic": {
+    "image_path": "card_img\\OGN\\OGN-027.webp",
+    "image_name": "OGN-027",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 63,
+        "y": 802,
+        "width": 902,
+        "height": 109
+      },
+      {
+        "x": 345,
+        "y": 743,
+        "width": 96,
+        "height": 47
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:56.163143"
+  },
+  "OGN-027a_classic": {
+    "image_path": "card_img\\OGN\\OGN-027a.webp",
+    "image_name": "OGN-027a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 59,
+        "y": 799,
+        "width": 906,
+        "height": 119
+      },
+      {
+        "x": 326,
+        "y": 737,
+        "width": 133,
+        "height": 54
+      }
+    ],
+    "timestamp": "2025-08-13T23:30:59.760591"
+  },
+  "OGN-028_classic": {
+    "image_path": "card_img\\OGN\\OGN-028.webp",
+    "image_name": "OGN-028",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 71,
+        "y": 787,
+        "width": 893,
+        "height": 133
+      },
+      {
+        "x": 340,
+        "y": 741,
+        "width": 109,
+        "height": 47
+      }
+    ],
+    "timestamp": "2025-08-13T23:31:03.391251"
+  },
+  "OGN-029_classic": {
+    "image_path": "card_img\\OGN\\OGN-029.webp",
+    "image_name": "OGN-029",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 51,
+        "y": 801,
+        "width": 923,
+        "height": 114
+      }
+    ],
+    "timestamp": "2025-08-13T23:31:05.573895"
+  },
+  "OGN-030_classic": {
+    "image_path": "card_img\\OGN\\OGN-030.webp",
+    "image_name": "OGN-030",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 62,
+        "y": 796,
+        "width": 917,
+        "height": 109
+      },
+      {
+        "x": 329,
+        "y": 740,
+        "width": 81,
+        "height": 51
+      }
+    ],
+    "timestamp": "2025-08-13T23:31:08.739218"
+  },
+  "OGN-030a_classic": {
+    "image_path": "card_img\\OGN\\OGN-030a.webp",
+    "image_name": "OGN-030a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 60,
+        "y": 802,
+        "width": 902,
+        "height": 115
+      },
+      {
+        "x": 327,
+        "y": 740,
+        "width": 87,
+        "height": 51
+      }
+    ],
+    "timestamp": "2025-08-13T23:31:13.146450"
+  },
+  "OGN-031_classic": {
+    "image_path": "card_img\\OGN\\OGN-031.webp",
+    "image_name": "OGN-031",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 62,
+        "y": 799,
+        "width": 902,
+        "height": 112
+      }
+    ],
+    "timestamp": "2025-08-13T23:31:15.790930"
+  },
+  "OGN-032_classic": {
+    "image_path": "card_img\\OGN\\OGN-032.webp",
+    "image_name": "OGN-032",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 59,
+        "y": 798,
+        "width": 901,
+        "height": 121
+      }
+    ],
+    "timestamp": "2025-08-13T23:31:17.782847"
+  },
+  "OGN-033_classic": {
+    "image_path": "card_img\\OGN\\OGN-033.webp",
+    "image_name": "OGN-033",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 799,
+        "width": 901,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:31:19.606855"
+  },
+  "OGN-034_classic": {
+    "image_path": "card_img\\OGN\\OGN-034.webp",
+    "image_name": "OGN-034",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 336,
+        "y": 743,
+        "width": 189,
+        "height": 45
+      },
+      {
+        "x": 62,
+        "y": 795,
+        "width": 886,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:31:30.882719"
+  },
+  "OGN-035_classic": {
+    "image_path": "card_img\\OGN\\OGN-035.webp",
+    "image_name": "OGN-035",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 60,
+        "y": 796,
+        "width": 906,
+        "height": 125
+      },
+      {
+        "x": 329,
+        "y": 737,
+        "width": 114,
+        "height": 50
+      }
+    ],
+    "timestamp": "2025-08-13T23:31:36.052947"
+  },
+  "OGN-036_classic": {
+    "image_path": "card_img\\OGN\\OGN-036.webp",
+    "image_name": "OGN-036",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 90,
+        "y": 798,
+        "width": 877,
+        "height": 115
+      },
+      {
+        "x": 331,
+        "y": 737,
+        "width": 56,
+        "height": 59
+      }
+    ],
+    "timestamp": "2025-08-13T23:31:40.474768"
+  },
+  "OGN-037_classic": {
+    "image_path": "card_img\\OGN\\OGN-037.webp",
+    "image_name": "OGN-037",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 84,
+        "y": 796,
+        "width": 856,
+        "height": 119
+      }
+    ],
+    "timestamp": "2025-08-13T23:31:44.993198"
+  },
+  "OGN-038_classic": {
+    "image_path": "card_img\\OGN\\OGN-038.webp",
+    "image_name": "OGN-038",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 85,
+        "y": 802,
+        "width": 821,
+        "height": 111
+      }
+    ],
+    "timestamp": "2025-08-13T23:31:49.628060"
+  },
+  "OGN-039_classic": {
+    "image_path": "card_img\\OGN\\OGN-039.webp",
+    "image_name": "OGN-039",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 99,
+        "y": 793,
+        "width": 864,
+        "height": 124
+      },
+      {
+        "x": 340,
+        "y": 725,
+        "width": 100,
+        "height": 63
+      }
+    ],
+    "timestamp": "2025-08-13T23:31:57.565462"
+  },
+  "OGN-039a_classic": {
+    "image_path": "card_img\\OGN\\OGN-039a.webp",
+    "image_name": "OGN-039a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 78,
+        "y": 802,
+        "width": 899,
+        "height": 114
+      },
+      {
+        "x": 324,
+        "y": 736,
+        "width": 115,
+        "height": 59
+      }
+    ],
+    "timestamp": "2025-08-13T23:32:01.314254"
+  },
+  "OGN-040_classic": {
+    "image_path": "card_img\\OGN\\OGN-040.webp",
+    "image_name": "OGN-040",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 88,
+        "y": 795,
+        "width": 852,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:32:04.767845"
+  },
+  "OGN-041_classic": {
+    "image_path": "card_img\\OGN\\OGN-041.webp",
+    "image_name": "OGN-041",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 91,
+        "y": 807,
+        "width": 880,
+        "height": 114
+      },
+      {
+        "x": 339,
+        "y": 737,
+        "width": 139,
+        "height": 51
+      }
+    ],
+    "timestamp": "2025-08-13T23:32:09.143387"
+  },
+  "OGN-041a_classic": {
+    "image_path": "card_img\\OGN\\OGN-041a.webp",
+    "image_name": "OGN-041a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 99,
+        "y": 798,
+        "width": 883,
+        "height": 134
+      },
+      {
+        "x": 336,
+        "y": 731,
+        "width": 142,
+        "height": 59
+      }
+    ],
+    "timestamp": "2025-08-13T23:32:12.566989"
+  },
+  "OGN-042_classic": {
+    "image_path": "card_img\\OGN\\OGN-042.webp",
+    "image_name": "OGN-042",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 93,
+        "y": 965,
+        "width": 849,
+        "height": 114
+      }
+    ],
+    "timestamp": "2025-08-13T23:32:15.204867"
+  },
+  "OGN-042a_classic": {
+    "image_path": "card_img\\OGN\\OGN-042a.webp",
+    "image_name": "OGN-042a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 68,
+        "y": 965,
+        "width": 902,
+        "height": 137
+      }
+    ],
+    "timestamp": "2025-08-13T23:32:17.115693"
+  },
+  "OGN-043_classic": {
+    "image_path": "card_img\\OGN\\OGN-043.webp",
+    "image_name": "OGN-043",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 789,
+        "width": 883,
+        "height": 124
+      }
+    ],
+    "timestamp": "2025-08-13T23:32:19.429307"
+  },
+  "OGN-044_classic": {
+    "image_path": "card_img\\OGN\\OGN-044.webp",
+    "image_name": "OGN-044",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 793,
+        "width": 892,
+        "height": 121
+      }
+    ],
+    "timestamp": "2025-08-13T23:32:22.120819"
+  },
+  "OGN-045_classic": {
+    "image_path": "card_img\\OGN\\OGN-045.webp",
+    "image_name": "OGN-045",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 68,
+        "y": 790,
+        "width": 886,
+        "height": 121
+      }
+    ],
+    "timestamp": "2025-08-13T23:32:24.663226"
+  },
+  "OGN-046_classic": {
+    "image_path": "card_img\\OGN\\OGN-046.webp",
+    "image_name": "OGN-046",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 68,
+        "y": 789,
+        "width": 892,
+        "height": 125
+      }
+    ],
+    "timestamp": "2025-08-13T23:32:35.150175"
+  },
+  "OGN-047_classic": {
+    "image_path": "card_img\\OGN\\OGN-047.webp",
+    "image_name": "OGN-047",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 786,
+        "width": 901,
+        "height": 136
+      }
+    ],
+    "timestamp": "2025-08-13T23:32:37.281509"
+  },
+  "OGN-048_classic": {
+    "image_path": "card_img\\OGN\\OGN-048.webp",
+    "image_name": "OGN-048",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 68,
+        "y": 789,
+        "width": 895,
+        "height": 116
+      }
+    ],
+    "timestamp": "2025-08-13T23:32:39.617906"
+  },
+  "OGN-049_classic": {
+    "image_path": "card_img\\OGN\\OGN-049.webp",
+    "image_name": "OGN-049",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 68,
+        "y": 796,
+        "width": 884,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:32:41.448724"
+  },
+  "OGN-050_classic": {
+    "image_path": "card_img\\OGN\\OGN-050.webp",
+    "image_name": "OGN-050",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 66,
+        "y": 799,
+        "width": 890,
+        "height": 112
+      }
+    ],
+    "timestamp": "2025-08-13T23:32:43.450044"
+  },
+  "OGN-051_classic": {
+    "image_path": "card_img\\OGN\\OGN-051.webp",
+    "image_name": "OGN-051",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 798,
+        "width": 890,
+        "height": 115
+      }
+    ],
+    "timestamp": "2025-08-13T23:32:45.699186"
+  },
+  "OGN-052_classic": {
+    "image_path": "card_img\\OGN\\OGN-052.webp",
+    "image_name": "OGN-052",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 68,
+        "y": 799,
+        "width": 893,
+        "height": 111
+      }
+    ],
+    "timestamp": "2025-08-13T23:32:47.886906"
+  },
+  "OGN-053_classic": {
+    "image_path": "card_img\\OGN\\OGN-053.webp",
+    "image_name": "OGN-053",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 60,
+        "y": 789,
+        "width": 899,
+        "height": 122
+      }
+    ],
+    "timestamp": "2025-08-13T23:32:49.613012"
+  },
+  "OGN-054_classic": {
+    "image_path": "card_img\\OGN\\OGN-054.webp",
+    "image_name": "OGN-054",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 66,
+        "y": 789,
+        "width": 904,
+        "height": 130
+      }
+    ],
+    "timestamp": "2025-08-13T23:32:51.544607"
+  },
+  "OGN-055_classic": {
+    "image_path": "card_img\\OGN\\OGN-055.webp",
+    "image_name": "OGN-055",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 69,
+        "y": 796,
+        "width": 893,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:32:57.104854"
+  },
+  "OGN-056_classic": {
+    "image_path": "card_img\\OGN\\OGN-056.webp",
+    "image_name": "OGN-056",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 75,
+        "y": 799,
+        "width": 866,
+        "height": 108
+      }
+    ],
+    "timestamp": "2025-08-13T23:32:59.459975"
+  },
+  "OGN-057_classic": {
+    "image_path": "card_img\\OGN\\OGN-057.webp",
+    "image_name": "OGN-057",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 59,
+        "y": 787,
+        "width": 901,
+        "height": 125
+      }
+    ],
+    "timestamp": "2025-08-13T23:33:05.038111"
+  },
+  "OGN-058_classic": {
+    "image_path": "card_img\\OGN\\OGN-058.webp",
+    "image_name": "OGN-058",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 69,
+        "y": 798,
+        "width": 889,
+        "height": 111
+      }
+    ],
+    "timestamp": "2025-08-13T23:33:07.144675"
+  },
+  "OGN-059_classic": {
+    "image_path": "card_img\\OGN\\OGN-059.webp",
+    "image_name": "OGN-059",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 63,
+        "y": 790,
+        "width": 896,
+        "height": 122
+      }
+    ],
+    "timestamp": "2025-08-13T23:33:09.429999"
+  },
+  "OGN-060_classic": {
+    "image_path": "card_img\\OGN\\OGN-060.webp",
+    "image_name": "OGN-060",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 62,
+        "y": 795,
+        "width": 899,
+        "height": 116
+      }
+    ],
+    "timestamp": "2025-08-13T23:33:11.430615"
+  },
+  "OGN-061_classic": {
+    "image_path": "card_img\\OGN\\OGN-061.webp",
+    "image_name": "OGN-061",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 72,
+        "y": 802,
+        "width": 890,
+        "height": 103
+      }
+    ],
+    "timestamp": "2025-08-13T23:33:13.498626"
+  },
+  "OGN-062_classic": {
+    "image_path": "card_img\\OGN\\OGN-062.webp",
+    "image_name": "OGN-062",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 71,
+        "y": 799,
+        "width": 886,
+        "height": 111
+      }
+    ],
+    "timestamp": "2025-08-13T23:33:16.717705"
+  },
+  "OGN-063_classic": {
+    "image_path": "card_img\\OGN\\OGN-063.webp",
+    "image_name": "OGN-063",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 72,
+        "y": 801,
+        "width": 883,
+        "height": 109
+      }
+    ],
+    "timestamp": "2025-08-13T23:33:19.058111"
+  },
+  "OGN-064_classic": {
+    "image_path": "card_img\\OGN\\OGN-064.webp",
+    "image_name": "OGN-064",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 63,
+        "y": 802,
+        "width": 898,
+        "height": 114
+      }
+    ],
+    "timestamp": "2025-08-13T23:33:22.754821"
+  },
+  "OGN-065_classic": {
+    "image_path": "card_img\\OGN\\OGN-065.webp",
+    "image_name": "OGN-065",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 66,
+        "y": 799,
+        "width": 893,
+        "height": 105
+      }
+    ],
+    "timestamp": "2025-08-13T23:33:24.689730"
+  },
+  "OGN-066_classic": {
+    "image_path": "card_img\\OGN\\OGN-066.webp",
+    "image_name": "OGN-066",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 62,
+        "y": 804,
+        "width": 896,
+        "height": 115
+      },
+      {
+        "x": 330,
+        "y": 733,
+        "width": 97,
+        "height": 63
+      }
+    ],
+    "timestamp": "2025-08-13T23:33:27.886397"
+  },
+  "OGN-066a_classic": {
+    "image_path": "card_img\\OGN\\OGN-066a.webp",
+    "image_name": "OGN-066a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 66,
+        "y": 805,
+        "width": 895,
+        "height": 115
+      },
+      {
+        "x": 336,
+        "y": 731,
+        "width": 82,
+        "height": 57
+      }
+    ],
+    "timestamp": "2025-08-13T23:33:31.001843"
+  },
+  "OGN-067_classic": {
+    "image_path": "card_img\\OGN\\OGN-067.webp",
+    "image_name": "OGN-067",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 62,
+        "y": 801,
+        "width": 901,
+        "height": 115
+      },
+      {
+        "x": 333,
+        "y": 740,
+        "width": 180,
+        "height": 50
+      }
+    ],
+    "timestamp": "2025-08-13T23:33:34.878616"
+  },
+  "OGN-068_classic": {
+    "image_path": "card_img\\OGN\\OGN-068.webp",
+    "image_name": "OGN-068",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 62,
+        "y": 804,
+        "width": 902,
+        "height": 106
+      },
+      {
+        "x": 337,
+        "y": 740,
+        "width": 128,
+        "height": 50
+      }
+    ],
+    "timestamp": "2025-08-13T23:33:39.391180"
+  },
+  "OGN-069_classic": {
+    "image_path": "card_img\\OGN\\OGN-069.webp",
+    "image_name": "OGN-069",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 795,
+        "width": 908,
+        "height": 124
+      }
+    ],
+    "timestamp": "2025-08-13T23:33:42.124519"
+  },
+  "OGN-070_classic": {
+    "image_path": "card_img\\OGN\\OGN-070.webp",
+    "image_name": "OGN-070",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 72,
+        "y": 801,
+        "width": 898,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:33:45.767269"
+  },
+  "OGN-071_classic": {
+    "image_path": "card_img\\OGN\\OGN-071.webp",
+    "image_name": "OGN-071",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 63,
+        "y": 802,
+        "width": 908,
+        "height": 112
+      }
+    ],
+    "timestamp": "2025-08-13T23:33:49.059147"
+  },
+  "OGN-072_classic": {
+    "image_path": "card_img\\OGN\\OGN-072.webp",
+    "image_name": "OGN-072",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 798,
+        "width": 901,
+        "height": 122
+      }
+    ],
+    "timestamp": "2025-08-13T23:33:54.297461"
+  },
+  "OGN-073_classic": {
+    "image_path": "card_img\\OGN\\OGN-073.webp",
+    "image_name": "OGN-073",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 71,
+        "y": 795,
+        "width": 893,
+        "height": 121
+      },
+      {
+        "x": 336,
+        "y": 733,
+        "width": 93,
+        "height": 63
+      }
+    ],
+    "timestamp": "2025-08-13T23:34:06.293692"
+  },
+  "OGN-074_classic": {
+    "image_path": "card_img\\OGN\\OGN-074.webp",
+    "image_name": "OGN-074",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 66,
+        "y": 804,
+        "width": 898,
+        "height": 115
+      },
+      {
+        "x": 340,
+        "y": 743,
+        "width": 88,
+        "height": 54
+      }
+    ],
+    "timestamp": "2025-08-13T23:33:59.785467"
+  },
+  "OGN-075_classic": {
+    "image_path": "card_img\\OGN\\OGN-075.webp",
+    "image_name": "OGN-075",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 62,
+        "y": 802,
+        "width": 899,
+        "height": 112
+      }
+    ],
+    "timestamp": "2025-08-13T23:34:11.208655"
+  },
+  "OGN-076_classic": {
+    "image_path": "card_img\\OGN\\OGN-076.webp",
+    "image_name": "OGN-076",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 63,
+        "y": 801,
+        "width": 898,
+        "height": 118
+      },
+      {
+        "x": 340,
+        "y": 731,
+        "width": 90,
+        "height": 68
+      }
+    ],
+    "timestamp": "2025-08-13T23:34:14.674034"
+  },
+  "OGN-076a_classic": {
+    "image_path": "card_img\\OGN\\OGN-076a.webp",
+    "image_name": "OGN-076a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 799,
+        "width": 901,
+        "height": 115
+      },
+      {
+        "x": 336,
+        "y": 733,
+        "width": 103,
+        "height": 62
+      }
+    ],
+    "timestamp": "2025-08-13T23:34:18.549183"
+  },
+  "OGN-077_classic": {
+    "image_path": "card_img\\OGN\\OGN-077.webp",
+    "image_name": "OGN-077",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 66,
+        "y": 801,
+        "width": 895,
+        "height": 114
+      }
+    ],
+    "timestamp": "2025-08-13T23:34:20.360198"
+  },
+  "OGN-078_classic": {
+    "image_path": "card_img\\OGN\\OGN-078.webp",
+    "image_name": "OGN-078",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 72,
+        "y": 796,
+        "width": 889,
+        "height": 122
+      },
+      {
+        "x": 342,
+        "y": 737,
+        "width": 103,
+        "height": 56
+      }
+    ],
+    "timestamp": "2025-08-13T23:34:30.886873"
+  },
+  "OGN-078a_classic": {
+    "image_path": "card_img\\OGN\\OGN-078a.webp",
+    "image_name": "OGN-078a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 85,
+        "y": 795,
+        "width": 877,
+        "height": 128
+      },
+      {
+        "x": 333,
+        "y": 727,
+        "width": 118,
+        "height": 65
+      }
+    ],
+    "timestamp": "2025-08-13T23:34:35.785856"
+  },
+  "OGN-079_classic": {
+    "image_path": "card_img\\OGN\\OGN-079.webp",
+    "image_name": "OGN-079",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 87,
+        "y": 795,
+        "width": 878,
+        "height": 119
+      },
+      {
+        "x": 343,
+        "y": 736,
+        "width": 94,
+        "height": 54
+      }
+    ],
+    "timestamp": "2025-08-13T23:34:40.276883"
+  },
+  "OGN-079a_classic": {
+    "image_path": "card_img\\OGN\\OGN-079a.webp",
+    "image_name": "OGN-079a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 84,
+        "y": 790,
+        "width": 871,
+        "height": 134
+      },
+      {
+        "x": 339,
+        "y": 727,
+        "width": 91,
+        "height": 62
+      }
+    ],
+    "timestamp": "2025-08-13T23:34:44.091325"
+  },
+  "OGN-080_classic": {
+    "image_path": "card_img\\OGN\\OGN-080.webp",
+    "image_name": "OGN-080",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 796,
+        "width": 838,
+        "height": 124
+      }
+    ],
+    "timestamp": "2025-08-13T23:34:49.961996"
+  },
+  "OGN-081_classic": {
+    "image_path": "card_img\\OGN\\OGN-081.webp",
+    "image_name": "OGN-081",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 88,
+        "y": 796,
+        "width": 844,
+        "height": 122
+      }
+    ],
+    "timestamp": "2025-08-13T23:34:54.566649"
+  },
+  "OGN-082_classic": {
+    "image_path": "card_img\\OGN\\OGN-082.webp",
+    "image_name": "OGN-082",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 90,
+        "y": 802,
+        "width": 832,
+        "height": 116
+      }
+    ],
+    "timestamp": "2025-08-13T23:34:56.570738"
+  },
+  "OGN-084_classic": {
+    "image_path": "card_img\\OGN\\OGN-084.webp",
+    "image_name": "OGN-084",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 74,
+        "y": 802,
+        "width": 887,
+        "height": 108
+      }
+    ],
+    "timestamp": "2025-08-13T23:35:02.861845"
+  },
+  "OGN-085_classic": {
+    "image_path": "card_img\\OGN\\OGN-085.webp",
+    "image_name": "OGN-085",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 69,
+        "y": 799,
+        "width": 886,
+        "height": 116
+      }
+    ],
+    "timestamp": "2025-08-13T23:35:07.655537"
+  },
+  "OGN-086_classic": {
+    "image_path": "card_img\\OGN\\OGN-086.webp",
+    "image_name": "OGN-086",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 66,
+        "y": 796,
+        "width": 884,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:35:10.737882"
+  },
+  "OGN-087_classic": {
+    "image_path": "card_img\\OGN\\OGN-087.webp",
+    "image_name": "OGN-087",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 798,
+        "width": 896,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:35:12.950560"
+  },
+  "OGN-088_classic": {
+    "image_path": "card_img\\OGN\\OGN-088.webp",
+    "image_name": "OGN-088",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 63,
+        "y": 798,
+        "width": 896,
+        "height": 109
+      }
+    ],
+    "timestamp": "2025-08-13T23:35:15.059580"
+  },
+  "OGN-089_classic": {
+    "image_path": "card_img\\OGN\\OGN-089.webp",
+    "image_name": "OGN-089",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 84,
+        "y": 964,
+        "width": 859,
+        "height": 119
+      }
+    ],
+    "timestamp": "2025-08-13T23:35:17.530715"
+  },
+  "OGN-089a_classic": {
+    "image_path": "card_img\\OGN\\OGN-089a.webp",
+    "image_name": "OGN-089a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 109,
+        "y": 992,
+        "width": 858,
+        "height": 100
+      }
+    ],
+    "timestamp": "2025-08-13T23:35:20.486669"
+  },
+  "OGN-090_classic": {
+    "image_path": "card_img\\OGN\\OGN-090.webp",
+    "image_name": "OGN-090",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 74,
+        "y": 799,
+        "width": 887,
+        "height": 112
+      }
+    ],
+    "timestamp": "2025-08-13T23:35:22.780301"
+  },
+  "OGN-091_classic": {
+    "image_path": "card_img\\OGN\\OGN-091.webp",
+    "image_name": "OGN-091",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 68,
+        "y": 796,
+        "width": 889,
+        "height": 116
+      }
+    ],
+    "timestamp": "2025-08-13T23:35:24.636561"
+  },
+  "OGN-092_classic": {
+    "image_path": "card_img\\OGN\\OGN-092.webp",
+    "image_name": "OGN-092",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 54,
+        "y": 799,
+        "width": 906,
+        "height": 112
+      }
+    ],
+    "timestamp": "2025-08-13T23:35:26.361632"
+  },
+  "OGN-093_classic": {
+    "image_path": "card_img\\OGN\\OGN-093.webp",
+    "image_name": "OGN-093",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 69,
+        "y": 796,
+        "width": 889,
+        "height": 114
+      }
+    ],
+    "timestamp": "2025-08-13T23:35:28.290659"
+  },
+  "OGN-094_classic": {
+    "image_path": "card_img\\OGN\\OGN-094.webp",
+    "image_name": "OGN-094",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 798,
+        "width": 893,
+        "height": 109
+      }
+    ],
+    "timestamp": "2025-08-13T23:35:30.389255"
+  },
+  "OGN-095_classic": {
+    "image_path": "card_img\\OGN\\OGN-095.webp",
+    "image_name": "OGN-095",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 69,
+        "y": 798,
+        "width": 886,
+        "height": 112
+      }
+    ],
+    "timestamp": "2025-08-13T23:35:32.551626"
+  },
+  "OGN-096_classic": {
+    "image_path": "card_img\\OGN\\OGN-096.webp",
+    "image_name": "OGN-096",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 75,
+        "y": 795,
+        "width": 880,
+        "height": 116
+      }
+    ],
+    "timestamp": "2025-08-13T23:35:34.245758"
+  },
+  "OGN-097_classic": {
+    "image_path": "card_img\\OGN\\OGN-097.webp",
+    "image_name": "OGN-097",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 68,
+        "y": 799,
+        "width": 890,
+        "height": 111
+      }
+    ],
+    "timestamp": "2025-08-13T23:35:36.890191"
+  },
+  "OGN-098_classic": {
+    "image_path": "card_img\\OGN\\OGN-098.webp",
+    "image_name": "OGN-098",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 68,
+        "y": 796,
+        "width": 889,
+        "height": 111
+      }
+    ],
+    "timestamp": "2025-08-13T23:35:40.024429"
+  },
+  "OGN-099_classic": {
+    "image_path": "card_img\\OGN\\OGN-099.webp",
+    "image_name": "OGN-099",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 795,
+        "width": 886,
+        "height": 114
+      }
+    ],
+    "timestamp": "2025-08-13T23:35:42.753281"
+  },
+  "OGN-100_classic": {
+    "image_path": "card_img\\OGN\\OGN-100.webp",
+    "image_name": "OGN-100",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 801,
+        "width": 896,
+        "height": 111
+      }
+    ],
+    "timestamp": "2025-08-13T23:35:45.635690"
+  },
+  "OGN-101_classic": {
+    "image_path": "card_img\\OGN\\OGN-101.webp",
+    "image_name": "OGN-101",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 74,
+        "y": 796,
+        "width": 887,
+        "height": 114
+      }
+    ],
+    "timestamp": "2025-08-13T23:35:48.931091"
+  },
+  "OGN-102_classic": {
+    "image_path": "card_img\\OGN\\OGN-102.webp",
+    "image_name": "OGN-102",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 62,
+        "y": 799,
+        "width": 902,
+        "height": 115
+      }
+    ],
+    "timestamp": "2025-08-13T23:35:52.490071"
+  },
+  "OGN-103_classic": {
+    "image_path": "card_img\\OGN\\OGN-103.webp",
+    "image_name": "OGN-103",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 60,
+        "y": 798,
+        "width": 901,
+        "height": 119
+      }
+    ],
+    "timestamp": "2025-08-13T23:35:56.321625"
+  },
+  "OGN-104_classic": {
+    "image_path": "card_img\\OGN\\OGN-104.webp",
+    "image_name": "OGN-104",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 69,
+        "y": 796,
+        "width": 893,
+        "height": 119
+      }
+    ],
+    "timestamp": "2025-08-13T23:36:00.680383"
+  },
+  "OGN-105_classic": {
+    "image_path": "card_img\\OGN\\OGN-105.webp",
+    "image_name": "OGN-105",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 68,
+        "y": 799,
+        "width": 889,
+        "height": 109
+      }
+    ],
+    "timestamp": "2025-08-13T23:36:04.871014"
+  },
+  "OGN-106_classic": {
+    "image_path": "card_img\\OGN\\OGN-106.webp",
+    "image_name": "OGN-106",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 99,
+        "y": 799,
+        "width": 858,
+        "height": 115
+      }
+    ],
+    "timestamp": "2025-08-13T23:36:11.677195"
+  },
+  "OGN-107_classic": {
+    "image_path": "card_img\\OGN\\OGN-107.webp",
+    "image_name": "OGN-107",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 799,
+        "width": 837,
+        "height": 121
+      }
+    ],
+    "timestamp": "2025-08-13T23:36:15.254809"
+  },
+  "OGN-108_classic": {
+    "image_path": "card_img\\OGN\\OGN-108.webp",
+    "image_name": "OGN-108",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 114,
+        "y": 801,
+        "width": 818,
+        "height": 115
+      }
+    ],
+    "timestamp": "2025-08-13T23:36:18.849963"
+  },
+  "OGN-109_classic": {
+    "image_path": "card_img\\OGN\\OGN-109.webp",
+    "image_name": "OGN-109",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 99,
+        "y": 793,
+        "width": 832,
+        "height": 122
+      },
+      {
+        "x": 337,
+        "y": 731,
+        "width": 168,
+        "height": 57
+      }
+    ],
+    "timestamp": "2025-08-13T23:36:22.092066"
+  },
+  "OGN-110_classic": {
+    "image_path": "card_img\\OGN\\OGN-110.webp",
+    "image_name": "OGN-110",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 789,
+        "width": 821,
+        "height": 140
+      },
+      {
+        "x": 327,
+        "y": 728,
+        "width": 93,
+        "height": 59
+      }
+    ],
+    "timestamp": "2025-08-13T23:36:25.574370"
+  },
+  "OGN-111_classic": {
+    "image_path": "card_img\\OGN\\OGN-111.webp",
+    "image_name": "OGN-111",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 96,
+        "y": 792,
+        "width": 838,
+        "height": 128
+      },
+      {
+        "x": 343,
+        "y": 731,
+        "width": 186,
+        "height": 60
+      }
+    ],
+    "timestamp": "2025-08-13T23:36:29.501291"
+  },
+  "OGN-112_classic": {
+    "image_path": "card_img\\OGN\\OGN-112.webp",
+    "image_name": "OGN-112",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 85,
+        "y": 792,
+        "width": 847,
+        "height": 148
+      },
+      {
+        "x": 336,
+        "y": 730,
+        "width": 99,
+        "height": 59
+      }
+    ],
+    "timestamp": "2025-08-13T23:36:33.199933"
+  },
+  "OGN-112a_classic": {
+    "image_path": "card_img\\OGN\\OGN-112a.webp",
+    "image_name": "OGN-112a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 97,
+        "y": 793,
+        "width": 821,
+        "height": 143
+      },
+      {
+        "x": 333,
+        "y": 719,
+        "width": 105,
+        "height": 72
+      }
+    ],
+    "timestamp": "2025-08-13T23:36:35.983617"
+  },
+  "OGN-113_classic": {
+    "image_path": "card_img\\OGN\\OGN-113.webp",
+    "image_name": "OGN-113",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 109,
+        "y": 790,
+        "width": 801,
+        "height": 133
+      },
+      {
+        "x": 333,
+        "y": 734,
+        "width": 154,
+        "height": 53
+      }
+    ],
+    "timestamp": "2025-08-13T23:36:39.356419"
+  },
+  "OGN-114_classic": {
+    "image_path": "card_img\\OGN\\OGN-114.webp",
+    "image_name": "OGN-114",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 105,
+        "y": 792,
+        "width": 815,
+        "height": 131
+      }
+    ],
+    "timestamp": "2025-08-13T23:36:42.171826"
+  },
+  "OGN-115_classic": {
+    "image_path": "card_img\\OGN\\OGN-115.webp",
+    "image_name": "OGN-115",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 108,
+        "y": 796,
+        "width": 819,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:36:44.423895"
+  },
+  "OGN-116_classic": {
+    "image_path": "card_img\\OGN\\OGN-116.webp",
+    "image_name": "OGN-116",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 99,
+        "y": 798,
+        "width": 825,
+        "height": 119
+      }
+    ],
+    "timestamp": "2025-08-13T23:36:46.537785"
+  },
+  "OGN-117_classic": {
+    "image_path": "card_img\\OGN\\OGN-117.webp",
+    "image_name": "OGN-117",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 99,
+        "y": 799,
+        "width": 812,
+        "height": 121
+      },
+      {
+        "x": 330,
+        "y": 730,
+        "width": 117,
+        "height": 65
+      }
+    ],
+    "timestamp": "2025-08-13T23:36:49.613766"
+  },
+  "OGN-117a_classic": {
+    "image_path": "card_img\\OGN\\OGN-117a.webp",
+    "image_name": "OGN-117a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 103,
+        "y": 795,
+        "width": 823,
+        "height": 125
+      },
+      {
+        "x": 336,
+        "y": 733,
+        "width": 103,
+        "height": 59
+      }
+    ],
+    "timestamp": "2025-08-13T23:36:53.096494"
+  },
+  "OGN-118_classic": {
+    "image_path": "card_img\\OGN\\OGN-118.webp",
+    "image_name": "OGN-118",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 108,
+        "y": 796,
+        "width": 815,
+        "height": 128
+      }
+    ],
+    "timestamp": "2025-08-13T23:36:55.221487"
+  },
+  "OGN-119_classic": {
+    "image_path": "card_img\\OGN\\OGN-119.webp",
+    "image_name": "OGN-119",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 91,
+        "y": 796,
+        "width": 831,
+        "height": 127
+      }
+    ],
+    "timestamp": "2025-08-13T23:36:57.280364"
+  },
+  "OGN-119a_classic": {
+    "image_path": "card_img\\OGN\\OGN-119a.webp",
+    "image_name": "OGN-119a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 795,
+        "width": 804,
+        "height": 124
+      },
+      {
+        "x": 329,
+        "y": 734,
+        "width": 84,
+        "height": 59
+      }
+    ],
+    "timestamp": "2025-08-13T23:37:00.101873"
+  },
+  "OGN-120_classic": {
+    "image_path": "card_img\\OGN\\OGN-120.webp",
+    "image_name": "OGN-120",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 793,
+        "width": 816,
+        "height": 127
+      }
+    ],
+    "timestamp": "2025-08-13T23:37:01.619795"
+  },
+  "OGN-121_classic": {
+    "image_path": "card_img\\OGN\\OGN-121.webp",
+    "image_name": "OGN-121",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 91,
+        "y": 799,
+        "width": 819,
+        "height": 125
+      },
+      {
+        "x": 333,
+        "y": 730,
+        "width": 115,
+        "height": 63
+      }
+    ],
+    "timestamp": "2025-08-13T23:37:05.064830"
+  },
+  "OGN-121a_classic": {
+    "image_path": "card_img\\OGN\\OGN-121a.webp",
+    "image_name": "OGN-121a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 87,
+        "y": 796,
+        "width": 844,
+        "height": 130
+      },
+      {
+        "x": 326,
+        "y": 730,
+        "width": 120,
+        "height": 63
+      }
+    ],
+    "timestamp": "2025-08-13T23:37:19.218224"
+  },
+  "OGN-122_classic": {
+    "image_path": "card_img\\OGN\\OGN-122.webp",
+    "image_name": "OGN-122",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 99,
+        "y": 795,
+        "width": 853,
+        "height": 121
+      }
+    ],
+    "timestamp": "2025-08-13T23:37:21.657611"
+  },
+  "OGN-123_classic": {
+    "image_path": "card_img\\OGN\\OGN-123.webp",
+    "image_name": "OGN-123",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 88,
+        "y": 792,
+        "width": 869,
+        "height": 128
+      }
+    ],
+    "timestamp": "2025-08-13T23:37:23.813137"
+  },
+  "OGN-124_classic": {
+    "image_path": "card_img\\OGN\\OGN-124.webp",
+    "image_name": "OGN-124",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 60,
+        "y": 795,
+        "width": 895,
+        "height": 116
+      }
+    ],
+    "timestamp": "2025-08-13T23:37:25.946565"
+  },
+  "OGN-125_classic": {
+    "image_path": "card_img\\OGN\\OGN-125.webp",
+    "image_name": "OGN-125",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 796,
+        "width": 893,
+        "height": 121
+      }
+    ],
+    "timestamp": "2025-08-13T23:37:27.861287"
+  },
+  "OGN-126_classic": {
+    "image_path": "card_img\\OGN\\OGN-126.webp",
+    "image_name": "OGN-126",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 80,
+        "y": 956,
+        "width": 866,
+        "height": 125
+      }
+    ],
+    "timestamp": "2025-08-13T23:37:30.519274"
+  },
+  "OGN-126a_classic": {
+    "image_path": "card_img\\OGN\\OGN-126a.webp",
+    "image_name": "OGN-126a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 130,
+        "y": 996,
+        "width": 835,
+        "height": 102
+      }
+    ],
+    "timestamp": "2025-08-13T23:37:32.953524"
+  },
+  "OGN-127_classic": {
+    "image_path": "card_img\\OGN\\OGN-127.webp",
+    "image_name": "OGN-127",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 802,
+        "width": 783,
+        "height": 106
+      }
+    ],
+    "timestamp": "2025-08-13T23:37:35.920090"
+  },
+  "OGN-128_classic": {
+    "image_path": "card_img\\OGN\\OGN-128.webp",
+    "image_name": "OGN-128",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 805,
+        "width": 788,
+        "height": 99
+      }
+    ],
+    "timestamp": "2025-08-13T23:37:38.049866"
+  },
+  "OGN-129_classic": {
+    "image_path": "card_img\\OGN\\OGN-129.webp",
+    "image_name": "OGN-129",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 105,
+        "y": 798,
+        "width": 807,
+        "height": 114
+      }
+    ],
+    "timestamp": "2025-08-13T23:37:40.404638"
+  },
+  "OGN-130_classic": {
+    "image_path": "card_img\\OGN\\OGN-130.webp",
+    "image_name": "OGN-130",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 799,
+        "width": 813,
+        "height": 121
+      }
+    ],
+    "timestamp": "2025-08-13T23:37:42.745473"
+  },
+  "OGN-131_classic": {
+    "image_path": "card_img\\OGN\\OGN-131.webp",
+    "image_name": "OGN-131",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 96,
+        "y": 795,
+        "width": 801,
+        "height": 125
+      }
+    ],
+    "timestamp": "2025-08-13T23:37:46.268126"
+  },
+  "OGN-132_classic": {
+    "image_path": "card_img\\OGN\\OGN-132.webp",
+    "image_name": "OGN-132",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 103,
+        "y": 799,
+        "width": 797,
+        "height": 116
+      }
+    ],
+    "timestamp": "2025-08-13T23:37:49.080250"
+  },
+  "OGN-133_classic": {
+    "image_path": "card_img\\OGN\\OGN-133.webp",
+    "image_name": "OGN-133",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 798,
+        "width": 785,
+        "height": 115
+      }
+    ],
+    "timestamp": "2025-08-13T23:37:51.442061"
+  },
+  "OGN-134_classic": {
+    "image_path": "card_img\\OGN\\OGN-134.webp",
+    "image_name": "OGN-134",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 105,
+        "y": 796,
+        "width": 800,
+        "height": 128
+      }
+    ],
+    "timestamp": "2025-08-13T23:37:54.203863"
+  },
+  "OGN-135_classic": {
+    "image_path": "card_img\\OGN\\OGN-135.webp",
+    "image_name": "OGN-135",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 91,
+        "y": 789,
+        "width": 801,
+        "height": 127
+      }
+    ],
+    "timestamp": "2025-08-13T23:37:58.235526"
+  },
+  "OGN-136_classic": {
+    "image_path": "card_img\\OGN\\OGN-136.webp",
+    "image_name": "OGN-136",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 108,
+        "y": 795,
+        "width": 789,
+        "height": 124
+      }
+    ],
+    "timestamp": "2025-08-13T23:38:01.294790"
+  },
+  "OGN-137_classic": {
+    "image_path": "card_img\\OGN\\OGN-137.webp",
+    "image_name": "OGN-137",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 109,
+        "y": 801,
+        "width": 769,
+        "height": 114
+      }
+    ],
+    "timestamp": "2025-08-13T23:38:05.051664"
+  },
+  "OGN-138_classic": {
+    "image_path": "card_img\\OGN\\OGN-138.webp",
+    "image_name": "OGN-138",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 795,
+        "width": 779,
+        "height": 116
+      }
+    ],
+    "timestamp": "2025-08-13T23:38:09.211829"
+  },
+  "OGN-139_classic": {
+    "image_path": "card_img\\OGN\\OGN-139.webp",
+    "image_name": "OGN-139",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 798,
+        "width": 783,
+        "height": 114
+      }
+    ],
+    "timestamp": "2025-08-13T23:38:12.361186"
+  },
+  "OGN-140_classic": {
+    "image_path": "card_img\\OGN\\OGN-140.webp",
+    "image_name": "OGN-140",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 792,
+        "width": 786,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:38:16.544839"
+  },
+  "OGN-141_classic": {
+    "image_path": "card_img\\OGN\\OGN-141.webp",
+    "image_name": "OGN-141",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 105,
+        "y": 793,
+        "width": 779,
+        "height": 122
+      }
+    ],
+    "timestamp": "2025-08-13T23:38:20.261339"
+  },
+  "OGN-142_classic": {
+    "image_path": "card_img\\OGN\\OGN-142.webp",
+    "image_name": "OGN-142",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 97,
+        "y": 795,
+        "width": 786,
+        "height": 127
+      }
+    ],
+    "timestamp": "2025-08-13T23:38:23.863907"
+  },
+  "OGN-143_classic": {
+    "image_path": "card_img\\OGN\\OGN-143.webp",
+    "image_name": "OGN-143",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 105,
+        "y": 802,
+        "width": 781,
+        "height": 109
+      }
+    ],
+    "timestamp": "2025-08-13T23:38:27.255604"
+  },
+  "OGN-144_classic": {
+    "image_path": "card_img\\OGN\\OGN-144.webp",
+    "image_name": "OGN-144",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 796,
+        "width": 770,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:38:30.330994"
+  },
+  "OGN-145_classic": {
+    "image_path": "card_img\\OGN\\OGN-145.webp",
+    "image_name": "OGN-145",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 109,
+        "y": 805,
+        "width": 772,
+        "height": 106
+      }
+    ],
+    "timestamp": "2025-08-13T23:38:33.224681"
+  },
+  "OGN-146_classic": {
+    "image_path": "card_img\\OGN\\OGN-146.webp",
+    "image_name": "OGN-146",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 94,
+        "y": 793,
+        "width": 792,
+        "height": 116
+      }
+    ],
+    "timestamp": "2025-08-13T23:38:36.163719"
+  },
+  "OGN-147_classic": {
+    "image_path": "card_img\\OGN\\OGN-147.webp",
+    "image_name": "OGN-147",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 96,
+        "y": 802,
+        "width": 776,
+        "height": 108
+      }
+    ],
+    "timestamp": "2025-08-13T23:38:38.803384"
+  },
+  "OGN-148_classic": {
+    "image_path": "card_img\\OGN\\OGN-148.webp",
+    "image_name": "OGN-148",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 99,
+        "y": 801,
+        "width": 792,
+        "height": 115
+      },
+      {
+        "x": 323,
+        "y": 731,
+        "width": 125,
+        "height": 60
+      }
+    ],
+    "timestamp": "2025-08-13T23:38:43.001481"
+  },
+  "OGN-149_classic": {
+    "image_path": "card_img\\OGN\\OGN-149.webp",
+    "image_name": "OGN-149",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 71,
+        "y": 802,
+        "width": 835,
+        "height": 115
+      }
+    ],
+    "timestamp": "2025-08-13T23:38:45.143699"
+  },
+  "OGN-150_classic": {
+    "image_path": "card_img\\OGN\\OGN-150.webp",
+    "image_name": "OGN-150",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 108,
+        "y": 798,
+        "width": 823,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:38:49.067480"
+  },
+  "OGN-151_classic": {
+    "image_path": "card_img\\OGN\\OGN-151.webp",
+    "image_name": "OGN-151",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 94,
+        "y": 802,
+        "width": 819,
+        "height": 121
+      },
+      {
+        "x": 339,
+        "y": 733,
+        "width": 108,
+        "height": 60
+      }
+    ],
+    "timestamp": "2025-08-13T23:38:53.378323"
+  },
+  "OGN-151a_classic": {
+    "image_path": "card_img\\OGN\\OGN-151a.webp",
+    "image_name": "OGN-151a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 106,
+        "y": 789,
+        "width": 815,
+        "height": 125
+      },
+      {
+        "x": 333,
+        "y": 734,
+        "width": 115,
+        "height": 51
+      }
+    ],
+    "timestamp": "2025-08-13T23:38:56.806796"
+  },
+  "OGN-152_classic": {
+    "image_path": "card_img\\OGN\\OGN-152.webp",
+    "image_name": "OGN-152",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 801,
+        "width": 809,
+        "height": 114
+      }
+    ],
+    "timestamp": "2025-08-13T23:38:59.459814"
+  },
+  "OGN-153_classic": {
+    "image_path": "card_img\\OGN\\OGN-153.webp",
+    "image_name": "OGN-153",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 105,
+        "y": 802,
+        "width": 813,
+        "height": 116
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:02.481205"
+  },
+  "OGN-154_classic": {
+    "image_path": "card_img\\OGN\\OGN-154.webp",
+    "image_name": "OGN-154",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 105,
+        "y": 795,
+        "width": 810,
+        "height": 122
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:04.796994"
+  },
+  "OGN-155_classic": {
+    "image_path": "card_img\\OGN\\OGN-155.webp",
+    "image_name": "OGN-155",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 103,
+        "y": 796,
+        "width": 801,
+        "height": 128
+      },
+      {
+        "x": 329,
+        "y": 731,
+        "width": 117,
+        "height": 62
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:07.714801"
+  },
+  "OGN-156_classic": {
+    "image_path": "card_img\\OGN\\OGN-156.webp",
+    "image_name": "OGN-156",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 798,
+        "width": 803,
+        "height": 122
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:09.416431"
+  },
+  "OGN-157_classic": {
+    "image_path": "card_img\\OGN\\OGN-157.webp",
+    "image_name": "OGN-157",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 103,
+        "y": 793,
+        "width": 810,
+        "height": 133
+      },
+      {
+        "x": 333,
+        "y": 736,
+        "width": 93,
+        "height": 57
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:11.944190"
+  },
+  "OGN-158_classic": {
+    "image_path": "card_img\\OGN\\OGN-158.webp",
+    "image_name": "OGN-158",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 109,
+        "y": 792,
+        "width": 786,
+        "height": 136
+      },
+      {
+        "x": 326,
+        "y": 733,
+        "width": 157,
+        "height": 57
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:14.603169"
+  },
+  "OGN-158a_classic": {
+    "image_path": "card_img\\OGN\\OGN-158a.webp",
+    "image_name": "OGN-158a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 790,
+        "width": 788,
+        "height": 127
+      },
+      {
+        "x": 337,
+        "y": 728,
+        "width": 142,
+        "height": 63
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:17.151514"
+  },
+  "OGN-159_classic": {
+    "image_path": "card_img\\OGN\\OGN-159.webp",
+    "image_name": "OGN-159",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 111,
+        "y": 792,
+        "width": 791,
+        "height": 134
+      },
+      {
+        "x": 342,
+        "y": 724,
+        "width": 133,
+        "height": 69
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:20.264722"
+  },
+  "OGN-160_classic": {
+    "image_path": "card_img\\OGN\\OGN-160.webp",
+    "image_name": "OGN-160",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 103,
+        "y": 783,
+        "width": 785,
+        "height": 134
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:22.136862"
+  },
+  "OGN-161_classic": {
+    "image_path": "card_img\\OGN\\OGN-161.webp",
+    "image_name": "OGN-161",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 94,
+        "y": 792,
+        "width": 816,
+        "height": 133
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:24.669883"
+  },
+  "OGN-162_classic": {
+    "image_path": "card_img\\OGN\\OGN-162.webp",
+    "image_name": "OGN-162",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 97,
+        "y": 811,
+        "width": 819,
+        "height": 111
+      },
+      {
+        "x": 331,
+        "y": 738,
+        "width": 207,
+        "height": 50
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:28.834343"
+  },
+  "OGN-162a_classic": {
+    "image_path": "card_img\\OGN\\OGN-162a.webp",
+    "image_name": "OGN-162a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 106,
+        "y": 792,
+        "width": 809,
+        "height": 131
+      },
+      {
+        "x": 331,
+        "y": 743,
+        "width": 214,
+        "height": 45
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:33.549766"
+  },
+  "OGN-163_classic": {
+    "image_path": "card_img\\OGN\\OGN-163.webp",
+    "image_name": "OGN-163",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 796,
+        "width": 727,
+        "height": 128
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:36.125437"
+  },
+  "OGN-164_classic": {
+    "image_path": "card_img\\OGN\\OGN-164.webp",
+    "image_name": "OGN-164",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 103,
+        "y": 798,
+        "width": 798,
+        "height": 121
+      },
+      {
+        "x": 331,
+        "y": 738,
+        "width": 84,
+        "height": 54
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:39.071840"
+  },
+  "OGN-164a_classic": {
+    "image_path": "card_img\\OGN\\OGN-164a.webp",
+    "image_name": "OGN-164a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 108,
+        "y": 802,
+        "width": 809,
+        "height": 122
+      },
+      {
+        "x": 345,
+        "y": 734,
+        "width": 72,
+        "height": 56
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:43.292696"
+  },
+  "OGN-165_classic": {
+    "image_path": "card_img\\OGN\\OGN-165.webp",
+    "image_name": "OGN-165",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 69,
+        "y": 790,
+        "width": 893,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:45.884623"
+  },
+  "OGN-166_classic": {
+    "image_path": "card_img\\OGN\\OGN-166.webp",
+    "image_name": "OGN-166",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 87,
+        "y": 956,
+        "width": 865,
+        "height": 128
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:48.295771"
+  },
+  "OGN-166a_classic": {
+    "image_path": "card_img\\OGN\\OGN-166a.webp",
+    "image_name": "OGN-166a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 124,
+        "y": 956,
+        "width": 828,
+        "height": 140
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:50.626738"
+  },
+  "OGN-167_classic": {
+    "image_path": "card_img\\OGN\\OGN-167.webp",
+    "image_name": "OGN-167",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 793,
+        "width": 892,
+        "height": 124
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:53.124599"
+  },
+  "OGN-168_classic": {
+    "image_path": "card_img\\OGN\\OGN-168.webp",
+    "image_name": "OGN-168",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 68,
+        "y": 792,
+        "width": 892,
+        "height": 124
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:55.036668"
+  },
+  "OGN-169_classic": {
+    "image_path": "card_img\\OGN\\OGN-169.webp",
+    "image_name": "OGN-169",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 63,
+        "y": 798,
+        "width": 902,
+        "height": 121
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:57.833632"
+  },
+  "OGN-170_classic": {
+    "image_path": "card_img\\OGN\\OGN-170.webp",
+    "image_name": "OGN-170",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 94,
+        "y": 795,
+        "width": 826,
+        "height": 124
+      }
+    ],
+    "timestamp": "2025-08-13T23:39:59.859599"
+  },
+  "OGN-171_classic": {
+    "image_path": "card_img\\OGN\\OGN-171.webp",
+    "image_name": "OGN-171",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 114,
+        "y": 801,
+        "width": 792,
+        "height": 114
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:01.903620"
+  },
+  "OGN-172_classic": {
+    "image_path": "card_img\\OGN\\OGN-172.webp",
+    "image_name": "OGN-172",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 795,
+        "width": 795,
+        "height": 115
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:03.588892"
+  },
+  "OGN-173_classic": {
+    "image_path": "card_img\\OGN\\OGN-173.webp",
+    "image_name": "OGN-173",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 94,
+        "y": 802,
+        "width": 812,
+        "height": 112
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:06.042788"
+  },
+  "OGN-174_classic": {
+    "image_path": "card_img\\OGN\\OGN-174.webp",
+    "image_name": "OGN-174",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 787,
+        "width": 797,
+        "height": 119
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:07.721831"
+  },
+  "OGN-175_classic": {
+    "image_path": "card_img\\OGN\\OGN-175.webp",
+    "image_name": "OGN-175",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 114,
+        "y": 795,
+        "width": 785,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:09.511601"
+  },
+  "OGN-176_classic": {
+    "image_path": "card_img\\OGN\\OGN-176.webp",
+    "image_name": "OGN-176",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 96,
+        "y": 795,
+        "width": 797,
+        "height": 119
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:11.025755"
+  },
+  "OGN-177_classic": {
+    "image_path": "card_img\\OGN\\OGN-177.webp",
+    "image_name": "OGN-177",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 90,
+        "y": 798,
+        "width": 792,
+        "height": 112
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:12.588859"
+  },
+  "OGN-178_classic": {
+    "image_path": "card_img\\OGN\\OGN-178.webp",
+    "image_name": "OGN-178",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 108,
+        "y": 802,
+        "width": 786,
+        "height": 111
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:14.045802"
+  },
+  "OGN-179_classic": {
+    "image_path": "card_img\\OGN\\OGN-179.webp",
+    "image_name": "OGN-179",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 105,
+        "y": 786,
+        "width": 800,
+        "height": 134
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:15.752846"
+  },
+  "OGN-180_classic": {
+    "image_path": "card_img\\OGN\\OGN-180.webp",
+    "image_name": "OGN-180",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 99,
+        "y": 793,
+        "width": 794,
+        "height": 122
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:17.331798"
+  },
+  "OGN-181_classic": {
+    "image_path": "card_img\\OGN\\OGN-181.webp",
+    "image_name": "OGN-181",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 103,
+        "y": 789,
+        "width": 788,
+        "height": 128
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:18.934432"
+  },
+  "OGN-182_classic": {
+    "image_path": "card_img\\OGN\\OGN-182.webp",
+    "image_name": "OGN-182",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 105,
+        "y": 778,
+        "width": 800,
+        "height": 134
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:20.544474"
+  },
+  "OGN-183_classic": {
+    "image_path": "card_img\\OGN\\OGN-183.webp",
+    "image_name": "OGN-183",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 87,
+        "y": 793,
+        "width": 801,
+        "height": 122
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:22.270627"
+  },
+  "OGN-184_classic": {
+    "image_path": "card_img\\OGN\\OGN-184.webp",
+    "image_name": "OGN-184",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 789,
+        "width": 781,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:23.949757"
+  },
+  "OGN-185_classic": {
+    "image_path": "card_img\\OGN\\OGN-185.webp",
+    "image_name": "OGN-185",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 108,
+        "y": 799,
+        "width": 769,
+        "height": 115
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:25.394334"
+  },
+  "OGN-186_classic": {
+    "image_path": "card_img\\OGN\\OGN-186.webp",
+    "image_name": "OGN-186",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 81,
+        "y": 795,
+        "width": 798,
+        "height": 111
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:26.668168"
+  },
+  "OGN-187_classic": {
+    "image_path": "card_img\\OGN\\OGN-187.webp",
+    "image_name": "OGN-187",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 103,
+        "y": 793,
+        "width": 773,
+        "height": 103
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:28.084306"
+  },
+  "OGN-188_classic": {
+    "image_path": "card_img\\OGN\\OGN-188.webp",
+    "image_name": "OGN-188",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 103,
+        "y": 792,
+        "width": 781,
+        "height": 124
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:29.518338"
+  },
+  "OGN-189_classic": {
+    "image_path": "card_img\\OGN\\OGN-189.webp",
+    "image_name": "OGN-189",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 105,
+        "y": 799,
+        "width": 794,
+        "height": 111
+      },
+      {
+        "x": 326,
+        "y": 728,
+        "width": 105,
+        "height": 69
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:38.192498"
+  },
+  "OGN-190_classic": {
+    "image_path": "card_img\\OGN\\OGN-190.webp",
+    "image_name": "OGN-190",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 106,
+        "y": 790,
+        "width": 825,
+        "height": 131
+      },
+      {
+        "x": 337,
+        "y": 730,
+        "width": 142,
+        "height": 66
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:41.419310"
+  },
+  "OGN-191_classic": {
+    "image_path": "card_img\\OGN\\OGN-191.webp",
+    "image_name": "OGN-191",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 88,
+        "y": 802,
+        "width": 818,
+        "height": 114
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:47.169032"
+  },
+  "OGN-192_classic": {
+    "image_path": "card_img\\OGN\\OGN-192.webp",
+    "image_name": "OGN-192",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 118,
+        "y": 798,
+        "width": 752,
+        "height": 115
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:49.488458"
+  },
+  "OGN-193_classic": {
+    "image_path": "card_img\\OGN\\OGN-193.webp",
+    "image_name": "OGN-193",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 94,
+        "y": 804,
+        "width": 789,
+        "height": 108
+      },
+      {
+        "x": 334,
+        "y": 734,
+        "width": 207,
+        "height": 63
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:53.131144"
+  },
+  "OGN-193a_classic": {
+    "image_path": "card_img\\OGN\\OGN-193a.webp",
+    "image_name": "OGN-193a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 97,
+        "y": 798,
+        "width": 810,
+        "height": 115
+      },
+      {
+        "x": 343,
+        "y": 733,
+        "width": 192,
+        "height": 63
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:56.727237"
+  },
+  "OGN-194_classic": {
+    "image_path": "card_img\\OGN\\OGN-194.webp",
+    "image_name": "OGN-194",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 106,
+        "y": 799,
+        "width": 748,
+        "height": 111
+      },
+      {
+        "x": 327,
+        "y": 730,
+        "width": 176,
+        "height": 63
+      }
+    ],
+    "timestamp": "2025-08-13T23:40:59.834064"
+  },
+  "OGN-195_classic": {
+    "image_path": "card_img\\OGN\\OGN-195.webp",
+    "image_name": "OGN-195",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 804,
+        "width": 788,
+        "height": 109
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:02.051362"
+  },
+  "OGN-196_classic": {
+    "image_path": "card_img\\OGN\\OGN-196.webp",
+    "image_name": "OGN-196",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 94,
+        "y": 798,
+        "width": 803,
+        "height": 125
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:04.157319"
+  },
+  "OGN-197_classic": {
+    "image_path": "card_img\\OGN\\OGN-197.webp",
+    "image_name": "OGN-197",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 804,
+        "width": 727,
+        "height": 108
+      },
+      {
+        "x": 342,
+        "y": 740,
+        "width": 103,
+        "height": 51
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:07.555459"
+  },
+  "OGN-197a_classic": {
+    "image_path": "card_img\\OGN\\OGN-197a.webp",
+    "image_name": "OGN-197a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 93,
+        "y": 799,
+        "width": 801,
+        "height": 115
+      },
+      {
+        "x": 331,
+        "y": 721,
+        "width": 109,
+        "height": 71
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:10.269905"
+  },
+  "OGN-198_classic": {
+    "image_path": "card_img\\OGN\\OGN-198.webp",
+    "image_name": "OGN-198",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 96,
+        "y": 804,
+        "width": 764,
+        "height": 109
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:11.734871"
+  },
+  "OGN-199_classic": {
+    "image_path": "card_img\\OGN\\OGN-199.webp",
+    "image_name": "OGN-199",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 90,
+        "y": 808,
+        "width": 797,
+        "height": 100
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:13.366882"
+  },
+  "OGN-200_classic": {
+    "image_path": "card_img\\OGN\\OGN-200.webp",
+    "image_name": "OGN-200",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 94,
+        "y": 798,
+        "width": 746,
+        "height": 116
+      },
+      {
+        "x": 337,
+        "y": 727,
+        "width": 203,
+        "height": 68
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:17.484831"
+  },
+  "OGN-201_classic": {
+    "image_path": "card_img\\OGN\\OGN-201.webp",
+    "image_name": "OGN-201",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 80,
+        "y": 799,
+        "width": 751,
+        "height": 116
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:19.125447"
+  },
+  "OGN-202_classic": {
+    "image_path": "card_img\\OGN\\OGN-202.webp",
+    "image_name": "OGN-202",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 96,
+        "y": 804,
+        "width": 785,
+        "height": 128
+      },
+      {
+        "x": 339,
+        "y": 737,
+        "width": 68,
+        "height": 47
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:21.851005"
+  },
+  "OGN-202a_classic": {
+    "image_path": "card_img\\OGN\\OGN-202a.webp",
+    "image_name": "OGN-202a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 84,
+        "y": 789,
+        "width": 810,
+        "height": 142
+      },
+      {
+        "x": 339,
+        "y": 730,
+        "width": 68,
+        "height": 66
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:29.354040"
+  },
+  "OGN-203_classic": {
+    "image_path": "card_img\\OGN\\OGN-203.webp",
+    "image_name": "OGN-203",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 94,
+        "y": 804,
+        "width": 843,
+        "height": 108
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:31.223861"
+  },
+  "OGN-204_classic": {
+    "image_path": "card_img\\OGN\\OGN-204.webp",
+    "image_name": "OGN-204",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 93,
+        "y": 799,
+        "width": 789,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:33.370612"
+  },
+  "OGN-205_classic": {
+    "image_path": "card_img\\OGN\\OGN-205.webp",
+    "image_name": "OGN-205",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 74,
+        "y": 798,
+        "width": 806,
+        "height": 119
+      },
+      {
+        "x": 323,
+        "y": 734,
+        "width": 102,
+        "height": 59
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:36.101744"
+  },
+  "OGN-205a_classic": {
+    "image_path": "card_img\\OGN\\OGN-205a.webp",
+    "image_name": "OGN-205a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 792,
+        "width": 855,
+        "height": 134
+      },
+      {
+        "x": 327,
+        "y": 740,
+        "width": 99,
+        "height": 47
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:38.562731"
+  },
+  "OGN-206_classic": {
+    "image_path": "card_img\\OGN\\OGN-206.webp",
+    "image_name": "OGN-206",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 796,
+        "width": 789,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:40.497142"
+  },
+  "OGN-207_classic": {
+    "image_path": "card_img\\OGN\\OGN-207.webp",
+    "image_name": "OGN-207",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 90,
+        "y": 799,
+        "width": 798,
+        "height": 112
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:42.205533"
+  },
+  "OGN-208_classic": {
+    "image_path": "card_img\\OGN\\OGN-208.webp",
+    "image_name": "OGN-208",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 114,
+        "y": 790,
+        "width": 721,
+        "height": 122
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:43.764415"
+  },
+  "OGN-209_classic": {
+    "image_path": "card_img\\OGN\\OGN-209.webp",
+    "image_name": "OGN-209",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 793,
+        "width": 804,
+        "height": 119
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:45.179979"
+  },
+  "OGN-210_classic": {
+    "image_path": "card_img\\OGN\\OGN-210.webp",
+    "image_name": "OGN-210",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 802,
+        "width": 773,
+        "height": 108
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:46.602995"
+  },
+  "OGN-211_classic": {
+    "image_path": "card_img\\OGN\\OGN-211.webp",
+    "image_name": "OGN-211",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 112,
+        "y": 801,
+        "width": 755,
+        "height": 100
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:48.120306"
+  },
+  "OGN-212_classic": {
+    "image_path": "card_img\\OGN\\OGN-212.webp",
+    "image_name": "OGN-212",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 108,
+        "y": 804,
+        "width": 748,
+        "height": 105
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:49.652524"
+  },
+  "OGN-213_classic": {
+    "image_path": "card_img\\OGN\\OGN-213.webp",
+    "image_name": "OGN-213",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 109,
+        "y": 805,
+        "width": 761,
+        "height": 102
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:50.994597"
+  },
+  "OGN-214_classic": {
+    "image_path": "card_img\\OGN\\OGN-214.webp",
+    "image_name": "OGN-214",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 91,
+        "y": 952,
+        "width": 853,
+        "height": 125
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:53.076701"
+  },
+  "OGN-214a_classic": {
+    "image_path": "card_img\\OGN\\OGN-214a.webp",
+    "image_name": "OGN-214a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 134,
+        "y": 962,
+        "width": 812,
+        "height": 136
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:54.618645"
+  },
+  "OGN-216_classic": {
+    "image_path": "card_img\\OGN\\OGN-216.webp",
+    "image_name": "OGN-216",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 68,
+        "y": 784,
+        "width": 878,
+        "height": 119
+      }
+    ],
+    "timestamp": "2025-08-13T23:41:59.373410"
+  },
+  "OGN-217_classic": {
+    "image_path": "card_img\\OGN\\OGN-217.webp",
+    "image_name": "OGN-217",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 62,
+        "y": 796,
+        "width": 895,
+        "height": 121
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:01.266541"
+  },
+  "OGN-218_classic": {
+    "image_path": "card_img\\OGN\\OGN-218.webp",
+    "image_name": "OGN-218",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 74,
+        "y": 796,
+        "width": 886,
+        "height": 109
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:03.001318"
+  },
+  "OGN-219_classic": {
+    "image_path": "card_img\\OGN\\OGN-219.webp",
+    "image_name": "OGN-219",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 78,
+        "y": 796,
+        "width": 878,
+        "height": 114
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:04.510895"
+  },
+  "OGN-220_classic": {
+    "image_path": "card_img\\OGN\\OGN-220.webp",
+    "image_name": "OGN-220",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 63,
+        "y": 804,
+        "width": 902,
+        "height": 100
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:06.123315"
+  },
+  "OGN-221_classic": {
+    "image_path": "card_img\\OGN\\OGN-221.webp",
+    "image_name": "OGN-221",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 106,
+        "y": 805,
+        "width": 798,
+        "height": 103
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:21.031479"
+  },
+  "OGN-223_classic": {
+    "image_path": "card_img\\OGN\\OGN-223.webp",
+    "image_name": "OGN-223",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 117,
+        "y": 796,
+        "width": 764,
+        "height": 115
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:24.855598"
+  },
+  "OGN-222_classic": {
+    "image_path": "card_img\\OGN\\OGN-222.webp",
+    "image_name": "OGN-222",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 82,
+        "y": 790,
+        "width": 806,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:23.214776"
+  },
+  "OGN-224_classic": {
+    "image_path": "card_img\\OGN\\OGN-224.webp",
+    "image_name": "OGN-224",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 96,
+        "y": 796,
+        "width": 803,
+        "height": 109
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:26.277535"
+  },
+  "OGN-225_classic": {
+    "image_path": "card_img\\OGN\\OGN-225.webp",
+    "image_name": "OGN-225",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 799,
+        "width": 798,
+        "height": 108
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:28.076616"
+  },
+  "OGN-226_classic": {
+    "image_path": "card_img\\OGN\\OGN-226.webp",
+    "image_name": "OGN-226",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 801,
+        "width": 783,
+        "height": 106
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:29.377494"
+  },
+  "OGN-227_classic": {
+    "image_path": "card_img\\OGN\\OGN-227.webp",
+    "image_name": "OGN-227",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 799,
+        "width": 785,
+        "height": 118
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:31.079459"
+  },
+  "OGN-228_classic": {
+    "image_path": "card_img\\OGN\\OGN-228.webp",
+    "image_name": "OGN-228",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 105,
+        "y": 787,
+        "width": 751,
+        "height": 127
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:32.757053"
+  },
+  "OGN-229_classic": {
+    "image_path": "card_img\\OGN\\OGN-229.webp",
+    "image_name": "OGN-229",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 790,
+        "width": 757,
+        "height": 125
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:34.210989"
+  },
+  "OGN-230_classic": {
+    "image_path": "card_img\\OGN\\OGN-230.webp",
+    "image_name": "OGN-230",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 804,
+        "width": 795,
+        "height": 112
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:35.845579"
+  },
+  "OGN-231_classic": {
+    "image_path": "card_img\\OGN\\OGN-231.webp",
+    "image_name": "OGN-231",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 90,
+        "y": 804,
+        "width": 806,
+        "height": 108
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:37.462041"
+  },
+  "OGN-232_classic": {
+    "image_path": "card_img\\OGN\\OGN-232.webp",
+    "image_name": "OGN-232",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 90,
+        "y": 798,
+        "width": 803,
+        "height": 114
+      },
+      {
+        "x": 329,
+        "y": 734,
+        "width": 97,
+        "height": 53
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:40.324080"
+  },
+  "OGN-233_classic": {
+    "image_path": "card_img\\OGN\\OGN-233.webp",
+    "image_name": "OGN-233",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 109,
+        "y": 795,
+        "width": 772,
+        "height": 122
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:42.950363"
+  },
+  "OGN-234_classic": {
+    "image_path": "card_img\\OGN\\OGN-234.webp",
+    "image_name": "OGN-234",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 93,
+        "y": 802,
+        "width": 826,
+        "height": 106
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:45.182088"
+  },
+  "OGN-235_classic": {
+    "image_path": "card_img\\OGN\\OGN-235.webp",
+    "image_name": "OGN-235",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 91,
+        "y": 802,
+        "width": 816,
+        "height": 102
+      },
+      {
+        "x": 334,
+        "y": 737,
+        "width": 105,
+        "height": 50
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:48.280957"
+  },
+  "OGN-236_classic": {
+    "image_path": "card_img\\OGN\\OGN-236.webp",
+    "image_name": "OGN-236",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 96,
+        "y": 802,
+        "width": 815,
+        "height": 114
+      },
+      {
+        "x": 343,
+        "y": 738,
+        "width": 133,
+        "height": 57
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:51.704018"
+  },
+  "OGN-237_classic": {
+    "image_path": "card_img\\OGN\\OGN-237.webp",
+    "image_name": "OGN-237",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 106,
+        "y": 807,
+        "width": 788,
+        "height": 100
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:53.369018"
+  },
+  "OGN-238_classic": {
+    "image_path": "card_img\\OGN\\OGN-238.webp",
+    "image_name": "OGN-238",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 804,
+        "width": 778,
+        "height": 102
+      },
+      {
+        "x": 330,
+        "y": 734,
+        "width": 117,
+        "height": 60
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:56.325459"
+  },
+  "OGN-238a_classic": {
+    "image_path": "card_img\\OGN\\OGN-238a.webp",
+    "image_name": "OGN-238a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 801,
+        "width": 781,
+        "height": 115
+      },
+      {
+        "x": 300,
+        "y": 728,
+        "width": 143,
+        "height": 62
+      }
+    ],
+    "timestamp": "2025-08-13T23:42:59.484040"
+  },
+  "OGN-239_classic": {
+    "image_path": "card_img\\OGN\\OGN-239.webp",
+    "image_name": "OGN-239",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 111,
+        "y": 808,
+        "width": 812,
+        "height": 100
+      }
+    ],
+    "timestamp": "2025-08-13T23:43:01.342800"
+  },
+  "OGN-240_classic": {
+    "image_path": "card_img\\OGN\\OGN-240.webp",
+    "image_name": "OGN-240",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 96,
+        "y": 808,
+        "width": 806,
+        "height": 97
+      },
+      {
+        "x": 337,
+        "y": 736,
+        "width": 82,
+        "height": 56
+      }
+    ],
+    "timestamp": "2025-08-13T23:43:04.059978"
+  },
+  "OGN-240a_classic": {
+    "image_path": "card_img\\OGN\\OGN-240a.webp",
+    "image_name": "OGN-240a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 105,
+        "y": 801,
+        "width": 746,
+        "height": 112
+      },
+      {
+        "x": 337,
+        "y": 731,
+        "width": 97,
+        "height": 62
+      }
+    ],
+    "timestamp": "2025-08-13T23:43:06.730188"
+  },
+  "OGN-241_classic": {
+    "image_path": "card_img\\OGN\\OGN-241.webp",
+    "image_name": "OGN-241",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 798,
+        "width": 785,
+        "height": 116
+      },
+      {
+        "x": 346,
+        "y": 733,
+        "width": 74,
+        "height": 63
+      }
+    ],
+    "timestamp": "2025-08-13T23:43:09.393706"
+  },
+  "OGN-242_classic": {
+    "image_path": "card_img\\OGN\\OGN-242.webp",
+    "image_name": "OGN-242",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 106,
+        "y": 801,
+        "width": 795,
+        "height": 109
+      }
+    ],
+    "timestamp": "2025-08-13T23:43:11.766785"
+  },
+  "OGN-243_classic": {
+    "image_path": "card_img\\OGN\\OGN-243.webp",
+    "image_name": "OGN-243",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 111,
+        "y": 799,
+        "width": 788,
+        "height": 116
+      },
+      {
+        "x": 324,
+        "y": 730,
+        "width": 131,
+        "height": 60
+      }
+    ],
+    "timestamp": "2025-08-13T23:43:14.915483"
+  },
+  "OGN-243a_classic": {
+    "image_path": "card_img\\OGN\\OGN-243a.webp",
+    "image_name": "OGN-243a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 94,
+        "y": 804,
+        "width": 804,
+        "height": 116
+      },
+      {
+        "x": 324,
+        "y": 728,
+        "width": 115,
+        "height": 60
+      }
+    ],
+    "timestamp": "2025-08-13T23:43:17.659074"
+  },
+  "OGN-244_classic": {
+    "image_path": "card_img\\OGN\\OGN-244.webp",
+    "image_name": "OGN-244",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 807,
+        "width": 718,
+        "height": 103
+      }
+    ],
+    "timestamp": "2025-08-13T23:43:19.239622"
+  },
+  "OGN-245_classic": {
+    "image_path": "card_img\\OGN\\OGN-245.webp",
+    "image_name": "OGN-245",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 115,
+        "y": 796,
+        "width": 652,
+        "height": 122
+      }
+    ],
+    "timestamp": "2025-08-13T23:43:20.720816"
+  },
+  "OGN-246_classic": {
+    "image_path": "card_img\\OGN\\OGN-246.webp",
+    "image_name": "OGN-246",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 81,
+        "y": 799,
+        "width": 791,
+        "height": 115
+      },
+      {
+        "x": 327,
+        "y": 731,
+        "width": 120,
+        "height": 63
+      }
+    ],
+    "timestamp": "2025-08-13T23:43:23.160699"
+  },
+  "OGN-246a_classic": {
+    "image_path": "card_img\\OGN\\OGN-246a.webp",
+    "image_name": "OGN-246a",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 91,
+        "y": 789,
+        "width": 730,
+        "height": 151
+      },
+      {
+        "x": 337,
+        "y": 731,
+        "width": 112,
+        "height": 66
+      }
+    ],
+    "timestamp": "2025-08-13T23:43:28.868599"
+  },
+  "OGN-247_classic": {
+    "image_path": "card_img\\OGN\\OGN-247.webp",
+    "image_name": "OGN-247",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 983,
+        "width": 892,
+        "height": 124
+      },
+      {
+        "x": 229,
+        "y": 932,
+        "width": 112,
+        "height": 44
+      }
+    ],
+    "timestamp": "2025-08-13T23:43:40.464204"
+  },
+  "OGN-248_classic": {
+    "image_path": "card_img\\OGN\\OGN-248.webp",
+    "image_name": "OGN-248",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 355,
+        "y": 738,
+        "width": 109,
+        "height": 50
+      },
+      {
+        "x": 69,
+        "y": 784,
+        "width": 952,
+        "height": 142
+      }
+    ],
+    "timestamp": "2025-08-13T23:43:45.664684"
+  },
+  "OGN-249_classic": {
+    "image_path": "card_img\\OGN\\OGN-249.webp",
+    "image_name": "OGN-249",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 111,
+        "y": 993,
+        "width": 846,
+        "height": 91
+      },
+      {
+        "x": 232,
+        "y": 930,
+        "width": 151,
+        "height": 57
+      }
+    ],
+    "timestamp": "2025-08-13T23:43:51.107607"
+  },
+  "OGN-250_classic": {
+    "image_path": "card_img\\OGN\\OGN-250.webp",
+    "image_name": "OGN-250",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 88,
+        "y": 821,
+        "width": 478,
+        "height": 69
+      }
+    ],
+    "timestamp": "2025-08-13T23:43:54.885539"
+  },
+  "OGN-251_classic": {
+    "image_path": "card_img\\OGN\\OGN-251.webp",
+    "image_name": "OGN-251",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 995,
+        "width": 692,
+        "height": 90
+      },
+      {
+        "x": 231,
+        "y": 919,
+        "width": 96,
+        "height": 69
+      }
+    ],
+    "timestamp": "2025-08-13T23:43:58.519608"
+  },
+  "OGN-252_classic": {
+    "image_path": "card_img\\OGN\\OGN-252.webp",
+    "image_name": "OGN-252",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 106,
+        "y": 805,
+        "width": 818,
+        "height": 97
+      }
+    ],
+    "timestamp": "2025-08-13T23:44:01.070195"
+  },
+  "OGN-253_classic": {
+    "image_path": "card_img\\OGN\\OGN-253.webp",
+    "image_name": "OGN-253",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 94,
+        "y": 1001,
+        "width": 493,
+        "height": 82
+      },
+      {
+        "x": 208,
+        "y": 910,
+        "width": 140,
+        "height": 72
+      }
+    ],
+    "timestamp": "2025-08-13T23:44:04.032488"
+  },
+  "OGN-254_classic": {
+    "image_path": "card_img\\OGN\\OGN-254.webp",
+    "image_name": "OGN-254",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 99,
+        "y": 810,
+        "width": 850,
+        "height": 96
+      }
+    ],
+    "timestamp": "2025-08-13T23:44:07.416338"
+  },
+  "OGN-255_classic": {
+    "image_path": "card_img\\OGN\\OGN-255.webp",
+    "image_name": "OGN-255",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 103,
+        "y": 996,
+        "width": 789,
+        "height": 82
+      },
+      {
+        "x": 238,
+        "y": 922,
+        "width": 93,
+        "height": 57
+      }
+    ],
+    "timestamp": "2025-08-13T23:44:11.018343"
+  },
+  "OGN-256_classic": {
+    "image_path": "card_img\\OGN\\OGN-256.webp",
+    "image_name": "OGN-256",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 78,
+        "y": 811,
+        "width": 810,
+        "height": 91
+      }
+    ],
+    "timestamp": "2025-08-13T23:44:13.382343"
+  },
+  "OGN-257_classic": {
+    "image_path": "card_img\\OGN\\OGN-257.webp",
+    "image_name": "OGN-257",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 94,
+        "y": 995,
+        "width": 831,
+        "height": 87
+      },
+      {
+        "x": 246,
+        "y": 924,
+        "width": 198,
+        "height": 60
+      }
+    ],
+    "timestamp": "2025-08-13T23:44:18.564331"
+  },
+  "OGN-258_classic": {
+    "image_path": "card_img\\OGN\\OGN-258.webp",
+    "image_name": "OGN-258",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 93,
+        "y": 818,
+        "width": 773,
+        "height": 75
+      }
+    ],
+    "timestamp": "2025-08-13T23:44:21.553497"
+  },
+  "OGN-259_classic": {
+    "image_path": "card_img\\OGN\\OGN-259.webp",
+    "image_name": "OGN-259",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 995,
+        "width": 794,
+        "height": 88
+      },
+      {
+        "x": 220,
+        "y": 918,
+        "width": 211,
+        "height": 68
+      }
+    ],
+    "timestamp": "2025-08-13T23:44:25.632951"
+  },
+  "OGN-260_classic": {
+    "image_path": "card_img\\OGN\\OGN-260.webp",
+    "image_name": "OGN-260",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 94,
+        "y": 810,
+        "width": 798,
+        "height": 88
+      }
+    ],
+    "timestamp": "2025-08-13T23:44:27.402989"
+  },
+  "OGN-261_classic": {
+    "image_path": "card_img\\OGN\\OGN-261.webp",
+    "image_name": "OGN-261",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 1011,
+        "width": 818,
+        "height": 62
+      },
+      {
+        "x": 231,
+        "y": 922,
+        "width": 128,
+        "height": 59
+      }
+    ],
+    "timestamp": "2025-08-13T23:44:30.767913"
+  },
+  "OGN-262_classic": {
+    "image_path": "card_img\\OGN\\OGN-262.webp",
+    "image_name": "OGN-262",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 90,
+        "y": 818,
+        "width": 797,
+        "height": 81
+      }
+    ],
+    "timestamp": "2025-08-13T23:44:32.684803"
+  },
+  "OGN-263_classic": {
+    "image_path": "card_img\\OGN\\OGN-263.webp",
+    "image_name": "OGN-263",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 91,
+        "y": 992,
+        "width": 823,
+        "height": 96
+      },
+      {
+        "x": 220,
+        "y": 916,
+        "width": 395,
+        "height": 68
+      }
+    ],
+    "timestamp": "2025-08-13T23:44:36.089058"
+  },
+  "OGN-264_classic": {
+    "image_path": "card_img\\OGN\\OGN-264.webp",
+    "image_name": "OGN-264",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 94,
+        "y": 805,
+        "width": 822,
+        "height": 90
+      }
+    ],
+    "timestamp": "2025-08-13T23:44:37.863188"
+  },
+  "OGN-265_classic": {
+    "image_path": "card_img\\OGN\\OGN-265.webp",
+    "image_name": "OGN-265",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 118,
+        "y": 1001,
+        "width": 767,
+        "height": 81
+      },
+      {
+        "x": 220,
+        "y": 919,
+        "width": 154,
+        "height": 71
+      }
+    ],
+    "timestamp": "2025-08-13T23:44:42.436632"
+  },
+  "OGN-266_classic": {
+    "image_path": "card_img\\OGN\\OGN-266.webp",
+    "image_name": "OGN-266",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 90,
+        "y": 818,
+        "width": 785,
+        "height": 82
+      }
+    ],
+    "timestamp": "2025-08-13T23:44:44.490238"
+  },
+  "OGN-267_classic": {
+    "image_path": "card_img\\OGN\\OGN-267.webp",
+    "image_name": "OGN-267",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 1004,
+        "width": 663,
+        "height": 82
+      },
+      {
+        "x": 223,
+        "y": 927,
+        "width": 243,
+        "height": 57
+      }
+    ],
+    "timestamp": "2025-08-13T23:44:48.388012"
+  },
+  "OGN-268_classic": {
+    "image_path": "card_img\\OGN\\OGN-268.webp",
+    "image_name": "OGN-268",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 112,
+        "y": 793,
+        "width": 785,
+        "height": 148
+      }
+    ],
+    "timestamp": "2025-08-13T23:44:54.185600"
+  },
+  "OGN-269_classic": {
+    "image_path": "card_img\\OGN\\OGN-269.webp",
+    "image_name": "OGN-269",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 96,
+        "y": 989,
+        "width": 395,
+        "height": 84
+      },
+      {
+        "x": 235,
+        "y": 912,
+        "width": 123,
+        "height": 69
+      }
+    ],
+    "timestamp": "2025-08-13T23:44:56.878659"
+  },
+  "OGN-270_classic": {
+    "image_path": "card_img\\OGN\\OGN-270.webp",
+    "image_name": "OGN-270",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 74,
+        "y": 814,
+        "width": 801,
+        "height": 93
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:00.137254"
+  },
+  "OGN-271_classic": {
+    "image_path": "card_img\\OGN\\OGN-271.webp",
+    "image_name": "OGN-271",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 62,
+        "y": 981,
+        "width": 896,
+        "height": 122
+      },
+      {
+        "x": 288,
+        "y": 921,
+        "width": 125,
+        "height": 71
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:07.217722"
+  },
+  "OGN-272_classic": {
+    "image_path": "card_img\\OGN\\OGN-272.webp",
+    "image_name": "OGN-272",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 74,
+        "y": 981,
+        "width": 889,
+        "height": 127
+      },
+      {
+        "x": 280,
+        "y": 925,
+        "width": 158,
+        "height": 53
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:10.813683"
+  },
+  "OGN-273_classic": {
+    "image_path": "card_img\\OGN\\OGN-273.webp",
+    "image_name": "OGN-273",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 56,
+        "y": 990,
+        "width": 906,
+        "height": 108
+      },
+      {
+        "x": 286,
+        "y": 924,
+        "width": 148,
+        "height": 56
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:13.608030"
+  },
+  "OGN-274_classic": {
+    "image_path": "card_img\\OGN\\OGN-274.webp",
+    "image_name": "OGN-274",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 65,
+        "y": 984,
+        "width": 901,
+        "height": 124
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:17.416552"
+  },
+  "OGN-275_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-275.webp",
+    "image_name": "OGN-275",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 671,
+        "y": 59,
+        "width": 134,
+        "height": 1309
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:21.770479"
+  },
+  "OGN-276_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-276.webp",
+    "image_name": "OGN-276",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 671,
+        "y": 59,
+        "width": 133,
+        "height": 1315
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:25.579541"
+  },
+  "OGN-277_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-277.webp",
+    "image_name": "OGN-277",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 687,
+        "y": 56,
+        "width": 117,
+        "height": 1318
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:28.579446"
+  },
+  "OGN-278_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-278.webp",
+    "image_name": "OGN-278",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 687,
+        "y": 56,
+        "width": 121,
+        "height": 1328
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:30.820041"
+  },
+  "OGN-279_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-279.webp",
+    "image_name": "OGN-279",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 674,
+        "y": 59,
+        "width": 134,
+        "height": 1325
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:32.623004"
+  },
+  "OGN-280_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-280.webp",
+    "image_name": "OGN-280",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 674,
+        "y": 59,
+        "width": 125,
+        "height": 1318
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:34.512788"
+  },
+  "OGN-281_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-281.webp",
+    "image_name": "OGN-281",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 677,
+        "y": 515,
+        "width": 124,
+        "height": 863
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:36.256402"
+  },
+  "OGN-282_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-282.webp",
+    "image_name": "OGN-282",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 683,
+        "y": 494,
+        "width": 124,
+        "height": 887
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:38.557437"
+  },
+  "OGN-283_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-283.webp",
+    "image_name": "OGN-283",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 689,
+        "y": 410,
+        "width": 115,
+        "height": 967
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:40.715603"
+  },
+  "OGN-284_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-284.webp",
+    "image_name": "OGN-284",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 692,
+        "y": 430,
+        "width": 112,
+        "height": 956
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:43.143762"
+  },
+  "OGN-285_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-285.webp",
+    "image_name": "OGN-285",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 681,
+        "y": 488,
+        "width": 121,
+        "height": 881
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:45.847770"
+  },
+  "OGN-286_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-286.webp",
+    "image_name": "OGN-286",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 683,
+        "y": 473,
+        "width": 123,
+        "height": 901
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:48.254467"
+  },
+  "OGN-287_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-287.webp",
+    "image_name": "OGN-287",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 684,
+        "y": 451,
+        "width": 124,
+        "height": 928
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:50.649125"
+  },
+  "OGN-288_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-288.webp",
+    "image_name": "OGN-288",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 683,
+        "y": 522,
+        "width": 118,
+        "height": 858
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:52.880199"
+  },
+  "OGN-289_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-289.webp",
+    "image_name": "OGN-289",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 684,
+        "y": 497,
+        "width": 118,
+        "height": 885
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:55.205556"
+  },
+  "OGN-290_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-290.webp",
+    "image_name": "OGN-290",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 687,
+        "y": 497,
+        "width": 117,
+        "height": 882
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:57.974789"
+  },
+  "OGN-291_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-291.webp",
+    "image_name": "OGN-291",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 686,
+        "y": 444,
+        "width": 120,
+        "height": 934
+      }
+    ],
+    "timestamp": "2025-08-13T23:45:59.923222"
+  },
+  "OGN-292_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-292.webp",
+    "image_name": "OGN-292",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 687,
+        "y": 450,
+        "width": 115,
+        "height": 930
+      }
+    ],
+    "timestamp": "2025-08-13T23:46:01.964501"
+  },
+  "OGN-293_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-293.webp",
+    "image_name": "OGN-293",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 686,
+        "y": 430,
+        "width": 118,
+        "height": 947
+      }
+    ],
+    "timestamp": "2025-08-13T23:46:03.888955"
+  },
+  "OGN-295_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-295.webp",
+    "image_name": "OGN-295",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 686,
+        "y": 530,
+        "width": 120,
+        "height": 851
+      }
+    ],
+    "timestamp": "2025-08-13T23:46:12.490315"
+  },
+  "OGN-294_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-294.webp",
+    "image_name": "OGN-294",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 684,
+        "y": 516,
+        "width": 123,
+        "height": 864
+      }
+    ],
+    "timestamp": "2025-08-13T23:46:10.998011"
+  },
+  "OGN-296_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-296.webp",
+    "image_name": "OGN-296",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 686,
+        "y": 531,
+        "width": 120,
+        "height": 848
+      }
+    ],
+    "timestamp": "2025-08-13T23:46:13.874317"
+  },
+  "OGN-297_battlefield": {
+    "image_path": "card_img\\OGN\\OGN-297.webp",
+    "image_name": "OGN-297",
+    "format": "battlefield",
+    "coordinates": [
+      {
+        "x": 678,
+        "y": 445,
+        "width": 127,
+        "height": 934
+      }
+    ],
+    "timestamp": "2025-08-13T23:46:15.077107"
+  },
+  "OGN-300_classic": {
+    "image_path": "card_img\\OGN\\OGN-300.webp",
+    "image_name": "OGN-300",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 91,
+        "y": 989,
+        "width": 889,
+        "height": 105
+      },
+      {
+        "x": 240,
+        "y": 913,
+        "width": 136,
+        "height": 69
+      }
+    ],
+    "timestamp": "2025-08-13T23:46:25.424764"
+  },
+  "OGN-300s_classic": {
+    "image_path": "card_img\\OGN\\OGN-300s.webp",
+    "image_name": "OGN-300s",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 94,
+        "y": 975,
+        "width": 883,
+        "height": 136
+      },
+      {
+        "x": 232,
+        "y": 924,
+        "width": 167,
+        "height": 59
+      }
+    ],
+    "timestamp": "2025-08-13T23:46:29.402740"
+  },
+  "OGN-301_classic": {
+    "image_path": "card_img\\OGN\\OGN-301.webp",
+    "image_name": "OGN-301",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 103,
+        "y": 978,
+        "width": 855,
+        "height": 128
+      },
+      {
+        "x": 237,
+        "y": 922,
+        "width": 99,
+        "height": 57
+      }
+    ],
+    "timestamp": "2025-08-13T23:46:32.417146"
+  },
+  "OGN-302_classic": {
+    "image_path": "card_img\\OGN\\OGN-302.webp",
+    "image_name": "OGN-302",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 112,
+        "y": 977,
+        "width": 807,
+        "height": 124
+      },
+      {
+        "x": 247,
+        "y": 919,
+        "width": 120,
+        "height": 50
+      }
+    ],
+    "timestamp": "2025-08-13T23:46:35.705875"
+  },
+  "OGN-302s_classic": {
+    "image_path": "card_img\\OGN\\OGN-302s.webp",
+    "image_name": "OGN-302s",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 99,
+        "y": 980,
+        "width": 783,
+        "height": 133
+      },
+      {
+        "x": 241,
+        "y": 922,
+        "width": 120,
+        "height": 51
+      }
+    ],
+    "timestamp": "2025-08-13T23:46:38.542772"
+  },
+  "OGN-303_classic": {
+    "image_path": "card_img\\OGN\\OGN-303.webp",
+    "image_name": "OGN-303",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 105,
+        "y": 967,
+        "width": 693,
+        "height": 137
+      },
+      {
+        "x": 231,
+        "y": 921,
+        "width": 111,
+        "height": 63
+      }
+    ],
+    "timestamp": "2025-08-13T23:46:41.139790"
+  },
+  "OGN-303s_classic": {
+    "image_path": "card_img\\OGN\\OGN-303s.webp",
+    "image_name": "OGN-303s",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 106,
+        "y": 977,
+        "width": 684,
+        "height": 122
+      },
+      {
+        "x": 225,
+        "y": 927,
+        "width": 114,
+        "height": 51
+      }
+    ],
+    "timestamp": "2025-08-13T23:46:43.325915"
+  },
+  "OGN-304_classic": {
+    "image_path": "card_img\\OGN\\OGN-304.webp",
+    "image_name": "OGN-304",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 115,
+        "y": 978,
+        "width": 751,
+        "height": 131
+      },
+      {
+        "x": 250,
+        "y": 928,
+        "width": 90,
+        "height": 54
+      }
+    ],
+    "timestamp": "2025-08-13T23:46:45.986619"
+  },
+  "OGN-304s_classic": {
+    "image_path": "card_img\\OGN\\OGN-304s.webp",
+    "image_name": "OGN-304s",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 99,
+        "y": 974,
+        "width": 801,
+        "height": 151
+      },
+      {
+        "x": 229,
+        "y": 919,
+        "width": 127,
+        "height": 66
+      }
+    ],
+    "timestamp": "2025-08-13T23:46:48.480784"
+  },
+  "OGN-305_classic": {
+    "image_path": "card_img\\OGN\\OGN-305.webp",
+    "image_name": "OGN-305",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 103,
+        "y": 977,
+        "width": 649,
+        "height": 149
+      },
+      {
+        "x": 223,
+        "y": 921,
+        "width": 106,
+        "height": 56
+      }
+    ],
+    "timestamp": "2025-08-13T23:46:50.733099"
+  },
+  "OGN-305s_classic": {
+    "image_path": "card_img\\OGN\\OGN-305s.webp",
+    "image_name": "OGN-305s",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 105,
+        "y": 980,
+        "width": 804,
+        "height": 116
+      },
+      {
+        "x": 225,
+        "y": 922,
+        "width": 124,
+        "height": 63
+      }
+    ],
+    "timestamp": "2025-08-13T23:46:53.516883"
+  },
+  "OGN-306_classic": {
+    "image_path": "card_img\\OGN\\OGN-306.webp",
+    "image_name": "OGN-306",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 974,
+        "width": 775,
+        "height": 137
+      },
+      {
+        "x": 228,
+        "y": 930,
+        "width": 118,
+        "height": 45
+      }
+    ],
+    "timestamp": "2025-08-13T23:46:56.164486"
+  },
+  "OGN-306s_classic": {
+    "image_path": "card_img\\OGN\\OGN-306s.webp",
+    "image_name": "OGN-306s",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 103,
+        "y": 980,
+        "width": 738,
+        "height": 127
+      },
+      {
+        "x": 237,
+        "y": 924,
+        "width": 100,
+        "height": 62
+      }
+    ],
+    "timestamp": "2025-08-13T23:46:58.471407"
+  },
+  "OGN-307_classic": {
+    "image_path": "card_img\\OGN\\OGN-307.webp",
+    "image_name": "OGN-307",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 105,
+        "y": 980,
+        "width": 773,
+        "height": 127
+      },
+      {
+        "x": 235,
+        "y": 924,
+        "width": 183,
+        "height": 59
+      }
+    ],
+    "timestamp": "2025-08-13T23:47:00.829695"
+  },
+  "OGN-307s_classic": {
+    "image_path": "card_img\\OGN\\OGN-307s.webp",
+    "image_name": "OGN-307s",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 99,
+        "y": 977,
+        "width": 738,
+        "height": 134
+      },
+      {
+        "x": 237,
+        "y": 921,
+        "width": 217,
+        "height": 56
+      }
+    ],
+    "timestamp": "2025-08-13T23:47:02.972550"
+  },
+  "OGN-308_classic": {
+    "image_path": "card_img\\OGN\\OGN-308.webp",
+    "image_name": "OGN-308",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 94,
+        "y": 980,
+        "width": 705,
+        "height": 111
+      },
+      {
+        "x": 235,
+        "y": 925,
+        "width": 139,
+        "height": 54
+      }
+    ],
+    "timestamp": "2025-08-13T23:47:06.056863"
+  },
+  "OGN-308s_classic": {
+    "image_path": "card_img\\OGN\\OGN-308s.webp",
+    "image_name": "OGN-308s",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 974,
+        "width": 825,
+        "height": 131
+      },
+      {
+        "x": 229,
+        "y": 912,
+        "width": 146,
+        "height": 62
+      }
+    ],
+    "timestamp": "2025-08-13T23:47:08.960370"
+  },
+  "OGN-309_classic": {
+    "image_path": "card_img\\OGN\\OGN-309.webp",
+    "image_name": "OGN-309",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 974,
+        "width": 834,
+        "height": 136
+      },
+      {
+        "x": 232,
+        "y": 922,
+        "width": 211,
+        "height": 56
+      }
+    ],
+    "timestamp": "2025-08-13T23:47:11.777420"
+  },
+  "OGN-310_classic": {
+    "image_path": "card_img\\OGN\\OGN-310.webp",
+    "image_name": "OGN-310",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 105,
+        "y": 987,
+        "width": 726,
+        "height": 116
+      },
+      {
+        "x": 232,
+        "y": 924,
+        "width": 97,
+        "height": 60
+      }
+    ],
+    "timestamp": "2025-08-13T23:47:14.314738"
+  },
+  "OGN-310s_classic": {
+    "image_path": "C:/Users/fanch/Python/RBCollectionManagement/card_img/OGN/OGN-310s.webp",
+    "image_name": "OGN-310s",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 86,
+        "y": 983,
+        "width": 822,
+        "height": 124
+      },
+      {
+        "x": 243,
+        "y": 924,
+        "width": 79,
+        "height": 52
+      }
+    ],
+    "timestamp": "2025-08-13T23:54:00.057471"
+  },
+  "OGS-001_classic": {
+    "image_path": "card_img\\OGS\\OGS-001.webp",
+    "image_name": "OGS-001",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 99,
+        "y": 790,
+        "width": 735,
+        "height": 137
+      },
+      {
+        "x": 329,
+        "y": 740,
+        "width": 100,
+        "height": 48
+      }
+    ],
+    "timestamp": "2025-08-13T23:47:21.487380"
+  },
+  "OGS-002_classic": {
+    "image_path": "card_img\\OGS\\OGS-002.webp",
+    "image_name": "OGS-002",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 62,
+        "y": 789,
+        "width": 898,
+        "height": 125
+      }
+    ],
+    "timestamp": "2025-08-13T23:47:23.898568"
+  },
+  "OGS-003_classic": {
+    "image_path": "card_img\\OGS\\OGS-003.webp",
+    "image_name": "OGS-003",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 74,
+        "y": 796,
+        "width": 871,
+        "height": 115
+      }
+    ],
+    "timestamp": "2025-08-13T23:47:25.717401"
+  },
+  "OGS-004_classic": {
+    "image_path": "card_img\\OGS\\OGS-004.webp",
+    "image_name": "OGS-004",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 59,
+        "y": 804,
+        "width": 895,
+        "height": 106
+      },
+      {
+        "x": 336,
+        "y": 741,
+        "width": 154,
+        "height": 51
+      }
+    ],
+    "timestamp": "2025-08-13T23:47:28.112257"
+  },
+  "OGS-005_classic": {
+    "image_path": "card_img\\OGS\\OGS-005.webp",
+    "image_name": "OGS-005",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 68,
+        "y": 799,
+        "width": 890,
+        "height": 108
+      }
+    ],
+    "timestamp": "2025-08-13T23:47:29.764830"
+  },
+  "OGS-006_classic": {
+    "image_path": "card_img\\OGS\\OGS-006.webp",
+    "image_name": "OGS-006",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 60,
+        "y": 798,
+        "width": 892,
+        "height": 114
+      },
+      {
+        "x": 314,
+        "y": 728,
+        "width": 82,
+        "height": 62
+      }
+    ],
+    "timestamp": "2025-08-13T23:47:32.562120"
+  },
+  "OGS-007_classic": {
+    "image_path": "card_img\\OGS\\OGS-007.webp",
+    "image_name": "OGS-007",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 69,
+        "y": 805,
+        "width": 892,
+        "height": 109
+      },
+      {
+        "x": 329,
+        "y": 740,
+        "width": 105,
+        "height": 56
+      }
+    ],
+    "timestamp": "2025-08-13T23:47:35.367971"
+  },
+  "OGS-008_classic": {
+    "image_path": "card_img\\OGS\\OGS-008.webp",
+    "image_name": "OGS-008",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 59,
+        "y": 801,
+        "width": 901,
+        "height": 106
+      }
+    ],
+    "timestamp": "2025-08-13T23:47:37.114259"
+  },
+  "OGS-009_classic": {
+    "image_path": "card_img\\OGS\\OGS-009.webp",
+    "image_name": "OGS-009",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 68,
+        "y": 802,
+        "width": 904,
+        "height": 112
+      },
+      {
+        "x": 330,
+        "y": 741,
+        "width": 154,
+        "height": 45
+      }
+    ],
+    "timestamp": "2025-08-13T23:47:40.880091"
+  },
+  "OGS-010_classic": {
+    "image_path": "card_img\\OGS\\OGS-010.webp",
+    "image_name": "OGS-010",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 108,
+        "y": 799,
+        "width": 795,
+        "height": 121
+      },
+      {
+        "x": 326,
+        "y": 730,
+        "width": 108,
+        "height": 63
+      }
+    ],
+    "timestamp": "2025-08-13T23:47:49.189965"
+  },
+  "OGS-011_classic": {
+    "image_path": "card_img\\OGS\\OGS-011.webp",
+    "image_name": "OGS-011",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 109,
+        "y": 807,
+        "width": 795,
+        "height": 106
+      }
+    ],
+    "timestamp": "2025-08-13T23:47:51.057440"
+  },
+  "OGS-012_classic": {
+    "image_path": "card_img\\OGS\\OGS-012.webp",
+    "image_name": "OGS-012",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 109,
+        "y": 799,
+        "width": 763,
+        "height": 105
+      }
+    ],
+    "timestamp": "2025-08-13T23:47:52.764146"
+  },
+  "OGS-013_classic": {
+    "image_path": "card_img\\OGS\\OGS-013.webp",
+    "image_name": "OGS-013",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 94,
+        "y": 811,
+        "width": 766,
+        "height": 112
+      },
+      {
+        "x": 355,
+        "y": 728,
+        "width": 81,
+        "height": 62
+      },
+      {
+        "x": 342,
+        "y": 727,
+        "width": 97,
+        "height": 66
+      }
+    ],
+    "timestamp": "2025-08-13T23:47:56.740132"
+  },
+  "OGS-014_classic": {
+    "image_path": "card_img\\OGS\\OGS-014.webp",
+    "image_name": "OGS-014",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 77,
+        "y": 793,
+        "width": 786,
+        "height": 122
+      },
+      {
+        "x": 327,
+        "y": 725,
+        "width": 78,
+        "height": 60
+      }
+    ],
+    "timestamp": "2025-08-13T23:47:59.160090"
+  },
+  "OGS-015_classic": {
+    "image_path": "card_img\\OGS\\OGS-015.webp",
+    "image_name": "OGS-015",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 807,
+        "width": 772,
+        "height": 99
+      }
+    ],
+    "timestamp": "2025-08-13T23:48:00.802846"
+  },
+  "OGS-016_classic": {
+    "image_path": "card_img\\OGS\\OGS-016.webp",
+    "image_name": "OGS-016",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 93,
+        "y": 801,
+        "width": 806,
+        "height": 111
+      }
+    ],
+    "timestamp": "2025-08-13T23:48:02.418083"
+  },
+  "OGS-017_classic": {
+    "image_path": "card_img\\OGS\\OGS-017.webp",
+    "image_name": "OGS-017",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 71,
+        "y": 983,
+        "width": 834,
+        "height": 114
+      },
+      {
+        "x": 234,
+        "y": 921,
+        "width": 108,
+        "height": 59
+      }
+    ],
+    "timestamp": "2025-08-13T23:48:06.705602"
+  },
+  "OGS-018_classic": {
+    "image_path": "card_img\\OGS\\OGS-018.webp",
+    "image_name": "OGS-018",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 81,
+        "y": 796,
+        "width": 751,
+        "height": 125
+      }
+    ],
+    "timestamp": "2025-08-13T23:48:12.732334"
+  },
+  "OGS-019_classic": {
+    "image_path": "card_img\\OGS\\OGS-019.webp",
+    "image_name": "OGS-019",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 88,
+        "y": 993,
+        "width": 703,
+        "height": 102
+      },
+      {
+        "x": 232,
+        "y": 927,
+        "width": 179,
+        "height": 57
+      }
+    ],
+    "timestamp": "2025-08-13T23:48:16.058175"
+  },
+  "OGS-020_classic": {
+    "image_path": "card_img\\OGS\\OGS-020.webp",
+    "image_name": "OGS-020",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 85,
+        "y": 793,
+        "width": 755,
+        "height": 115
+      }
+    ],
+    "timestamp": "2025-08-13T23:48:18.012933"
+  },
+  "OGS-021_classic": {
+    "image_path": "card_img\\OGS\\OGS-021.webp",
+    "image_name": "OGS-021",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 105,
+        "y": 993,
+        "width": 610,
+        "height": 96
+      },
+      {
+        "x": 225,
+        "y": 930,
+        "width": 103,
+        "height": 51
+      }
+    ],
+    "timestamp": "2025-08-13T23:48:21.283729"
+  },
+  "OGS-022_classic": {
+    "image_path": "card_img\\OGS\\OGS-022.webp",
+    "image_name": "OGS-022",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 96,
+        "y": 787,
+        "width": 742,
+        "height": 149
+      }
+    ],
+    "timestamp": "2025-08-13T23:48:23.277849"
+  },
+  "OGS-023_classic": {
+    "image_path": "card_img\\OGS\\OGS-023.webp",
+    "image_name": "OGS-023",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 102,
+        "y": 989,
+        "width": 708,
+        "height": 97
+      },
+      {
+        "x": 214,
+        "y": 919,
+        "width": 136,
+        "height": 63
+      }
+    ],
+    "timestamp": "2025-08-13T23:48:27.343902"
+  },
+  "OGS-024_classic": {
+    "image_path": "card_img\\OGS\\OGS-024.webp",
+    "image_name": "OGS-024",
+    "format": "classic",
+    "coordinates": [
+      {
+        "x": 100,
+        "y": 817,
+        "width": 674,
+        "height": 102
+      }
+    ],
+    "timestamp": "2025-08-13T23:48:30.131918"
+  }
+}
