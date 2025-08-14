@@ -12,7 +12,7 @@ import random
 import re
 from pathlib import Path
 from typing import List, Dict, Optional, Tuple
-from datetime import datetime
+from datetime import datetime, timedelta
 
 from PyQt6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton,
@@ -37,6 +37,35 @@ class QuizQuestion:
         self.is_correct = False
         self.answered = False
         self.answer_time = 0.0
+        self.last_rating: Optional[int] = None
+
+
+class SRSState:
+    """Per-card spaced repetition state for SM-2 scheduling"""
+    
+    def __init__(self, ef: float = 2.5, repetitions: int = 0, interval_days: int = 0, due_iso: Optional[str] = None):
+        self.easiness_factor: float = ef
+        self.repetitions: int = repetitions
+        self.interval_days: int = interval_days
+        # Store due date as ISO string for JSON persistence
+        self.due_iso: str = due_iso or datetime.now().date().isoformat()
+    
+    def to_dict(self) -> Dict:
+        return {
+            "ef": self.easiness_factor,
+            "repetitions": self.repetitions,
+            "interval_days": self.interval_days,
+            "due": self.due_iso,
+        }
+    
+    @staticmethod
+    def from_dict(data: Dict) -> "SRSState":
+        return SRSState(
+            ef=float(data.get("ef", 2.5)),
+            repetitions=int(data.get("repetitions", 0)),
+            interval_days=int(data.get("interval_days", 0)),
+            due_iso=str(data.get("due")) if data.get("due") else datetime.now().date().isoformat(),
+        )
 
 
 class QuizImageWidget(QLabel):
@@ -166,9 +195,25 @@ class QuizWidget(QWidget):
         self.current_question_index = 0
         self.quiz_active = False
         self.question_start_time = 0.0
+        self.session_size: int = 20
+        self.daily_new_limit: int = 10
+        self.max_relearn_per_card: int = 2
+        self.relearn_spacing: int = 5
+        self.relearn_counts: Dict[str, int] = {}
         
         # Load card name coordinates
         self.card_coordinates = self.load_card_coordinates()
+        
+        # Load SRS progress
+        self.srs_progress_path = Path("srs_progress.json")
+        self.srs_progress: Dict[str, SRSState] = self.load_srs_progress()
+        
+        # Daily state to enforce new-card limit across multiple sessions
+        self.daily_state_path = Path("srs_daily_state.json")
+        self.daily_state: Dict = self.load_daily_state()
+        
+        # Ensure this widget can receive keyboard focus for rating shortcuts
+        self.setFocusPolicy(Qt.FocusPolicy.StrongFocus)
         
         self.setup_ui()
         print("🧠 QuizWidget initialized")
@@ -213,6 +258,31 @@ class QuizWidget(QWidget):
         subtitle_label.setStyleSheet("color: #666666;")
         subtitle_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         header_layout.addWidget(subtitle_label)
+        
+        # SRS summary and actions
+        header_actions = QHBoxLayout()
+        self.srs_summary_label = QLabel("")
+        self.srs_summary_label.setStyleSheet("color: #555;")
+        header_actions.addWidget(self.srs_summary_label)
+        header_actions.addStretch()
+        
+        self.reset_button = QPushButton("Reset Learning")
+        self.reset_button.setStyleSheet("padding: 6px 10px;")
+        self.reset_button.clicked.connect(self.reset_all_srs)
+        header_actions.addWidget(self.reset_button)
+
+        # Controls to expand today's new-cap for intensive study
+        self.expand10_button = QPushButton("Learn +10 today")
+        self.expand10_button.setStyleSheet("padding: 6px 10px;")
+        self.expand10_button.clicked.connect(lambda: self.expand_today_new_cap(10))
+        header_actions.addWidget(self.expand10_button)
+        
+        self.expand_all_button = QPushButton("Learn all today")
+        self.expand_all_button.setStyleSheet("padding: 6px 10px;")
+        self.expand_all_button.clicked.connect(self.expand_today_new_to_all)
+        header_actions.addWidget(self.expand_all_button)
+        
+        header_layout.addLayout(header_actions)
         
         layout.addWidget(header_frame)
         
@@ -274,7 +344,7 @@ class QuizWidget(QWidget):
         # Control buttons
         button_layout = QHBoxLayout()
         
-        self.start_button = QPushButton("Start Quiz")
+        self.start_button = QPushButton("Start Study")
         self.start_button.clicked.connect(self.start_quiz)
         self.start_button.setStyleSheet("""
             QPushButton {
@@ -341,6 +411,20 @@ class QuizWidget(QWidget):
         answer_layout.addLayout(button_layout)
         left_layout.addWidget(answer_group)
         
+        # Rating controls (SM-2 quality 0-5)
+        self.rating_group = QGroupBox("Rate your recall (0=Again … 5=Perfect)")
+        rating_layout = QHBoxLayout(self.rating_group)
+        self.rating_buttons: Dict[int, QPushButton] = {}
+        for q in range(0, 6):
+            btn = QPushButton(str(q))
+            btn.setFixedWidth(36)
+            btn.setEnabled(False)
+            btn.clicked.connect(lambda _=False, quality=q: self.on_rating_clicked(quality))
+            self.rating_buttons[q] = btn
+            rating_layout.addWidget(btn)
+        self.rating_group.setVisible(False)
+        left_layout.addWidget(self.rating_group)
+        
         # Right side - Results and feedback
         right_panel = QWidget()
         right_layout = QVBoxLayout(right_panel)
@@ -401,6 +485,9 @@ class QuizWidget(QWidget):
         # Set the content widget to the scroll area and add to main layout
         scroll_area.setWidget(content_widget)
         main_layout.addWidget(scroll_area)
+        
+        # Update initial SRS summary
+        self.update_srs_summary()
     
     def load_card_coordinates(self) -> Dict:
         """Load card name coordinate data from the coordinate tool"""
@@ -419,19 +506,83 @@ class QuizWidget(QWidget):
             return {}
     
     def start_quiz(self):
-        """Start a new 20-question quiz"""
-        print("🚀 Starting new quiz...")
+        """Start a new study session using SM-2 scheduling"""
+        print("🚀 Starting new study session...")
         
         # Get all available cards from database
         try:
+            # Reset daily state if date changed
+            self.reset_daily_state_if_needed()
+            introduced_today: set[str] = set(self.daily_state.get("introduced_today", []))
+            new_taken_today: int = int(self.daily_state.get("new_taken_today", 0))
+            cap_today = int(self.daily_state.get("new_cap_today", self.daily_new_limit))
+            remaining_new_quota: int = max(0, cap_today - new_taken_today)
+            
             all_cards = self.database.get_all_variants(limit=None)
-            if len(all_cards) < 20:
+            if len(all_cards) < 5:
                 QMessageBox.warning(self, "Warning", f"Need at least 20 cards in database. Found only {len(all_cards)}.")
                 return
             
-            # Randomly select 20 cards
-            selected_cards = random.sample(all_cards, 20)
+            # Build study queue: due cards first, then new cards up to session size
+            today = datetime.now().date()
+            due_cards: List[PiltoverCard] = []
+            new_cards: List[PiltoverCard] = []
             
+            for card in all_cards:
+                vid = str(card.variant_id)
+                state = self.srs_progress.get(vid)
+                if state is None:
+                    # Exclude new cards already introduced today in previous sessions
+                    if vid not in introduced_today:
+                        new_cards.append(card)
+                else:
+                    try:
+                        due_date = datetime.fromisoformat(state.due_iso).date()
+                    except Exception:
+                        due_date = today
+                    if due_date <= today:
+                        due_cards.append(card)
+            
+            random.shuffle(due_cards)
+            # Sort new cards by variant number ascending to start with earliest ones
+            def variant_key(c: PiltoverCard) -> Tuple[str, int, str]:
+                vn = c.variant_number or ""
+                parts = vn.split('-')
+                prefix = parts[0] if len(parts) > 0 else ""
+                num_str = parts[1] if len(parts) > 1 else "0"
+                # Handle suffix like 300s -> strip trailing non-digits for ordering
+                digits = ''.join(ch for ch in num_str if ch.isdigit()) or "0"
+                suffix = ''.join(ch for ch in num_str if not ch.isdigit())
+                return (prefix, int(digits), suffix)
+            new_cards.sort(key=variant_key)
+            selected_cards: List[PiltoverCard] = []
+            
+            # First take due cards
+            for c in due_cards:
+                if len(selected_cards) >= self.session_size:
+                    break
+                selected_cards.append(c)
+            
+            # Then take new cards up to daily limit
+            new_taken = 0
+            for c in new_cards:
+                if len(selected_cards) >= self.session_size:
+                    break
+                if new_taken >= remaining_new_quota:
+                    break
+                selected_cards.append(c)
+                new_taken += 1
+            
+            # Persist daily introduced set and counter
+            if new_taken > 0:
+                for c in selected_cards[-new_taken:]:
+                    self.daily_state.setdefault("introduced_today", [])
+                    vid = str(c.variant_id)
+                    if vid not in self.daily_state["introduced_today"]:
+                        self.daily_state["introduced_today"].append(vid)
+                self.daily_state["new_taken_today"] = int(self.daily_state.get("new_taken_today", 0)) + new_taken
+                self.save_daily_state()
+
             # Create quiz questions
             self.questions = []
             for card in selected_cards:
@@ -458,12 +609,13 @@ class QuizWidget(QWidget):
                 QMessageBox.warning(self, "Warning", f"Only found {len(self.questions)} cards with images. Need at least 5 to start quiz.")
                 return
             
-            # Trim to exactly 10 questions (or however many we have)
-            self.questions = self.questions[:20]
+            # Trim to session size
+            self.questions = self.questions[: self.session_size]
             
             # Initialize quiz state
             self.current_question_index = 0
             self.quiz_active = True
+            self.relearn_counts = {}
             
             # Update UI
             self.start_button.setEnabled(False)
@@ -475,7 +627,8 @@ class QuizWidget(QWidget):
             # Start first question
             self.show_current_question()
             
-            print(f"✅ Quiz started with {len(self.questions)} questions")
+            print(f"✅ Study session started with {len(self.questions)} items (due: {len(due_cards)}, new used now: {new_taken}, remaining new today: {max(0, int(self.daily_state.get('new_cap_today', self.daily_new_limit)) - int(self.daily_state.get('new_taken_today', 0)))} )")
+            self.update_srs_summary()
         
         except Exception as e:
             print(f"❌ Error starting quiz: {e}")
@@ -514,7 +667,7 @@ class QuizWidget(QWidget):
         question = self.questions[self.current_question_index]
         
         # Update progress
-        self.progress_label.setText(f"Question {self.current_question_index + 1} of {len(self.questions)}")
+        self.progress_label.setText(f"Item {self.current_question_index + 1} of {len(self.questions)}")
         self.progress_bar.setValue(self.current_question_index)
         
         # Get coordinate data for this card if available
@@ -539,6 +692,8 @@ class QuizWidget(QWidget):
         # Reset button states
         self.submit_button.setEnabled(True)
         self.next_button.setEnabled(False)
+        self.set_rating_enabled(False)
+        self.rating_group.setVisible(False)
         
         # Record question start time
         self.question_start_time = datetime.now().timestamp()
@@ -605,14 +760,21 @@ class QuizWidget(QWidget):
         
         # Update UI state
         self.submit_button.setEnabled(False)
-        self.next_button.setEnabled(True)
-        # Keep input enabled but clear it and set focus for next Enter press
+        # Require a rating before moving on
+        self.next_button.setEnabled(False)
+        # Keep input enabled but clear it; focus will be restored on next question
         self.answer_input.clear()
-        # Use QTimer to set focus after UI updates are complete
-        QTimer.singleShot(50, self.answer_input.setFocus)
         
         # Update results display
         self.update_results_display()
+        
+        # Show and enable rating controls
+        self.rating_group.setVisible(True)
+        self.set_rating_enabled(True)
+        
+        # Move focus away from the input so 0–5 shortcuts work
+        self.answer_input.clearFocus()
+        self.setFocus()
         
         print(f"📝 Answer submitted: '{user_answer}' for '{question.card.name}' - {'✅ Correct' if question.is_correct else '❌ Wrong'}")
     
@@ -669,13 +831,13 @@ class QuizWidget(QWidget):
             feedback += f"<div>You answered: <b>{question.user_answer}</b></div>"
             feedback += f"<div>Correct answer: <b>{question.card.name}</b></div>"
             feedback += f"<div>Time: {question.answer_time:.1f} seconds</div>"
-            feedback += f"<div style='font-style: italic; color: #666; margin-top: 10px;'>Press Enter for next question</div>"
+            feedback += f"<div style='font-style: italic; color: #666; margin-top: 10px;'>Rate your recall (0–5) to continue</div>"
         else:
             feedback = f"<div style='color: red; font-weight: bold;'>❌ Incorrect</div>"
             feedback += f"<div>You answered: <b>{question.user_answer}</b></div>"
             feedback += f"<div>Correct answer: <b>{question.card.name}</b></div>"
             feedback += f"<div>Time: {question.answer_time:.1f} seconds</div>"
-            feedback += f"<div style='font-style: italic; color: #666; margin-top: 10px;'>Press Enter for next question</div>"
+            feedback += f"<div style='font-style: italic; color: #666; margin-top: 10px;'>Rate your recall (0–5) to continue</div>"
         
         # Add card details
         feedback += f"<hr><div><b>Card Details:</b></div>"
@@ -737,20 +899,22 @@ class QuizWidget(QWidget):
         self.quiz_image.setPixmap(QPixmap())  # Clear the image
         
         print(f"🏁 Quiz completed! Score: {correct_answers}/{total_questions} ({score_percentage:.1f}%)")
+        self.update_srs_summary()
     
     def update_results_display(self):
         """Update the results display with current quiz progress"""
         if not self.questions:
             return
         
-        html = "<h4>Quiz Progress:</h4><table border='1' cellpadding='5'>"
-        html += "<tr><th>Q#</th><th>Card</th><th>Your Answer</th><th>Result</th><th>Time</th></tr>"
+        html = "<h4>Study Progress:</h4><table border='1' cellpadding='5'>"
+        html += "<tr><th>#</th><th>Card</th><th>Your Answer</th><th>Result</th><th>Time</th><th>Rating</th></tr>"
         
         for i, question in enumerate(self.questions):
             if question.answered:
                 result_icon = "✅" if question.is_correct else "❌"
                 result_color = "green" if question.is_correct else "red"
                 time_str = f"{question.answer_time:.1f}s"
+                rating_str = "-" if question.last_rating is None else str(question.last_rating)
                 
                 html += f"""
                 <tr>
@@ -759,6 +923,7 @@ class QuizWidget(QWidget):
                     <td>{question.user_answer}</td>
                     <td style='color: {result_color}; font-weight: bold;'>{result_icon}</td>
                     <td>{time_str}</td>
+                    <td>{rating_str}</td>
                 </tr>
                 """
             elif i == self.current_question_index:
@@ -799,6 +964,204 @@ class QuizWidget(QWidget):
         if self.submit_button.isEnabled():
             print("🔑 First Enter - submitting answer")
             self.submit_answer()
+        elif self.rating_group.isVisible():
+            # Waiting for a rating; ignore Enter to encourage using 0–5 keys
+            return
         elif self.next_button.isEnabled():
             print("🔑 Second Enter - going to next question")
             self.next_question()
+
+    def keyPressEvent(self, event):
+        """Keyboard shortcuts for rating 0–5 while rating controls are visible"""
+        if self.rating_group.isVisible():
+            key_to_quality = {
+                Qt.Key.Key_0: 0,
+                Qt.Key.Key_1: 1,
+                Qt.Key.Key_2: 2,
+                Qt.Key.Key_3: 3,
+                Qt.Key.Key_4: 4,
+                Qt.Key.Key_5: 5,
+            }
+            quality = key_to_quality.get(event.key())
+            if quality is not None:
+                self.on_rating_clicked(quality)
+                return
+        super().keyPressEvent(event)
+
+    def set_rating_enabled(self, enabled: bool):
+        for btn in self.rating_buttons.values():
+            btn.setEnabled(enabled)
+
+    def on_rating_clicked(self, quality: int):
+        """Apply SM-2 update based on user quality rating (0–5) and advance"""
+        if not self.quiz_active or self.current_question_index >= len(self.questions):
+            return
+        question = self.questions[self.current_question_index]
+        question.last_rating = quality
+        
+        # Update SRS state for this card
+        self.apply_sm2_update(str(question.card.variant_id), quality)
+        self.save_srs_progress()
+        self.update_srs_summary()
+        
+        # Intra-day relearn queue for difficult items
+        if quality <= 2:
+            vid = str(question.card.variant_id)
+            count = self.relearn_counts.get(vid, 0)
+            if count < self.max_relearn_per_card:
+                # Reinsert a new question instance a few items ahead to create spacing
+                insert_index = min(len(self.questions), self.current_question_index + 1 + self.relearn_spacing)
+                reinjected = QuizQuestion(question.card, question.image_path)
+                self.questions.insert(insert_index, reinjected)
+                self.relearn_counts[vid] = count + 1
+                # Update progress bar maximum and results view
+                self.progress_bar.setMaximum(len(self.questions))
+                self.update_results_display()
+                print(f"🔁 Scheduled relearn for '{question.card.name}' at position {insert_index + 1} (#{self.relearn_counts[vid]} in-session)")
+        
+        # Hide rating and go to next item
+        self.set_rating_enabled(False)
+        self.rating_group.setVisible(False)
+        self.next_question()
+
+    def load_srs_progress(self) -> Dict[str, SRSState]:
+        try:
+            if self.srs_progress_path.exists():
+                with open(self.srs_progress_path, "r", encoding="utf-8") as f:
+                    raw = json.load(f)
+                progress: Dict[str, SRSState] = {}
+                for vid, state in raw.items():
+                    progress[str(vid)] = SRSState.from_dict(state)
+                print(f"📚 Loaded SRS progress for {len(progress)} cards")
+                return progress
+        except Exception as e:
+            print(f"❌ Error loading SRS progress: {e}")
+        return {}
+
+    def save_srs_progress(self):
+        try:
+            data = {vid: state.to_dict() for vid, state in self.srs_progress.items()}
+            with open(self.srs_progress_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+            print("💾 Saved SRS progress")
+        except Exception as e:
+            print(f"❌ Error saving SRS progress: {e}")
+
+    def apply_sm2_update(self, variant_id: str, quality: int):
+        """Update SRS state for a card using SM-2 algorithm based on quality 0–5"""
+        state = self.srs_progress.get(variant_id) or SRSState()
+        # Quality bounds
+        q = max(0, min(5, int(quality)))
+        
+        if q < 3:
+            # Incorrect recall: reset repetitions; schedule sooner
+            state.repetitions = 0
+            state.interval_days = 1
+        else:
+            # Correct recall
+            state.repetitions += 1
+            if state.repetitions == 1:
+                state.interval_days = 1
+            elif state.repetitions == 2:
+                state.interval_days = 6
+            else:
+                state.interval_days = int(round(state.interval_days * state.easiness_factor))
+        
+        # Update EF
+        ef = state.easiness_factor + (0.1 - (5 - q) * (0.08 + (5 - q) * 0.02))
+        state.easiness_factor = max(1.3, ef)
+        
+        # Compute next due date
+        next_due = datetime.now().date() + timedelta(days=state.interval_days)
+        state.due_iso = next_due.isoformat()
+        
+        self.srs_progress[variant_id] = state
+        print(f"🗓️ Rated {q}: EF={state.easiness_factor:.2f}, reps={state.repetitions}, interval={state.interval_days}d, due={state.due_iso}")
+
+    def update_srs_summary(self):
+        """Update SRS summary label with counts of due/new cards"""
+        try:
+            all_cards = self.database.get_all_variants(limit=None)
+            today = datetime.now().date()
+            due = 0
+            new = 0
+            for card in all_cards:
+                vid = str(card.variant_id)
+                state = self.srs_progress.get(vid)
+                if state is None:
+                    new += 1
+                else:
+                    try:
+                        due_date = datetime.fromisoformat(state.due_iso).date()
+                    except Exception:
+                        due_date = today
+                    if due_date <= today:
+                        due += 1
+            cap = int(self.daily_state.get("new_cap_today", self.daily_new_limit))
+            remaining_new = max(0, cap - int(self.daily_state.get("new_taken_today", 0)))
+            self.srs_summary_label.setText(f"Due today: {due} • New available today: {remaining_new} (of {cap})")
+        except Exception:
+            self.srs_summary_label.setText("")
+
+    def reset_all_srs(self):
+        """Reset all learning progress after confirmation"""
+        confirm = QMessageBox.question(
+            self,
+            "Reset Learning",
+            "This will clear all learning progress (EF, intervals, due dates). Continue?",
+            QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
+            QMessageBox.StandardButton.No,
+        )
+        if confirm == QMessageBox.StandardButton.Yes:
+            self.srs_progress = {}
+            self.save_srs_progress()
+            self.update_srs_summary()
+            QMessageBox.information(self, "Reset Learning", "All learning progress has been reset.")
+
+    # -------- Daily state persistence (new-cards introduced per day) --------
+    def load_daily_state(self) -> Dict:
+        try:
+            if self.daily_state_path.exists():
+                with open(self.daily_state_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                if isinstance(data, dict):
+                    return data
+        except Exception as e:
+            print(f"❌ Error loading daily state: {e}")
+        return {"date": datetime.now().date().isoformat(), "introduced_today": [], "new_taken_today": 0, "new_cap_today": self.daily_new_limit}
+
+    def save_daily_state(self):
+        try:
+            with open(self.daily_state_path, "w", encoding="utf-8") as f:
+                json.dump(self.daily_state, f, ensure_ascii=False, indent=2)
+            print("💾 Saved daily state")
+        except Exception as e:
+            print(f"❌ Error saving daily state: {e}")
+
+    def reset_daily_state_if_needed(self):
+        try:
+            today = datetime.now().date().isoformat()
+            if self.daily_state.get("date") != today:
+                self.daily_state = {"date": today, "introduced_today": [], "new_taken_today": 0, "new_cap_today": self.daily_new_limit}
+                self.save_daily_state()
+        except Exception as e:
+            print(f"❌ Error resetting daily state: {e}")
+
+    # Expand today's new-card cap helpers
+    def expand_today_new_cap(self, increment: int):
+        try:
+            cap = int(self.daily_state.get("new_cap_today", self.daily_new_limit))
+            self.daily_state["new_cap_today"] = cap + max(0, int(increment))
+            self.save_daily_state()
+            self.update_srs_summary()
+        except Exception as e:
+            print(f"❌ Error expanding new cap: {e}")
+
+    def expand_today_new_to_all(self):
+        try:
+            # Set cap to a large number to allow entire deck today
+            self.daily_state["new_cap_today"] = 10_000_000
+            self.save_daily_state()
+            self.update_srs_summary()
+        except Exception as e:
+            print(f"❌ Error expanding new cap to all: {e}")
