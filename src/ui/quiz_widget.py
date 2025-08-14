@@ -17,7 +17,7 @@ from datetime import datetime
 from PyQt6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton,
     QLineEdit, QFrame, QScrollArea, QGroupBox, QMessageBox,
-    QProgressBar, QTextEdit, QSplitter, QGridLayout
+    QProgressBar, QTextEdit, QSplitter, QGridLayout, QSizePolicy
 )
 from PyQt6.QtCore import Qt, QTimer, pyqtSignal, QRect
 from PyQt6.QtGui import (
@@ -47,7 +47,7 @@ class QuizImageWidget(QLabel):
         self.original_pixmap: Optional[QPixmap] = None
         self.blanked_pixmap: Optional[QPixmap] = None
         self.name_coordinates: List[Dict] = []
-        self.setMinimumSize(300, 420)  # Typical card dimensions
+        self.setFixedSize(300, 420)  # Fixed card dimensions - no expansion
         self.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.setStyleSheet("border: 2px solid #ccc; border-radius: 8px;")
         
@@ -120,7 +120,7 @@ class QuizImageWidget(QLabel):
             
             painter.end()
         
-        # Scale the image to fit the widget
+        # Scale the image to fit the widget while maintaining aspect ratio
         scaled_pixmap = self.blanked_pixmap.scaled(
             self.size(), 
             Qt.AspectRatioMode.KeepAspectRatio, 
@@ -132,6 +132,7 @@ class QuizImageWidget(QLabel):
     def reveal_answer(self):
         """Show the original image with the card name visible"""
         if self.original_pixmap:
+            # Scale while maintaining aspect ratio
             scaled_pixmap = self.original_pixmap.scaled(
                 self.size(), 
                 Qt.AspectRatioMode.KeepAspectRatio, 
@@ -144,6 +145,7 @@ class QuizImageWidget(QLabel):
         """Handle widget resize by rescaling the image"""
         super().resizeEvent(event)
         if self.blanked_pixmap:
+            # Always maintain aspect ratio and don't stretch beyond widget bounds
             scaled_pixmap = self.blanked_pixmap.scaled(
                 self.size(), 
                 Qt.AspectRatioMode.KeepAspectRatio, 
@@ -153,7 +155,7 @@ class QuizImageWidget(QLabel):
 
 
 class QuizWidget(QWidget):
-    """Main quiz widget implementing the 10-question card name quiz"""
+    """Main quiz widget implementing the 20-question card name quiz"""
     
     def __init__(self, database: PiltoverCardDatabase, parent=None):
         super().__init__(parent)
@@ -173,7 +175,19 @@ class QuizWidget(QWidget):
     
     def setup_ui(self):
         """Set up the quiz user interface"""
-        layout = QVBoxLayout(self)
+        # Main layout with scroll area
+        main_layout = QVBoxLayout(self)
+        main_layout.setContentsMargins(0, 0, 0, 0)
+        
+        # Create scroll area
+        scroll_area = QScrollArea()
+        scroll_area.setWidgetResizable(True)
+        scroll_area.setHorizontalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAsNeeded)
+        scroll_area.setVerticalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAsNeeded)
+        
+        # Content widget inside scroll area
+        content_widget = QWidget()
+        layout = QVBoxLayout(content_widget)
         
         # Header section
         header_frame = QFrame()
@@ -188,14 +202,14 @@ class QuizWidget(QWidget):
         
         header_layout = QVBoxLayout(header_frame)
         
-        title_label = QLabel("Riftbound Cards Quiz")
-        title_label.setFont(QFont("Arial", 24, QFont.Weight.Bold))
-        title_label.setStyleSheet("color: #333333; margin-bottom: 10px;")
+        title_label = QLabel("🧠 Riftbound Cards Quiz")
+        title_label.setFont(QFont("Arial", 16, QFont.Weight.Bold))
+        title_label.setStyleSheet("color: #333333; margin-bottom: 5px;")
         title_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         header_layout.addWidget(title_label)
         
         subtitle_label = QLabel("Test your knowledge of Riftbound card names!")
-        subtitle_label.setFont(QFont("Arial", 14))
+        subtitle_label.setFont(QFont("Arial", 11))
         subtitle_label.setStyleSheet("color: #666666;")
         subtitle_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         header_layout.addWidget(subtitle_label)
@@ -211,7 +225,7 @@ class QuizWidget(QWidget):
         progress_layout.addWidget(self.progress_label)
         
         self.progress_bar = QProgressBar()
-        self.progress_bar.setRange(0, 10)
+        self.progress_bar.setRange(0, 20)
         self.progress_bar.setValue(0)
         self.progress_bar.setVisible(False)
         progress_layout.addWidget(self.progress_bar)
@@ -228,6 +242,7 @@ class QuizWidget(QWidget):
         # Quiz image
         image_group = QGroupBox("Card Image")
         image_layout = QVBoxLayout(image_group)
+        image_layout.setAlignment(Qt.AlignmentFlag.AlignCenter)  # Center the card in its container
         
         self.quiz_image = QuizImageWidget()
         image_layout.addWidget(self.quiz_image)
@@ -340,19 +355,21 @@ class QuizWidget(QWidget):
         self.feedback_label.setStyleSheet("padding: 10px;")
         feedback_layout.addWidget(self.feedback_label)
         
-        right_layout.addWidget(feedback_group)
+        right_layout.addWidget(feedback_group, 0)  # No stretch for feedback
         
-        # Quiz results summary
+        # Quiz results summary - give it more space
         results_group = QGroupBox("Quiz Progress")
         results_layout = QVBoxLayout(results_group)
         
         self.results_display = QTextEdit()
-        self.results_display.setMaximumHeight(200)
         self.results_display.setReadOnly(True)
         self.results_display.setHtml("<i>Start a quiz to see your progress</i>")
+        # Allow the results display to expand and use available space
+        self.results_display.setSizePolicy(QSizePolicy.Policy.Preferred, 
+                                          QSizePolicy.Policy.Expanding)
         results_layout.addWidget(self.results_display)
         
-        right_layout.addWidget(results_group)
+        right_layout.addWidget(results_group, 1)  # Give stretch to results
         
         # Add panels to splitter
         quiz_splitter.addWidget(left_panel)
@@ -367,12 +384,12 @@ class QuizWidget(QWidget):
         
         instructions_text = QLabel("""
         <b>How to play:</b><br>
-        1. Click "Start Quiz" to begin a 10-question quiz<br>
+        1. Click "Start Quiz" to begin a 20-question quiz<br>
         2. Look at the card image with the name blanked out<br>
         3. Type your guess for the card name in the text box<br>
         4. Press Enter or click "Submit Answer" to check your answer<br>
         5. Review the feedback and click "Next Question" to continue<br>
-        6. After 10 questions, see your final score and review all answers<br><br>
+        6. After 20 questions, see your final score and review all answers<br><br>
         <b>Scoring:</b> Name matching is case-insensitive and ignores spaces and punctuation.
         """)
         instructions_text.setWordWrap(True)
@@ -380,6 +397,10 @@ class QuizWidget(QWidget):
         instructions_layout.addWidget(instructions_text)
         
         layout.addWidget(instructions_group)
+        
+        # Set the content widget to the scroll area and add to main layout
+        scroll_area.setWidget(content_widget)
+        main_layout.addWidget(scroll_area)
     
     def load_card_coordinates(self) -> Dict:
         """Load card name coordinate data from the coordinate tool"""
@@ -398,18 +419,18 @@ class QuizWidget(QWidget):
             return {}
     
     def start_quiz(self):
-        """Start a new 10-question quiz"""
+        """Start a new 20-question quiz"""
         print("🚀 Starting new quiz...")
         
         # Get all available cards from database
         try:
             all_cards = self.database.get_all_variants(limit=None)
-            if len(all_cards) < 10:
-                QMessageBox.warning(self, "Warning", f"Need at least 10 cards in database. Found only {len(all_cards)}.")
+            if len(all_cards) < 20:
+                QMessageBox.warning(self, "Warning", f"Need at least 20 cards in database. Found only {len(all_cards)}.")
                 return
             
-            # Randomly select 10 cards
-            selected_cards = random.sample(all_cards, 10)
+            # Randomly select 20 cards
+            selected_cards = random.sample(all_cards, 20)
             
             # Create quiz questions
             self.questions = []
@@ -420,11 +441,11 @@ class QuizWidget(QWidget):
                     self.questions.append(question)
                     print(f"➕ Added quiz question: {card.name}")
             
-            if len(self.questions) < 10:
+            if len(self.questions) < 20:
                 # If we couldn't find enough images, fill with available ones
-                while len(self.questions) < 10 and len(all_cards) > len(self.questions):
+                while len(self.questions) < 20 and len(all_cards) > len(self.questions):
                     for card in all_cards:
-                        if len(self.questions) >= 10:
+                        if len(self.questions) >= 20:
                             break
                         if not any(q.card.variant_id == card.variant_id for q in self.questions):
                             image_path = self.get_card_image_path(card)
@@ -438,7 +459,7 @@ class QuizWidget(QWidget):
                 return
             
             # Trim to exactly 10 questions (or however many we have)
-            self.questions = self.questions[:10]
+            self.questions = self.questions[:20]
             
             # Initialize quiz state
             self.current_question_index = 0

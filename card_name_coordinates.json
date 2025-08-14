@@ -1670,18 +1670,18 @@
     "timestamp": "2025-08-13T23:35:36.890191"
   },
   "OGN-098_classic": {
-    "image_path": "card_img\\OGN\\OGN-098.webp",
+    "image_path": "C:/Users/fanch/Python/RBCollectionManagement/card_img/OGN/OGN-098.webp",
     "image_name": "OGN-098",
     "format": "classic",
     "coordinates": [
       {
-        "x": 68,
-        "y": 796,
-        "width": 889,
-        "height": 111
+        "x": 81,
+        "y": 800,
+        "width": 865,
+        "height": 120
       }
     ],
-    "timestamp": "2025-08-13T23:35:40.024429"
+    "timestamp": "2025-08-14T00:13:49.678970"
   },
   "OGN-099_classic": {
     "image_path": "card_img\\OGN\\OGN-099.webp",
